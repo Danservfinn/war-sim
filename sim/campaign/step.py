@@ -366,6 +366,16 @@ def _general_seated(c: Campaign, general: dict) -> bool:
     return int(general.get("from_day", 0)) <= c.day < int(general.get("to_day", 0))
 
 
+def _march_signed(c: Campaign, unit: dict) -> bool:
+    uid = unit.get("id")
+    for general in getattr(c, "generals", None) or []:
+        if not _general_seated(c, general):
+            continue
+        if uid in (general.get("command") or []):
+            return True
+    return False
+
+
 def _decide(c: Campaign) -> None:
     """Strategic orders come from the leader in office. A land posture does not."""
     for leader in c.leaders:
@@ -1012,6 +1022,15 @@ def _move(c: Campaign) -> None:
                     f"March {unit.get('id')} refused. Gate no_surface.",
                     numbers={"gate": "no_surface"},
                 )
+            continue
+        if not _march_signed(c, unit):
+            order["gate"] = "no_signer"
+            _log_event(
+                c,
+                "march_refused",
+                f"March {unit.get('id')} refused. Gate no_signer.",
+                numbers={"gate": "no_signer"},
+            )
             continue
         if not _pay_march_fuel(unit):
             continue

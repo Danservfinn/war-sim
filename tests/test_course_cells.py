@@ -59,6 +59,14 @@ def test_a_water_crossing_with_no_coast_is_logged_and_not_walked():
 
 def test_a_land_cell_on_the_course_is_consumed():
     campaign = _campaign()
+    campaign.generals = [{
+        "id": "gen",
+        "name": "Fixture",
+        "source": "fixture",
+        "command": ["mover"],
+        "from_day": 0,
+        "to_day": 2,
+    }]
     campaign.march_orders[0]["course"] = [{"cell_id": "inland", "x_mm": 0, "y_mm": CELL}]
     step_day(campaign)
     assert campaign.units[0]["x_mm"] == 0

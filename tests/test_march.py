@@ -45,6 +45,14 @@ def _pair():
         contacts=[],
         engagements=[],
         march_orders=[],
+        generals=[{
+            "id": "gen",
+            "name": "Fixture",
+            "source": "fixture",
+            "command": ["mover"],
+            "from_day": 0,
+            "to_day": 9,
+        }],
     )
 
 
@@ -57,6 +65,22 @@ def _order(x=CELL, active_day=0):
         "course": [{"x_mm": x, "y_mm": 0}],
         "waypoint": 0,
     }
+
+
+def test_a_legal_step_without_a_signer_does_not_move():
+    campaign = _pair()
+    campaign.generals = []
+    campaign.leaders = [{
+        "id": "head", "name": "Head", "source": "fixture",
+        "from_day": 0, "to_day": 9, "command": ["mover"],
+    }]
+    campaign.march_orders = [_order(x=CELL)]
+    step_day(campaign)
+    assert campaign.units[0]["x_mm"] == 0
+    assert campaign.units[0]["y_mm"] == 0
+    assert campaign.march_orders[0].get("gate") == "no_signer"
+    sentences = [row["sentence"] for row in getattr(campaign, "events", []) or [] if row["kind"] == "march_refused"]
+    assert sentences == ["March mover refused. Gate no_signer."]
 
 
 def test_heading_and_speed_are_not_an_order():
