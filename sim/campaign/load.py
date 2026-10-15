@@ -60,6 +60,16 @@ def _year_plant(row: dict, civil_year):
         cap = int(row["annual_t"]) // 360
     else:
         return None
+    line = {
+        "id": row.get("good") or row["id"],
+        "daily_cap": cap,
+        "power_mw_need": 1,
+        "tools_need": 1,
+        "skilled_need": int(row.get("skilled_need", 1)),
+        "damage_milli": 0,
+    }
+    if "powder_local" in row:
+        line["powder_local"] = bool(row["powder_local"])
     return {
         "id": row["id"],
         "side": row.get("side") or row.get("state"),
@@ -74,15 +84,7 @@ def _year_plant(row: dict, civil_year):
         "tools": int(row.get("tools", 0)),
         "civilian_share_milli": 0,
         "source": row.get("source"),
-        "lines": [{
-            "id": row.get("good") or row["id"],
-            "daily_cap": cap,
-            "powder_local": bool(row.get("powder_local", True)),
-            "power_mw_need": 1,
-            "tools_need": 1,
-            "skilled_need": int(row.get("skilled_need", 1)),
-            "damage_milli": 0,
-        }],
+        "lines": [line],
     }
 
 
@@ -126,7 +128,7 @@ def _copy_year_states(root: Path, meta: dict) -> dict:
                 copied["cells"].append(_strip_year_pointer(row))
         for row in state.get("units") or []:
             _require_source(row, "units")
-            if row.get("kind") == "strength" or row.get("not_a_formation"):
+            if row.get("kind") == "strength" or row.get("not_a_formation") or row.get("not_placed"):
                 continue
             copied["units"].append(_strip_year_pointer(row))
         civil = state.get("civil_year")
@@ -268,7 +270,7 @@ def select_year_catalog(name: str, also: str | None = None) -> dict:
         raise ValueError(f"unknown year-state: {name}")
     units = []
     for row in state.get("units") or []:
-        if row.get("kind") == "strength" or row.get("not_a_formation"):
+        if row.get("kind") == "strength" or row.get("not_a_formation") or row.get("not_placed"):
             continue
         units.append(_strip_year_pointer(row))
     stocks = state.get("stocks") or []

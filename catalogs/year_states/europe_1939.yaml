@@ -281,7 +281,148 @@ absent_on_as_of:
     source: "https://www.archontology.org/nations/austria/au_rep1/"
 
 plants: []
-stocks: []
+stocks:
+  - id: gb_coal_distributed_1939
+    state: great_britain
+    good: coal
+    printed: 14550
+    unit: thousand_tons
+    t: 14550000
+    dated: "1939"
+    period: end_of_period
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 73, printed page 75, annual totals, 1939, Stocks (end of period), Distributed, 14,550 thousand tons. Footnote 1, printed page 76: Great Britain. Opencast stock on that row is a dash. Not copied. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_colliery_1939
+    state: great_britain
+    good: coal
+    printed: 5186
+    unit: thousand_tons
+    t: 5186000
+    dated: "1939"
+    period: end_of_period
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 73, printed page 75, annual totals, 1939, Colliery stocks held on pitbanks and in trucks, 5,186 thousand tons. Footnote 1: Great Britain. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_gas_1939
+    state: great_britain
+    good: coal
+    printed: 2811
+    unit: thousand_tons
+    t: 2811000
+    dated: "1939"
+    period: end_of_period
+    part_of: gb_coal_distributed_1939
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 75, printed page 79, 1939, public utility gas, 2,811 thousand tons. Footnote 1, printed page 80: Great Britain. A partial breakdown of distributed stocks. Not added to the table 73 total. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_water_1939
+    state: great_britain
+    good: coal
+    printed: 117
+    unit: thousand_tons
+    t: 117000
+    dated: "1939"
+    period: end_of_period
+    part_of: gb_coal_distributed_1939
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 75, printed page 79, 1939, public utility water, 117 thousand tons. Footnote 1: Great Britain. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_electricity_1939
+    state: great_britain
+    good: coal
+    printed: 2827
+    unit: thousand_tons
+    t: 2827000
+    dated: "1939"
+    period: end_of_period
+    part_of: gb_coal_distributed_1939
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 75, printed page 79, 1939, public utility electricity, 2,827 thousand tons. Footnote 1: Great Britain. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_railways_1939
+    state: great_britain
+    good: coal
+    printed: 1306
+    unit: thousand_tons
+    t: 1306000
+    dated: "1939"
+    period: end_of_period
+    part_of: gb_coal_distributed_1939
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 75, printed page 79, 1939, railways, 1,306 thousand tons. Footnote 1: Great Britain. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coal_at_coke_ovens_1939
+    state: great_britain
+    good: coal
+    printed: 393
+    unit: thousand_tons
+    t: 393000
+    dated: "1939"
+    period: end_of_period
+    part_of: gb_coal_distributed_1939
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 75, printed page 79, 1939, coke ovens, 393 thousand tons. Footnote 1: Great Britain. This is coal held at coke ovens, not coke. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coke_ovens_1939
+    state: great_britain
+    good: coke
+    printed: 487
+    unit: thousand_tons
+    t: 487000
+    dated: "1939"
+    period: end_of_period
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 77, printed page 83, annual totals, 1939, stocks at coke ovens, 487 thousand tons. The total stock cell is dots. Not copied. Footnote 1, printed page 84: Great Britain. The December row prints the same 487. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coke_gasworks_1939
+    state: great_britain
+    good: coke
+    printed: 706
+    unit: thousand_tons
+    t: 706000
+    dated: "1939"
+    period: end_of_period
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 77, printed page 83, annual totals, 1939, stocks at gas-works, 706 thousand tons. Footnote 1: Great Britain. The December row prints the same 706. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_scrap_1939
+    state: united_kingdom
+    good: scrap
+    printed: "282.3"
+    unit: thousand_tons
+    t: 282300
+    dated: "1939"
+    period: end_of_period
+    place: steel works and foundries
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 92, printed page 105, annual totals, 1939, iron and steel scrap stocks, 282.3 thousand tons. Footnote 1, printed page 106: At steel works and foundries. The page does not say Great Britain. Introductory note 3 applies. The December row prints the same 282.3. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_industrial_alcohol_1939
+    state: united_kingdom
+    good: industrial_alcohol
+    printed: "1.90"
+    unit: million_bulk_gallons
+    qty: 1900000
+    dated: "1939"
+    period: end_of_year
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, printed page 119, 1939, industrial alcohol stocks, 1.90 million bulk gallons. Stocks: end of year. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_pyrites_1939
+    state: united_kingdom
+    good: pyrites
+    printed: "318.0"
+    unit: thousand_tons
+    t: 318000
+    dated: "1939"
+    period: end_of_year
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, printed page 119, 1939, pyrites stocks, 318.0 thousand tons. End of year. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_sulphur_for_acid_1939
+    state: united_kingdom
+    good: sulphur
+    printed: "63.6"
+    unit: thousand_tons
+    t: 63600
+    dated: "1939"
+    period: end_of_year
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, printed page 119, 1939, sulphur (for acid) stocks, 63.6 thousand tons. End of year. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_spent_oxide_1939
+    state: united_kingdom
+    good: spent_oxide
+    printed: "74.6"
+    unit: thousand_tons
+    t: 74600
+    dated: "1939"
+    period: end_of_year
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, printed page 119, 1939, spent oxide stocks, 74.6 thousand tons. End of year. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_sulphuric_acid_1939
+    state: united_kingdom
+    good: sulphuric_acid
+    printed: "65.5"
+    unit: thousand_tons
+    t: 65500
+    dated: "1939"
+    period: end_of_year
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, printed page 119, 1939, sulphuric acid stocks, 65.5 thousand tons. End of year. https://wellcomecollection.org/works/fezqxdjh"
 units:
   - id: uk_armed_forces_1939_09
     state: united_kingdom
@@ -294,6 +435,102 @@ units:
     royal_air_force: 193
     note: "End of September 1939. Not 1 September. Thousands. Excludes men locally enlisted abroad. Royal Navy includes T.124 agreements, Royal Marine Police, and, up to June 1941, prisoners-of-war and missing. Army includes the India Unattached List and excludes the British Indian Service. Women's auxiliaries are not in these four cells. Not a formation. Not an order of battle."
     source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 10, Strength of the Armed Forces and Women's Auxiliary Services of the United Kingdom, end of month, thousands. Source line: Service Departments. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_nelson_1939_09
+    state: united_kingdom
+    name: Nelson
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_rodney_1939_09
+    state: united_kingdom
+    name: Rodney
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_royal_sovereign_1939_09
+    state: united_kingdom
+    name: Royal Sovereign
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_royal_oak_1939_09
+    state: united_kingdom
+    name: Royal Oak
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_revenge_1939_09
+    state: united_kingdom
+    name: Revenge
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_resolution_1939_09
+    state: united_kingdom
+    name: Resolution
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_malaya_1939_09
+    state: united_kingdom
+    name: Malaya
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_valiant_1939_09
+    state: united_kingdom
+    name: Valiant
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_barham_1939_09
+    state: united_kingdom
+    name: Barham
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_queen_elizabeth_1939_09
+    state: united_kingdom
+    name: Queen Elizabeth
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_renown_1939_09
+    state: united_kingdom
+    name: Renown
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
+  - id: uk_repulse_1939_09
+    state: united_kingdom
+    name: Repulse
+    kind: listed
+    domain: sea
+    dated: "1939-09"
+    not_placed: true
+    source: "League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Geneva, June 1940. United Kingdom chapter, List of Units (September 1939). The name is on its own line. Displacement and completion are not on that line. Not copied. https://archive.org/details/in.ernet.dli.2015.13105"
 orders: []
 weapons: []
 cells: []
@@ -764,10 +1001,48 @@ series:
     remainder_lb: 120
     note: "111 million lb actual weight is 111,000,000 lb. Dividing by 360 gives 308,333, remainder 120. The title says calendar years. Footnote 1, the 52-week exception, is for wool tops, and that 1939 cell is dots. Estimated clean weight is a separate row. Not copied. The 1939 stock cell was not kept under its heading on one read. Not copied."
     source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 108, Wool and silk. Printed page 130. 1939, raw wool production, actual weight, 111 million lb. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: nl_zinc_slab_1939
+    state: netherlands
+    good: slab_zinc
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 20534
+    unit: metric_tons
+    per_360_t: 57
+    remainder_t: 14
+    note: "Smelter production, where smelted. No estimate mark on the cell. The United Kingdom row on the same table carries a mark whose footnote text the OCR did not keep. That row is refused. Full calendar year 1939. Not the pile on 1 September."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world smelter production of zinc, 1935-39, by countries where smelted, in metric tons. Printed page 143. Netherlands 1939 column 20,534. docs/sources/evidence/minerals-yearbook-1940.txt lines 11627-11666. https://archive.org/details/pub_usgov-minerals-yearbook_1940"
+  - id: ch_virgin_aluminium_1939
+    state: switzerland
+    good: virgin_aluminium
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 28000
+    unit: metric_tons
+    per_360_t: 77
+    remainder_t: 280
+    note: "No estimate mark on the 1939 cell. The rows whose 1939 cell is footnote 1, estimate included in total, are refused. The United Kingdom virgin aluminium series from the digest is a separate row and stays."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of aluminum, 1935-39, by countries, in metric tons. Printed page 654. Switzerland 1939 column 28,000. docs/sources/evidence/minerals-yearbook-1940.txt lines 48907-48932. https://archive.org/details/pub_usgov-minerals-yearbook_1940"
+  - id: pt_tungsten_concentrates_1939
+    state: portugal
+    good: tungsten_ore_concentrates_60_pct_wo3
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 3851
+    unit: metric_tons_of_concentrates
+    per_360_t: 10
+    remainder_t: 251
+    note: "Concentrates containing 60 percent WO3. No estimate mark on the cell. Spain and the USSR produce tungsten on the same page with no data. Not copied."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of tungsten ores, 1935-39, by countries, in metric tons of concentrates containing 60 percent WO3. Printed page 639. Portugal 1939 column 3,851. docs/sources/evidence/minerals-yearbook-1940.txt lines 47204-47263. https://archive.org/details/pub_usgov-minerals-yearbook_1940"
 
 omitted:
   - plants
-  - stocks
   - orders
   - weapons
   - cells
@@ -778,10 +1053,10 @@ omitted:
 
 named_empty:
   cells: "No cell was measured. The coast was not drawn. NLS Map Area C16(360) did not open. The page asked for a human check. That check was not clicked. Two other sheets were opened. National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939, prints Scale 1:5,000,000 or 78.91 miles to the inch. The statute-mile bar is labeled 100, 50, 0, 100, 200, 300. The kilometer bar is labeled 100, 50, 0, 100, 200, 300. Conic projection, standard parallels 34 and 53 degrees. Imprint Washington, October 1939. Fortune, Europe 1939, a map by Harrison, prints a mile bar labeled 0, 50, 100, 200, 300, 400 and a kilometer bar with the same labels. A scale is not a coast."
-  stocks: "No pile dated on or before 1939-09-01. Digest tables 73, 75, and 77 date the pile at the end of the period. The earliest monthly stock row is September 1939, after 1 September. USSBS OCR has no commodity on the same line as a number dated on or before that day."
+  stocks: "End-of-1939 stock cells from the digest are loaded. A dot, a dash, and a production series are not a stock. Table 75 holders are a partial breakdown of distributed coal. They are not added to the table 73 total."
   links: "No cited road or rail names a plant node. A plant with no open link is refused. continent_stocks is not a substitute."
   labor: "No row states a count, a skill, a place, and a date. USSBS table 25, construction employment on 17 May 1939, is a headcount. It is not a skill at a munitions plant."
-  formations: "uk_armed_forces_1939_09 is a strength count at the end of September 1939. It does not spawn a unit. League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Germany chapter: official documents include no effectives. The unofficial end-of-1938 estimate was not copied. Poland says about 300,000 and gives no date. Not copied. The German navy list is dated August 1939. The columns do not line up. Not copied."
+  formations: "uk_armed_forces_1939_09 is a strength count. It does not spawn a unit. Twelve United Kingdom capital-ship names from the September 1939 list are stored and not placed. Displacement is not on the name line. A garbled name was not repaired. The German navy list, August 1939, does not keep a name on the same line as a number. Not copied. A type count is not a formation. No general name, office, and tenure are on one page."
   plants: "No 1939 plant rate with speaker, place, and date. A 1944 or 1945 rate is not a 1939 cap."
   weapons: "No published number. No cited trial."
   orders: "No cited order for 1 September 1939."

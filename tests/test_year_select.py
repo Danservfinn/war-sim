@@ -11,7 +11,7 @@ def test_europe_1939_is_not_the_africa_catalog():
     assert europe["id"] == "europe_1939"
     assert africa["id"] == "africa_2024"
     assert europe["plants"] == []
-    assert africa["plants"] == []
+    assert {row["id"] for row in africa["plants"]} == {"rdm_boksburg", "rdm_somerset"}
     assert europe["units"] == []
     assert "za_ramaphosa" not in {row["id"] for row in europe["leaders"]}
     assert "de_hitler" not in {row["id"] for row in africa["leaders"]}

@@ -216,7 +216,7 @@ def test_europe_1939_scenario_loads_the_catalog_without_a_year_pointer():
     assert not hasattr(campaign, "region")
     assert campaign.goods_cross is False
     assert campaign.plants == []
-    assert campaign.stocks == {}
+    assert "gb_coal_distributed_1939" in campaign.stocks
     assert campaign.units == []
     coke = next(row for row in campaign.series if row["id"] == "gb_coke_1939")
     assert "civil_year" not in coke
@@ -232,6 +232,6 @@ def test_later_war_loads_both_catalogs_and_keeps_the_wall_shut():
     assert not hasattr(campaign, "civil_year")
     assert any(row["id"] == "de_hitler" for row in campaign.leaders)
     assert any(row["id"] == "za_ramaphosa" for row in campaign.leaders)
-    assert campaign.plants == []
-    assert campaign.stocks == {}
+    assert {row["id"] for row in campaign.plants} == {"rdm_boksburg", "rdm_somerset"}
+    assert "gb_coal_distributed_1939" in campaign.stocks
     assert "gb_coke_1939" in {row["id"] for row in campaign.series}

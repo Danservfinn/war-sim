@@ -8,17 +8,19 @@ worldsteel Table 3, 2024 column, rows that are not marked estimated:
 - South Africa, 4.7 million tonnes. [13]
 - Algeria, 4.5 million tonnes. [13]
 
+Those three national rows are now in the year-state beside the six-country group total.
+
 Those are national output. They are not plants. Dividing by 360 gives 29,722, 13,055, and 12,500 tonnes a sim-day. The remainders are 80, 200, and 0. The remainder is not a stock. The published figure is one decimal. The tonne count is that figure times 1,000,000. It is not a counted tonne.
 
 Table 1 gives the Africa row, January to December 2024, as 22.3 million tonnes. [13] The same page names the six countries in that row: Algeria, Egypt, Libya, Morocco, South Africa, Tunisia. That is a group total. It is not the continent. It is not a plant cap. Libya, Morocco, and Tunisia are inside it and are not given their own rows on this page. Their share was not computed.
 
 The world total on the same page is 1,882.6 million tonnes. [13] It is not assigned to a continent.
 
-The five munition nameplates stay in `catalogs/africa_capacity.yaml`. They were not re-opened in this pass.
+The five munition nameplates stay in `catalogs/africa_capacity.yaml`. Two of them were re-opened on 2026-10-15. The defenceWeb page of 7 July 2023 states the Boksburg and Somerset West rates. Those two rows are now in the year-state. The other three were not copied. Al Mal, 20 April 2022, does not state a 50,000,000 round rate. Rosa El-Youssef returned 403. The DICON date is after 31 December 2024.
 
 The first pass left the chairs empty. The Egypt page of CIA World Leaders, updated 6/2/2026, names a president and a prime minister and does not state when either took office. [14] That page is not a leader row. The close below filled six chairs from Archontology.
 
-Airframes, tanks, guided-weapon electronics, stocks, units, orders, weapons, and cells are absent. No current rate for those was opened.
+Airframes, tanks, guided-weapon electronics, stocks, orders, weapons, and cells are absent. Three Egyptian frigates are listed and not placed.
 
 This file is not a scenario. `load_campaign` does not read it. `goods_cross` stays false.
 

@@ -24,15 +24,15 @@ When a locator note and a catalog disagree, the catalog row wins for what was co
 | `states` | absent as a list. 23 states are implied by `leaders[].state`. Two more are named absent | absent as a list. 6 states implied | leader rows |
 | `leaders` | fills. 35 chairs. Civil dates, not campaign days | fills. 6 chairs. No end date on the page | year-state files |
 | `generals` | absent. Key missing | absent. Named in `omitted` | none |
-| `units` | does not fill. One strength count is not a `Unit` | absent | Europe `units` key |
-| `plants` | absent | does not fill. Five nameplates are a catalog, not copied into the year-state | `catalogs/africa_capacity.yaml` |
-| `stocks` | absent. Shape in the file is `[]`. Schema wants `{id: int}` | absent | empty lists |
+| `units` | fills. 1 strength count, not spawned. 12 listed ships, not placed. A garbled name is absent | fills. 3 listed ships, not placed. A hull still building is absent | `catalogs/year_states/` |
+| `plants` | absent. `plants: []` | fills. 2 rows. Boksburg 277 shells/day. Somerset West 1,111 charges/day. Both from Helmsen, 7 July 2023 | `catalogs/year_states/africa_2024.yaml` |
+| `stocks` | fills. 15 end-of-1939 stock cells. Production is not a stock. A dot is not a zero | absent | `catalogs/year_states/europe_1939.yaml` |
 | `points` | absent. Key missing | absent. Key missing | rifle-contact fixture only |
 | `links` | absent. Key missing | absent. Key missing | `catalogs/straits.yaml` is a paraphrase, not a source |
 | `cells` | named labels only, no position, no coast. `catalogs/cells/ngs_1939_08_28.yaml` | absent. Empty list. Named | the NGS file, not a grid |
 | orders | absent | absent | not a `YearState` field. Section 16 card |
 | weapons | absent | absent | not a `YearState` field. Ammo catalog |
-| series | 31 national-output rows. Not a plant. Not a stock. Not named on a scenario | 3 steel rows plus one six-country total | year-state files |
+| series | 34 national-output rows. Not a plant. Not a stock. Not named on a scenario. An estimate mark is a refusal | 4 rows: Egypt, South Africa, Algeria national steel plus the six-country group total | year-state files |
 
 `goods_cross` is false on both year-state files. Section 18 says a year-state does not open the wall. The flag on the file does not open it.
 
@@ -115,7 +115,7 @@ Source: Central Statistical Office, Statistical Digest of the War, HMSO, London,
 
 ### Series
 
-The catalog is the list. 31 rows. An earlier sentence said twelve. That count is stale. The table below is a pointer, not a second copy of the tonnes. Full calendar year 1939, so the rows include days after 1 September. Not the pile on that date. Not a plant. Remainder after dividing by 360 is not a stock. They are not named on a scenario, so they are not yet the calibration series in section 18 step 3.
+The catalog is the list. 34 rows. An earlier sentence said twelve, then thirty-one. Those counts are stale. The table below is a pointer, not a second copy of the tonnes. Full calendar year 1939, so the rows include days after 1 September. Not the pile on that date. Not a plant. Remainder after dividing by 360 is not a stock. They are not named on a scenario, so they are not yet the calibration series in section 18 step 3. The 2026-10-15 series pass added Netherlands slab zinc, Switzerland virgin aluminium, and Portugal tungsten concentrates from the Bureau of Mines yearbook. No estimate mark on those cells. The United Kingdom zinc cell carries a footnote mark whose text the OCR dropped. Refused.
 
 | id | good | document |
 | --- | --- | --- |
@@ -202,11 +202,22 @@ Three national crude-steel rows. worldsteel Table 3, 2024 column, not marked est
 
 `africa_six_crude_steel_2024` is Table 1, Africa row, 22.3 million tonnes. Algeria, Egypt, Libya, Morocco, South Africa, Tunisia. Not the continent. Not a plant cap. Libya, Morocco, and Tunisia are inside the total and have no own row. Their share was not computed.
 
-### Plants, not in this file
+### Plants
 
-`plants_ref` points at `catalogs/africa_capacity.yaml`. Five nameplates. Not copied into the year-state. sha256 prefix `071c0e97b2eb26aa`. 1,257 bytes.
+Two rows are in `catalogs/year_states/africa_2024.yaml`. Both are from the opened defenceWeb page, 7 July 2023. Jan-Patrick Helmsen, RDM CEO. Boksburg, 100 000 shells a year, 277 a sim-day, remainder 280. Somerset West, 400 000 charges a year, 1,111 a sim-day, remainder 40. The remainders are not stocks. The 150 000 and 600 000 figures are an intention and an aim. Not copied. The page does not state powder origin. `powder_local` is omitted. The loader does not turn that omission into true.
 
-The tick reads this file only when a scenario names it. `scenarios/europe_africa/scenario.yaml` names it. That scenario is the rifle contact, not the 2024 year-state.
+Not copied into the year-state:
+
+- Factory 300. Al Mal, 20 April 2022, was opened. Tarek Ezzat states about 1,400,000 metal parts a year and about 500,000 pieces a year. Those are approximations. Not an exact cap. The page does not state 50,000,000 small-calibre rounds. Rosa El-Youssef returned 403. That rate stays out.
+- DICON Kaduna. The cited statement is 29 November 2025. That is after `as_of` 2024-12-31. Not copied.
+- PMP Pretoria. No page dated on or before 31 December 2024 was opened that states a round rate, or states that none was published.
+- Europe 1939. The documents on disk are national series, completions, or group totals. No plant rate with a speaker, a place, and a date. `plants: []`.
+
+`catalogs/africa_capacity.yaml` still has the older five nameplates. Its `shell_155` label and `powder_local: true` on the RDM rows are not what the opened page states. That file was not rewritten. The rifle scenario still points at it.
+
+The tick reads a year-state only when a scenario names it. `scenarios/europe_africa` is the rifle contact. It was not pointed at this year-state.
+
+The older catalog table is not the year-state. It was not rewritten.
 
 | id | place | good | daily_cap | powder_local | source id |
 | --- | --- | --- | --- | --- | --- |
@@ -325,4 +336,24 @@ No row was added. No field was filled.
 
 Maps, chair pages, and the ledger were not unit-performance documents. They were not re-read for this slot. Air combat resolution was not implemented.
 
-A runnable 1939 war is not this file. The land march refuses a step onto a sea cell. The sheet does not yet supply those positions. A full catalog would still not be a calibration.
+A runnable 1939 war is not this file. The land march refuses a step onto a sea cell. A full catalog would still not be a calibration.
+
+## Continuous color, 2026-10-15
+
+Catalog: `catalogs/geography/regions.json`. Loader: `sim/spatial/regions.py`. Tolerance: 2 px Hausdorff between a 4-connected trace and an 8-connected trace of the same exact RGB. A component under 10,000 px is not a polygon. Colinear boundary pixels were dropped. No chord was added. Fronts, beachheads, lifts, and pathfinding were not implemented.
+
+| Sheet | Scale bar | Origin | Polygons |
+| --- | --- | --- | --- |
+| CIA 8x render of `cia-africa-pol-2020.pdf`, 4896 by 6336 | 0 to 800 km, 353.0 px | pixel 3448.5, 5513.5. South is image down | 2. Sea RGB [230, 231, 232], 5,132,233 px, 9,550 vertices, 690 holes. Land RGB [217, 183, 187], 115,813 px, beside the Morocco letter. Bound to `africa_2024` |
+| `uwm-agsmap023709-bartholomew-1939.jpg`, 9000 by 7140 | 0 to 320 km, 518.5 px | pixel 750, 1285.5. North is image up | 0. Exact color beside the cited marks has area 1 to 6 |
+| `uwm-agdm-32265-ngs-1939.jpg`, 9000 by 6602 | 0 to 300 km, 570.12 px | pixel 916.55, 6016.5 | 0. Exact color beside Biscay has area 12. Not bound |
+| `yale-15533705.jpg`, 8924 by 9573 | 0 to 800 km, 805 px | pixel 6888.5, 8795 | 0. Exact color beside Atlantic has area 1. Not bound |
+| `yale-15258797.jpg`, 8096 by 9420 | 0 to 1000 km, 795.5 px | pixel 1052.5, 3143 | 0. Exact color beside Baffin has area 1. Not bound |
+| `bartholomew-europe-mediterranean-1939.jpg`, 1280 by 1015 | not measured on this file | none | 0 |
+| `ngs-africa-1943.jpg`, 1193 by 1280 | endpoints not readable | none | 0 |
+| `europe-mediterranean-uploaded.jpg`, 1280 by 1015 | endpoints not readable | none | 0 |
+| `ngs-central-europe-mediterranean-1939-08-28.jpg`, 1999 by 1467 | not measured on this file | none | 0 |
+
+Adjacencies: 0. The two accepted polygons do not share a 4-edge. No edge was added.
+
+`europe_1939` has no polygon. The bound Bartholomew sheet does not have a continuous exact color. `africa_2024` has the two CIA polygons. The other large CIA fills were not stored. Their surface was not verified from a cited mark. White is the page margin. Theater of War and the 1943 sheet stay unbound.

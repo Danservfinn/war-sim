@@ -500,9 +500,107 @@ series:
     remainder_is_stock: false
     note: "Six named countries. Not the continent. Libya, Morocco, and Tunisia are inside this total and are not published as their own rows on this page. Their residual is not computed."
     source: "worldsteel, 24 January 2025, Table 1, Africa row, Jan-Dec 2024 column. Evidence line 51. Country list on the same page."
+  - id: eg_crude_steel_2024
+    state: egypt
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    period: 2024
+    published: "10.7"
+    unit: million_tonnes
+    annual_t: 10700000
+    per_360_t: 29722
+    remainder_t: 80
+    remainder_is_stock: false
+    note: "Table 3 rank 19, no estimate mark. The published figure is one decimal. The tonne count is that figure times 1,000,000. It is not a counted tonne. The remainder is not a stock."
+    source: "worldsteel, 24 January 2025, Table 3, 2024 global crude steel production. Egypt row, 2024 column 10.7, percent change 3.6, no e mark. docs/sources/evidence/worldsteel-2024.txt lines 274-278. https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/"
+  - id: za_crude_steel_2024
+    state: south_africa
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    period: 2024
+    published: "4.7"
+    unit: million_tonnes
+    annual_t: 4700000
+    per_360_t: 13055
+    remainder_t: 200
+    remainder_is_stock: false
+    note: "Table 3 rank 29, no estimate mark. Not a plant. Not the six-country total. The remainder is not a stock."
+    source: "worldsteel, 24 January 2025, Table 3, 2024 global crude steel production. South Africa row, 2024 column 4.7, percent change -4.8, no e mark. docs/sources/evidence/worldsteel-2024.txt lines 324-328. https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/"
+  - id: dz_crude_steel_2024
+    state: algeria
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    period: 2024
+    published: "4.5"
+    unit: million_tonnes
+    annual_t: 4500000
+    per_360_t: 12500
+    remainder_t: 0
+    remainder_is_stock: false
+    note: "Table 3 rank 30, no estimate mark. Bangladesh at 4.5 is rank 31 and carries the e mark. Not copied. The remainder is not a stock."
+    source: "worldsteel, 24 January 2025, Table 3, 2024 global crude steel production. Algeria row, 2024 column 4.5, percent change 2.2, no e mark. docs/sources/evidence/worldsteel-2024.txt lines 329-333. https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/"
+
+plants:
+  - id: rdm_boksburg
+    state: south_africa
+    continent: africa
+    place: Boksburg
+    speaker: Jan-Patrick Helmsen
+    stated: "2023-07-07"
+    good: shell
+    annual: 100000
+    daily_cap: 277
+    remainder: 280
+    remainder_is_stock: false
+    note: "Capacity. The same sentence's 150 000 is an intention. Not a cap. The page does not state powder origin. powder_local is omitted."
+    source: "defenceWeb, Guy Martin, 7 July 2023. Jan-Patrick Helmsen, RDM CEO, told defenceWeb that Boksburg has the capacity to produce 100 000 shells a year. 100000 // 360 = 277, remainder 280. The remainder is not a stock. docs/sources/evidence/defenceweb-rdm-2023-07-07.html https://defenceweb.co.za/editors-pick/rdm-aiming-to-double-production-expand-facilities-as-artillery-demand-soars/"
+  - id: rdm_somerset
+    state: south_africa
+    continent: africa
+    place: Somerset West
+    speaker: Jan-Patrick Helmsen
+    stated: "2023-07-07"
+    good: charge
+    annual: 400000
+    daily_cap: 1111
+    remainder: 40
+    remainder_is_stock: false
+    note: "The speaker tag is the preceding sentence of the same paragraph. The 600 000 figure is an aim. Not a cap. The page does not state powder origin. powder_local is omitted. A 400 000 round Asian order in the same article is an export. Not a cap."
+    source: "defenceWeb, Guy Martin, 7 July 2023. The next sentence after Helmsen told defenceWeb: the Somerset West facility can manufacture 400 000 charges a year. 400000 // 360 = 1111, remainder 40. The remainder is not a stock. docs/sources/evidence/defenceweb-rdm-2023-07-07.html https://defenceweb.co.za/editors-pick/rdm-aiming-to-double-production-expand-facilities-as-artillery-demand-soars/"
 
 stocks: []
-units: []
+units:
+  - id: eg_al_aziz_2024
+    state: egypt
+    name: Al-Aziz
+    kind: listed
+    domain: sea
+    dated: "2024-01-05"
+    not_placed: true
+    source: "defenceWeb, Guy Martin, 5 January 2024. Vice Admiral Ashraf Ibrahim Atwa, on that page: the Egyptian Navy received the three Meko A200 frigates Al-Aziz, Al-Qahhar and Al-Qadeer. Displacement is a class figure, not on the name line. Not copied. docs/sources/evidence/defenceweb-tkms-al-qadeer-2024-01-05.html https://defenceweb.co.za/sea/sea-sea/tkms-hands-over-third-meko-frigate-to-egyptian-navy/"
+  - id: eg_al_qahhar_2024
+    state: egypt
+    name: Al-Qahhar
+    kind: listed
+    domain: sea
+    dated: "2024-01-05"
+    not_placed: true
+    source: "defenceWeb, Guy Martin, 5 January 2024. The same sentence names Al-Qahhar. The second-frigate handover on that page is six months earlier. Not a second row. docs/sources/evidence/defenceweb-tkms-al-qadeer-2024-01-05.html https://defenceweb.co.za/sea/sea-sea/tkms-hands-over-third-meko-frigate-to-egyptian-navy/"
+  - id: eg_al_qadeer_2024
+    state: egypt
+    name: Al-Qadeer
+    kind: listed
+    domain: sea
+    dated: "2024-01-05"
+    not_placed: true
+    note: "Handover on the same page is 15 December 2023. The page that names the ship in service is 5 January 2024."
+    source: "defenceWeb, Guy Martin, 5 January 2024. Handed over to the Egyptian Navy. The fourth hull is under construction for an expected delivery in October 2025. Not copied. docs/sources/evidence/defenceweb-tkms-al-qadeer-2024-01-05.html https://defenceweb.co.za/sea/sea-sea/tkms-hands-over-third-meko-frigate-to-egyptian-navy/"
 orders: []
 weapons: []
 cells: []
@@ -512,12 +610,11 @@ cell_catalogs:
 omitted:
   - libya_no_single_chair_on_31_dec_2024
   - south_sudan_page_says_records_not_verified
-  - plants_other_than_the_five_nameplates
+  - plants_without_speaker_place_and_date
   - airframes
   - tanks
   - guided_weapon_electronics
   - stocks
-  - units
   - orders
   - weapons
   - cells
