@@ -46,6 +46,13 @@ def _strip_year_pointer(row: dict) -> dict:
     return {key: value for key, value in row.items() if key not in drop}
 
 
+def _stamp_sheet(row: dict, sheet_id: str) -> dict:
+    copied = _strip_year_pointer(row)
+    if sheet_id and not copied.get("year_state"):
+        copied["year_state"] = sheet_id
+    return copied
+
+
 def _year_plant(row: dict, civil_year):
     if row.get("not_a_plant") or row.get("kind") in ("plan", "target", "contract", "export_contract", "national_output"):
         return None
@@ -118,28 +125,29 @@ def _copy_year_states(root: Path, meta: dict) -> dict:
         if shared:
             raise ValueError(f"shared state id: {sorted(shared)[0]}")
         seen |= file_ids
+        sheet_id = str(state.get("id") or "")
         for key in ("leaders", "generals", "points", "links", "cells"):
             for row in state.get(key) or []:
                 _require_source(row, key)
-                copied[key].append(_strip_year_pointer(row))
+                copied[key].append(_stamp_sheet(row, sheet_id))
         if state.get("cell_catalogs") and state.get("id"):
             for row in geographic_layer(str(state["id"])):
                 _require_source(row, "cells")
-                copied["cells"].append(_strip_year_pointer(row))
+                copied["cells"].append(_stamp_sheet(row, sheet_id))
         for row in state.get("units") or []:
             _require_source(row, "units")
             if row.get("kind") == "strength" or row.get("not_a_formation") or row.get("not_placed"):
                 continue
-            copied["units"].append(_strip_year_pointer(row))
+            copied["units"].append(_stamp_sheet(row, sheet_id))
         civil = state.get("civil_year")
         for row in state.get("plants") or []:
             _require_source(row, "plants")
             plant = _year_plant(row, civil)
             if plant is not None:
-                copied["plants"].append(plant)
+                copied["plants"].append(_stamp_sheet(plant, sheet_id))
         for row in state.get("series") or []:
             _require_source(row, "series")
-            copied["series"].append(_strip_year_pointer(row))
+            copied["series"].append(_stamp_sheet(row, sheet_id))
         for row in list(state.get("weapons") or []) + list(state.get("orders") or []):
             _require_source(row, "counted")
         stocks = state.get("stocks") or []

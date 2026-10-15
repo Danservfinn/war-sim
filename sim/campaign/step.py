@@ -994,6 +994,15 @@ def _move(c: Campaign) -> None:
         if not moved:
             continue
         layer = _move_cells(c, unit)
+        if (getattr(c, "cells", None) or []) and not layer:
+            order["gate"] = "no_sheet"
+            _log_event(
+                c,
+                "march_refused",
+                f"March {unit.get('id')} refused. Gate no_sheet.",
+                numbers={"gate": "no_sheet"},
+            )
+            continue
         if _crosses_sea(c, x, y, nx, ny, layer) or _leaves_measured_land(layer, nx, ny):
             order["gate"] = "no_surface"
             if not any(row.get("surface") == "coast" for row in layer):
