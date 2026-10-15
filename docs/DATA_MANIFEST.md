@@ -357,3 +357,16 @@ Catalog: `catalogs/geography/regions.json`. Loader: `sim/spatial/regions.py`. To
 Adjacencies: 0. The two accepted polygons do not share a 4-edge. No edge was added.
 
 `europe_1939` has no polygon. The bound Bartholomew sheet does not have a continuous exact color. `africa_2024` has the two CIA polygons. The other large CIA fills were not stored. Their surface was not verified from a cited mark. White is the page margin. Theater of War and the 1943 sheet stay unbound.
+
+## Missing documents, 2026-10-15 pass
+
+Search only. Zero rows added. A string that was not opened is not a source.
+
+| Step | Missing document | Rows added |
+| --- | --- | --- |
+| Placed formation | No opened page states a formation name and a measured cell together. Table 10 is a strength count. The 12 British ships and 3 Egyptian frigates stay `not_placed`. The 116 names are not positions. NLS Map Area C16(360) asked for a human check. That check was not clicked. | 0 |
+| Coast and strait cells | No opened sheet has a measured coast class. Bartholomew, CIA, NGS, and Yale record coast as a drawn line, not a named cell. `catalogs/straits.yaml` is a paraphrase, not a locator. The edge between a land polygon and a sea polygon was not surveyed as coast. | 0 |
+| European plant rate | No opened page states a 1939 plant cap. USSBS was opened. No rate lined up. | 0 |
+| African steel node | No opened page states a nameplate for a steel node at Boksburg or Somerset West. Helmsen, 7 July 2023, states the two plant rates. It does not state a mine. A place name is not a node. | 0 |
+| Europe 1939 air catalog | No opened page states sensors, bands, ammo, or `rounds_per_day` for a 1939 aircraft. | 0 |
+| Modern African air catalog | No opened page states sensors, bands, ammo, or `rounds_per_day` for a modern African aircraft. `scenarios/air_band` is a fixture. Its numbers were not copied. | 0 |
