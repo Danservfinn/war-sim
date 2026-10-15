@@ -1,0 +1,789 @@
+# Europe 1939 year-state. Cited rows only.
+# The loader reads this file only when scenario.yaml lists the path.
+# After that load the tick has no civil_year. National output is not a plant.
+# from_date and to_date are civil dates. They are not campaign days.
+# A missing class is omitted. It is not filled from a neighbor.
+
+id: europe_1939
+region: europe
+civil_year: 1939
+as_of: 1939-09-01
+collection_status: open
+goods_cross: false
+as_of_source: "USGS, Rabbitt vol. 4, chapter 2, PDF page opening: On September 1, 1939, at 4:45 a.m. (local time), units of Germany's armed forces attacked Poland. https://pubs.usgs.gov/book/2015/rabbitt-vol4/pdf/vol4_chapter2.pdf footnote 2 not opened."
+
+leaders:
+  - id: de_hitler
+    name: Adolf Hitler
+    office: Führer und Reichskanzler
+    state: germany
+    from_date: 1934-08-02
+    to_date: 1945-04-30
+    source: "Archontology, Biography of Hitler, Adolf, term line. https://www.archontology.org/nations/german/germ_1919_45a/hitler.php"
+  - id: uk_george_vi
+    name: George VI
+    office: King
+    state: united_kingdom
+    from_date: 1936-12-11
+    to_date: 1952-02-06
+    source: "Archontology, Biography of GEORGE VI, term line. Style on this date includes Emperor of India, through 22 Jun 1948. https://www.archontology.org/nations/uk/king_uk/george6.php"
+  - id: uk_chamberlain
+    name: Arthur Neville Chamberlain
+    office: Prime Minister and First Lord of the Treasury
+    state: united_kingdom
+    from_date: 1937-05-28
+    to_date: 1940-05-10
+    source: "Archontology, Biography of Chamberlain, Neville, term line. https://www.archontology.org/nations/uk/bpm/chamberlain.php"
+  - id: fr_lebrun
+    name: Albert Lebrun
+    office: Président de la République française
+    state: france
+    from_date: 1932-05-10
+    to_date: 1940-07-11
+    source: "Archontology, France Heads of State 1870-1940. https://www.archontology.org/nations/france/france_state3/"
+  - id: fr_daladier
+    name: Édouard Daladier
+    office: Président du Conseil des ministres
+    state: france
+    from_date: 1938-04-10
+    to_date: 1940-03-21
+    source: "Archontology, France Heads of Government 1871-1940. Terms are the JORF decree dates, as that page states. https://www.archontology.org/nations/france/france_govt07/"
+  - id: it_vittorio_emanuele_iii
+    name: Vittorio Emanuele III
+    office: Re d'Italia
+    state: italy
+    from_date: 1900-07-29
+    to_date: 1946-05-09
+    style_on_as_of: "Per grazia di Dio e per volontà della Nazione Re d'Italia e di Albania, Imperatore d'Etiopia"
+    style_from: 1939-04-19
+    style_to: 1943-12-08
+    source: "Archontology, Italy Kings 1861-1946. https://www.archontology.org/nations/italy/00_1861_1946_king.php"
+  - id: it_mussolini
+    name: Benito Mussolini
+    office: Presidente
+    state: italy
+    from_date: 1922-10-31
+    to_date: 1943-07-25
+    note: "The page heading is Presidenza del Consiglio dei ministri. The term line says Presidente. It does not print Capo del Governo on that line."
+    source: "Camera dei deputati, Portale storico, I Governo Mussolini. Benito Mussolini, Presidente, dal 31 ottobre 1922 al 25 luglio 1943. https://storia.camera.it/governi/i-governo-mussolini"
+  - id: pl_moscicki
+    name: Ignacy Mościcki
+    office: President of the Republic
+    state: poland
+    from_date: 1926-06-04
+    to_date: 1939-09-18
+    source: "Archontology, Poland Heads of State 1918-1939. Ceased to exercise the office on leaving Poland, 18 Sep 1939. Resigned 30 Sep 1939. https://www.archontology.org/nations/poland/00_1918_39_s.php"
+  - id: pl_skladkowski
+    name: Felicjan Sławoj-Składkowski
+    office: President of the Council of Ministers
+    state: poland
+    from_date: 1936-05-16
+    to_date: 1939-09-17
+    source: "Archontology, Poland Heads of Government 1918-1939. Left the territory of Poland on 17 Sep 1939. https://www.archontology.org/nations/poland/00_1918_39_g.php"
+  - id: es_franco_state
+    name: Francisco Franco Bahamonde
+    office: Jefe del Estado
+    state: spain
+    from_date: 1936-10-01
+    to_date: 1975-11-20
+    source: "Archontology, Spain Heads of State 1936-2026. https://www.archontology.org/nations/spain/spain_1936s/"
+  - id: es_franco_govt
+    name: Francisco Franco Bahamonde
+    office: Presidente del Gobierno
+    state: spain
+    from_date: 1938-01-31
+    to_date: 1973-06-09
+    note: "The same page says he did not make official use of the style Presidente del Gobierno."
+    source: "Archontology, Spain Heads of Government 1936-2026. https://www.archontology.org/nations/spain/spain_1936g/"
+  - id: su_kalinin
+    name: Mihail Ivanovič Kalinin
+    office: Chairman of the Presidium of the Supreme Soviet of the USSR
+    state: ussr
+    from_date: 1938-01-17
+    to_date: 1946-03-19
+    continent_assigned_by_source: false
+    source: "Archontology, Biography of Kalinin, Mihail. The page does not assign a continent. https://www.archontology.org/nations/ussr/ussr_state2/kalinin.php"
+  - id: su_molotov
+    name: Vjačeslav Molotov
+    office: Chairman of the Council of People's Commissars of the Union of Soviet Socialist Republics
+    state: ussr
+    from_date: 1930-12-19
+    to_date: 1941-05-06
+    continent_assigned_by_source: false
+    note: "The page prints Vjačeslav Molotov, then (Вячеслав Молотов) on the next line. No patronymic was added. The page does not assign a continent."
+    source: "Archontology, Soviet Union Chairmen of the Council of People's Commissars 1923-1946. Term line 19 Dec 1930 - 6 May 1941. https://www.archontology.org/nations/ussr/ussr_govt1/"
+  - id: be_leopold_iii
+    name: Léopold III
+    office: Roi des Belges
+    state: belgium
+    from_date: 1934-02-23
+    to_date: 1940-05-27
+    source: "Archontology, Belgium Heads of State 1830-1940. https://www.archontology.org/nations/belgium/00_1830_1940_s.php"
+  - id: nl_wilhelmina
+    name: Wilhelmina
+    office: Queen of the Netherlands
+    state: netherlands
+    from_date: 1890-11-23
+    to_date: 1940-05-13
+    source: "Archontology, Netherlands Heads of State 1813-1940. https://www.archontology.org/nations/netherlands/00_1813_1940_s.php"
+  - id: dk_christian_10
+    name: Christian 10.
+    office: King of Denmark and Iceland
+    state: denmark
+    from_date: 1912-05-14
+    to_date: 1947-04-20
+    style_on_as_of: "King of Denmark and Iceland, 1 Dec 1918 to 16 Jun 1944"
+    source: "Archontology, Denmark Heads of State 1863-2026. https://www.archontology.org/nations/denmark/00_1863_td_s.php"
+  - id: se_gustaf_v
+    name: Gustaf V
+    office: Med Guds Nåde, Sveriges, Götes och Vendes Konung
+    state: sweden
+    from_date: 1907-12-08
+    to_date: 1950-10-29
+    source: "Archontology, Sweden Heads of State 1818-2026. https://www.archontology.org/nations/sweden/00_1818_td_s.php"
+  - id: no_haakon_vii
+    name: Haakon VII
+    office: King of Norway
+    state: norway
+    from_date: 1905-11-27
+    to_date: 1940-09-25
+    note: "The page says the reign continued, in exile, until restoration on 9 May 1945. The table end is 25 Sep 1940."
+    source: "Archontology, Norway Heads of State 1905-1940. https://www.archontology.org/nations/norway/00_1905_40_s.php"
+  - id: fi_kallio
+    name: Kyösti Kallio
+    office: President of the Republic
+    state: finland
+    from_date: 1937-03-01
+    to_date: 1940-12-19
+    source: "Archontology, Finland Heads of State 1919-2026. https://www.archontology.org/nations/finland/00_1919_td_s.php"
+  - id: gr_georgios_ii
+    name: Geōrgios II
+    office: King of the Hellenes
+    state: greece
+    from_date: 1935-11-25
+    to_date: 1941-05-22
+    source: "Archontology, Greece King 1935-1941. https://www.archontology.org/nations/greece/00_1935_1941_s.php"
+  - id: ro_carol_ii
+    name: Carol al II-lea
+    office: King of Romania
+    state: romania
+    from_date: 1930-06-08
+    to_date: 1940-09-06
+    source: "Archontology, Romania Heads of State 1866-1947. Style on the page: By the Grace of God and by the Will of the Nation, King of Romania. https://www.archontology.org/nations/romania/00_1866_1947_s.php"
+  - id: bg_boris_iii
+    name: Boris III
+    office: King (Tsar) of the Bulgarians
+    state: bulgaria
+    from_date: 1918-10-03
+    to_date: 1943-08-28
+    source: "Archontology, Bulgaria Heads of State 1908-1946. https://www.archontology.org/nations/bulgaria/00_1908_1946_s.php"
+  - id: hu_horthy
+    name: nagybányai Horthy Miklós
+    office: Governor of Hungary
+    state: hungary
+    from_date: 1920-03-01
+    to_date: 1944-10-16
+    source: "Archontology, Hungary Governors 1919-1945. https://www.archontology.org/nations/hungary/00_1919_45_s.php"
+  - id: hu_teleki
+    name: gróf széki Teleki Pál János Ede
+    office: Hungarian Royal Prime Minister
+    state: hungary
+    from_date: 1939-02-16
+    to_date: 1941-04-03
+    source: "Archontology, Hungary Heads of Government 1919-1945. https://www.archontology.org/nations/hungary/00_1919_1945_g.php"
+  - id: yu_petar_ii
+    name: Petar II
+    office: King of Yugoslavia
+    state: yugoslavia
+    from_date: 1934-10-09
+    to_date: 1941-04-17
+    note: "A minor on this date. The page seats three royal regents for the same span."
+    source: "Archontology, Yugoslavia Kings 1918-1941. https://www.archontology.org/nations/yugoslavia/00_1918_41_s.php"
+  - id: yu_pavle
+    name: knez Pavle Arsenović Karađorđević
+    office: Royal Regent
+    state: yugoslavia
+    from_date: 1934-10-11
+    to_date: 1941-03-27
+    source: "Archontology, Yugoslavia Kings 1918-1941, regents during the minority of Petar II."
+  - id: yu_stankovic
+    name: Radenko Stanković
+    office: Royal Regent
+    state: yugoslavia
+    from_date: 1934-10-11
+    to_date: 1941-03-27
+    source: "Archontology, Yugoslavia Kings 1918-1941, regents during the minority of Petar II."
+  - id: yu_perovic
+    name: Ivo N. Perović
+    office: Royal Regent
+    state: yugoslavia
+    from_date: 1934-10-11
+    to_date: 1941-03-27
+    source: "Archontology, Yugoslavia Kings 1918-1941, regents during the minority of Petar II."
+  - id: al_viktor_emanueli
+    name: Viktor Emanueli III
+    office: King of Italy and Albania, Emperor of Ethiopia
+    state: albania
+    from_date: 1939-04-16
+    to_date: 1943-09-03
+    source: "Archontology, Albania Heads of State 1939-1944. https://www.archontology.org/nations/albania/00_1939_1944_s.php"
+  - id: pt_carmona
+    name: Óscar Carmona
+    office: Presidente da República
+    state: portugal
+    from_date: 1935-04-15
+    to_date: 1951-04-18
+    source: "Archontology, Portugal Heads of State 1910-1974. https://www.archontology.org/nations/portugal/port010/"
+  - id: pt_salazar
+    name: António Salazar
+    office: Presidente do Conselho de Ministros
+    state: portugal
+    from_date: 1933-04-11
+    to_date: 1968-09-27
+    source: "Archontology, Portugal Heads of Government 1910-1974. https://www.archontology.org/nations/portugal/port015/"
+  - id: ie_hyde
+    name: Dubhghlas de hÍde
+    also: Douglas Hyde
+    office: President of Ireland
+    state: ireland
+    from_date: 1938-06-25
+    to_date: 1945-06-24
+    source: "Archontology, Ireland Heads of State 1937-2026. https://www.archontology.org/nations/eire/eire_rep2/"
+  - id: ie_de_valera
+    name: Éamonn de Bhailéara
+    also: Eamon de Valera
+    office: Taoiseach
+    state: ireland
+    from_date: 1937-12-29
+    to_date: 1948-02-18
+    source: "Archontology, Ireland Heads of Government 1937-2026. https://www.archontology.org/nations/eire/eire_govt/"
+  - id: ch_etter
+    name: Philipp Etter
+    office: President of the Confederation
+    state: switzerland
+    from_date: 1939-01-01
+    to_date: 1939-12-31
+    source: "Archontology, Switzerland Heads of State 1901-2000. https://www.archontology.org/nations/switzerland/00_1901_2000_s.php"
+  - id: tr_inonu
+    name: Mustafa İsmet İnönü
+    office: President
+    state: turkey
+    from_date: 1938-11-11
+    to_date: 1945-01-15
+    source: "Archontology, Turkey Heads of State 1923-2026. https://www.archontology.org/nations/turkey/00_1923_td_s.php"
+
+absent_on_as_of:
+  - state: czechoslovakia
+    reason: "Last listed president, Emil Dominik Josef Hácha, ends 15 Mar 1939. No later head of state on that page. No protectorate page on the Czechoslovakia index."
+    source: "https://www.archontology.org/nations/czechoslovakia/00_1918_39_s.php"
+  - state: austria
+    reason: "Wilhelm Miklas ends 13 Mar 1938. Arthur Seyss-Inquart is listed for 13 Mar 1938 only. No head of state on 1 Sep 1939 on that page."
+    source: "https://www.archontology.org/nations/austria/au_rep1/"
+
+plants: []
+stocks: []
+units:
+  - id: uk_armed_forces_1939_09
+    state: united_kingdom
+    as_of: 1939-09-30
+    kind: strength
+    unit: thousands
+    total: 1270
+    royal_navy: 180
+    army: 897
+    royal_air_force: 193
+    note: "End of September 1939. Not 1 September. Thousands. Excludes men locally enlisted abroad. Royal Navy includes T.124 agreements, Royal Marine Police, and, up to June 1941, prisoners-of-war and missing. Army includes the India Unattached List and excludes the British Indian Service. Women's auxiliaries are not in these four cells. Not a formation. Not an order of battle."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 10, Strength of the Armed Forces and Women's Auxiliary Services of the United Kingdom, end of month, thousands. Source line: Service Departments. https://wellcomecollection.org/works/fezqxdjh"
+orders: []
+weapons: []
+cells: []
+cell_catalogs:
+  - ../cells/bartholomew_1939.yaml
+series:
+  - id: be_pig_iron_1939
+    state: belgium
+    good: pig_iron_including_ferro_alloys
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 3068200
+    unit: metric_tons
+    per_360_t: 8522
+    remainder_t: 280
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of pig iron (including ferro-alloys), 1935-39, by countries. Printed page 562. Belgium 1939 column 3,068,200. No estimate mark. https://archive.org/details/pub_usgov-minerals-yearbook_1940"
+  - id: nl_pig_iron_1939
+    state: netherlands
+    good: pig_iron_including_ferro_alloys
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 284004
+    unit: metric_tons
+    per_360_t: 788
+    remainder_t: 324
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, same table. Netherlands 1939 column 284,004. No estimate mark."
+  - id: ro_pig_iron_1939
+    state: romania
+    good: pig_iron_including_ferro_alloys
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 140000
+    unit: metric_tons
+    per_360_t: 388
+    remainder_t: 320
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, same table. Rumania 1939 column 140,000. No estimate mark."
+  - id: pt_iron_ore_1939
+    state: portugal
+    good: iron_ore
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 418
+    unit: metric_tons
+    per_360_t: 1
+    remainder_t: 58
+    note: "Full calendar year 1939. The 1938 cell on the same line is 2,519. The 1939 cell is printed 418. Not repaired."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of iron ore, 1935-39, by countries. Printed page 555. Portugal 1939 column 418. No estimate mark."
+  - id: ro_iron_ore_1939
+    state: romania
+    good: iron_ore
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 131992
+    unit: metric_tons
+    per_360_t: 366
+    remainder_t: 232
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, same iron-ore table. Rumania 1939 column 131,992. No estimate mark."
+  - id: yu_iron_ore_1939
+    state: yugoslavia
+    good: iron_ore
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 666863
+    unit: metric_tons
+    per_360_t: 1852
+    remainder_t: 143
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, same iron-ore table. Yugoslavia 1939 column 666,863. No estimate mark."
+  - id: yu_bauxite_1939
+    state: yugoslavia
+    good: bauxite
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_t: 314439
+    unit: metric_tons
+    per_360_t: 873
+    remainder_t: 159
+    note: "Full calendar year 1939. The chapter says France, Hungary, Italy, and Germany have no 1939 cell. Those stay empty."
+    source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of bauxite, 1935-39, by countries. Printed page 653. Yugoslavia 1939 column 314,439. No estimate mark."
+  - id: gb_coal_1939
+    state: great_britain
+    good: coal
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_united_kingdom: true
+    year: 1939
+    annual_thousand_tons: 231338
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_thousand_tons: 642
+    remainder_thousand_tons: 218
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date. Footnote 1 on the production column says Great Britain. Not the United Kingdom. Saleable mined coal on the same line is the same 231,338. Opencast is a dash, not a zero. Stocks on this table are end of period. The 1939 stock cells are end-1939. Not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 73, Coal: production, consumption and stocks. Printed page 75. Annual totals, 1939, production total 231,338 thousand tons. Footnote 1, printed page 76: Great Britain. Source line: Ministry of Fuel and Power. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_home_iron_ore_1939
+    state: united_kingdom
+    good: home_iron_ore
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_germany: true
+    year: 1939
+    annual_thousand_tons: 14486
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_thousand_tons: 40
+    remainder_thousand_tons: 86
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date. The 1939 consumption cell on the annual row is dots. Not repaired. Stocks on this table are end of period. The 1939 stock cells are end-1939. Not copied. The table does not say Great Britain. Introductory note 3, printed page v, says statistics relate to the United Kingdom of Great Britain and Northern Ireland except where otherwise stated. This table does not otherwise state. Not a Germany row."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 90, Iron ore and manganese ore. Printed page 101. Annual totals, 1939, home iron ore production 14,486 thousand tons. Footnote 3, printed page 102: production and consumption figures relate to calendar years for 1937, 1938 and 1939. Footnote 1: 1939 home ore is as charged, unlike 1937 and 1938. Source line: Ministry of Supply. Area: introductory note 3, printed page v. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_pig_iron_1939
+    state: united_kingdom
+    good: pig_iron_including_ferro_alloys
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_germany: true
+    year: 1939
+    annual_thousand_tons: 7980
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_thousand_tons: 22
+    remainder_thousand_tons: 60
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date. The same annual row prints hematite 1,396 and basic 5,108 under those production headings. Those are components of the total, not a second national total. The 1939 annual consumption total is dots. Not repaired. Annual stock cells for 1939 are dots. Not copied. Area is the United Kingdom by introductory note 3, printed page v. The table does not say Great Britain. Not a Germany row."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 91, Pig iron. Printed page 103. Annual totals, 1939, production total 7,980 thousand tons. Footnote 4, printed page 104: calendar years for 1937, 1938 and 1939. Footnote 1: including production of blast furnace ferro-alloys and other qualities of pig iron. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_steel_ingots_castings_1939
+    state: united_kingdom
+    good: steel_ingots_and_castings
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_germany: true
+    year: 1939
+    annual_thousand_tons: 13221
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_thousand_tons: 36
+    remainder_thousand_tons: 261
+    note: "Full calendar year 1939. Includes days after 1 Sep. Not the pile on that date. The alloy column on the 1939 annual row is dots. Not repaired. Scrap stocks on this table are end of period. The 1939 stock cell is end-1939. Not copied. Area is the United Kingdom by introductory note 3, printed page v. The table does not say Great Britain. Not a Germany row. Not a plant."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 92, Iron and steel scrap and steel ingots and castings. Printed page 105. Annual totals, 1939, steel ingots and castings production total 13,221 thousand tons. Introductory note 5, printed page v: except where stated to the contrary, statistics are calendar years ended 31 December. Page 106 footnotes do not state a contrary year for this production cell. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_aircraft_completed_1939
+    state: united_kingdom
+    good: aircraft
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_strength: true
+    not_an_order_of_battle: true
+    not_germany: true
+    year: 1939
+    annual_number: 7940
+    unit: number
+    per_360_number: 22
+    remainder_number: 20
+    medium_bombers: 758
+    light_bombers_and_fighters: 2403
+    general_reconnaissance: 61
+    naval_aircraft: 509
+    trainers_and_miscellaneous: 4209
+    note: "Completions during calendar year 1939. Not aircraft in service on 1 Sep. Not an order of battle. Heavy bombers and transport are dashes on the 1939 annual row. Not copied as zero. The five copied components sum to 7,940. The remainder after dividing by 360 is not a stock and not an airframe in being. Area is the United Kingdom by introductory note 3, printed page v. Not a Germany row."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 130, Aircraft: production by main groups. Printed page 152. Annual totals, 1939, total 7,940. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_coke_1939
+    state: great_britain
+    not_united_kingdom: true
+    good: coke
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_thousand_tons: 24226
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_thousand_tons: 67
+    remainder_thousand_tons: 106
+    at_coke_ovens: 14026
+    at_gas_works: 10200
+    note: "Calendar 1939 production. Not the pile on 1 Sep. Coke ovens 14,026 and gas works 10,200 sum to 24,226. They are components, not a second total. The 1939 annual stock cells are blank. Not copied. Footnote 1, printed page 84, says Great Britain. Not relabeled United Kingdom. Not estimated. Not preliminary."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 77, Coke. Printed page 83. Annual totals, 1939, production total 24,226 thousand tons. Footnote 1, printed page 84: Great Britain. Source line: Ministry of Fuel and Power. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_gas_made_1939
+    state: great_britain
+    not_united_kingdom: true
+    good: gas_made
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_cubic_feet: 319062
+    unit: million_cubic_feet
+    per_360_million_cubic_feet: 886
+    remainder_million_cubic_feet: 102
+    coal_gas: 284570
+    water_gas: 27489
+    other_gas: 7003
+    note: "Gas made, not gas available. Coal gas 284,570, water gas 27,489, and other gas 7,003 sit under those headings and sum to 319,062. They are components, not a second total. Gas bought from coke ovens is 33,010 and is not production. Total gas available is 1,655 million therms and 352,072 million cubic feet. Bought plus gas made equals that cubic-feet total. The therms column was not copied as a second series. The table title says Great Britain. Not relabeled."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 79, Gas. Printed page 85. Annual totals, 1939, gas made total 319,062 million cubic feet. Source line: Ministry of Fuel and Power. https://wellcomecollection.org/works/fezqxdjh"
+  - id: gb_electricity_generated_1939
+    state: great_britain
+    not_united_kingdom: true
+    good: electricity_generated
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_units: 27733
+    unit: million_kilowatt_hours
+    per_360_million_units: 77
+    remainder_million_units: 13
+    public_authorities: 14340
+    companies: 12069
+    railway_and_transport: 1324
+    steam: 26578
+    oil: 51
+    gas_engines: 3
+    water: 982
+    destructor_and_waste_heat: 119
+    note: "Generated, not sold. Public authorities 14,340, companies 12,069, and railway and transport 1,324 sum to 27,733. Steam 26,578, oil engines 51, gas engines 3, water power 982, and destructor 119 also sum to 27,733. Those are two splits of the same total, not a second total. A first draft put 14,340 under steam. That was the public-authorities cell. Corrected from the same page. Table 82 sales are marked estimates. Not copied. The table title says Great Britain. Not relabeled."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 81, Electricity generated. Printed page 86. Annual totals, 1939, total generated 27,733 million units. Source line: Ministry of Fuel and Power. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_finished_steel_products_1939
+    state: united_kingdom
+    good: finished_steel_products
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_total: true
+    year: 1939
+    unit: thousand_tons
+    ton_defined_on_page: false
+    wrought_iron_total: 355
+    forge_production: 199
+    bright_steel_bars: 140
+    heavy_rails_and_sleepers: 395
+    heavy_and_medium_plates: 1430
+    shell_steel: 111
+    light_rolled_products: 2909
+    cold_rolled_strip: 110
+    sheets_coated_and_uncoated: 1649
+    tin_terne_and_black_plates: 919
+    tubes_pipes_and_fittings: 675
+    steel_castings: 159
+    wire: 583
+    tyres_wheels_and_axles: 131
+    note: "Calendar 1939. Footnote 1 says production figures for 1935 to 1939 are calendar years. The page prints no 1939 total for these rows. They were not summed. Forge 199 is a component of wrought iron, not a second national total. Finishing mills was read as 140 and as 156. Not copied. Armour was read as 71 and as 2,007. Not copied. Estimated marker 5 sits on 1938 cells, not on these 1939 cells. Iron castings, billets, sheet bars, and steel forgings are dots in 1939. Not repaired. Net deliveries and stocks are dots in 1939. Not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 93, Semi-finished and finished iron and steel. Printed page 107. 1939 column. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_virgin_aluminium_1939
+    state: united_kingdom
+    good: virgin_aluminium
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_thousand_tons: 24.96
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_tons: 69
+    remainder_tons: 120
+    note: "24.96 thousand tons is 24,960 tons. Dividing the tons by 360 gives 69, remainder 120. Secondary aluminium is dots. Not repaired. Stocks are dots and are end of period. Not copied. Footnotes on printed page 111 do not mark this cell estimated or Great Britain. Area is the United Kingdom by note 3."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 96, Aluminium. Printed page 110. Annual totals, 1939, virgin aluminium production 24.96 thousand tons. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_sulphuric_acid_1939
+    state: united_kingdom
+    good: sulphuric_acid
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_thousand_tons: 1119.6
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_tons: 3110
+    remainder_tons: 0
+    note: "1,119.6 thousand tons is 1,119,600 tons. Dividing by 360 gives 3,110, remainder 0. Footnote 5: as 100 per cent acid. Government factories are included from 1941, so this cell is the earlier basis. Stocks are end of year. Not copied. Not estimated."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, Chemicals. Printed page 119. 1939, sulphuric acid production 1,119.6 thousand tons. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_spent_oxide_1939
+    state: united_kingdom
+    good: spent_oxide
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_thousand_tons: 155.4
+    unit: thousand_tons
+    ton_defined_on_page: false
+    per_360_tons: 431
+    remainder_tons: 240
+    note: "155.4 thousand tons is 155,400 tons. Dividing by 360 gives 431, remainder 240. Footnote 3: arrivals of home-produced materials at acid works. The page heading is production. Stocks are end of year. Not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, Chemicals. Printed page 119. 1939, spent oxide production 155.4 thousand tons. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_industrial_alcohol_1939
+    state: united_kingdom
+    good: industrial_alcohol
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_bulk_gallons: 29.88
+    unit: million_bulk_gallons
+    per_360_gallons: 83000
+    remainder_gallons: 0
+    note: "29.88 million bulk gallons is 29,880,000 gallons. Dividing by 360 gives 83,000, remainder 0. Footnote 1: ethyl alcohol as 68 over proof spirit. Not converted. Stocks are end of year. Not copied. Methanol, urea, and nitric acid production are dots in 1939. Not repaired."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, Chemicals. Printed page 119. 1939, industrial alcohol production 29.88 million bulk gallons. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_methylated_spirit_1939
+    state: united_kingdom
+    good: industrial_methylated_spirit
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_bulk_gallons: 9.40
+    unit: million_bulk_gallons
+    per_360_gallons: 26111
+    remainder_gallons: 40
+    note: "9.40 million bulk gallons is 9,400,000 gallons. Dividing by 360 gives 26,111, remainder 40. Not converted. Stocks cell is dots. Not repaired."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 101, Chemicals. Printed page 119. 1939, industrial methylated spirit production 9.40 million bulk gallons. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_small_arms_completed_1939
+    state: united_kingdom
+    good: small_arms
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_weapon_trial: true
+    year: 1939
+    unit: number
+    rifles_303: 34416
+    anti_tank_rifles: 9603
+    machine_guns_303: 16405
+    afv_machine_guns: 1838
+    pistols_38: 13437
+    note: "Completions in calendar 1939. Not weapons in hand on 1 Sep. Not a trial. Machine carbines are a dash. Not copied as zero. Each annual cell equals its four 1939 quarter cells. Rifles 34,416 is 95 a sim-day, remainder 216. Anti-tank rifles 9,603 is 26, remainder 243. Machine guns 16,405 is 45, remainder 205. AFV machine guns 1,838 is 5, remainder 38. Pistols 13,437 is 37, remainder 117. Remainders are not weapons in being."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 122, Small arms. Printed page 144. Annual totals, 1939. Footnote 1: all services. Footnote 3, year ended 31 March, is on the 1936/37 row, not on 1939. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_armoured_vehicles_completed_1939
+    state: united_kingdom
+    good: armoured_fighting_vehicles
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_strength: true
+    year: 1939
+    tanks_number: 969
+    carriers_number: 1920
+    note: "United Kingdom production column. Not supplies from overseas. Those cells are dashes. Not copied as zero. Tank number 969 equals 145+394+116+314. That is 2 a sim-day, remainder 249. Carriers 1,920 equal 406+514+367+633. That is 5 a sim-day, remainder 120. Tank weight 7.44 does not equal the quarter sum 7.45. Not copied. Not a strength."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 126, Armoured fighting vehicles. Printed page 148. Annual totals, 1939, United Kingdom production. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_other_weapons_completed_1939
+    state: united_kingdom
+    good: other_weapons
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_weapon_trial: true
+    year: 1939
+    livens_projectors: 1150
+    mortars: 2822
+    note: "Only the cells that sit alone on the 1939 line. Livens 1,150 is 3 a sim-day, remainder 70. Mortars 2,822 is 7 a sim-day, remainder 302. Smoke dischargers are braced with 1938. Not copied. Flame throwers are a dash on the 1939 line. The 554 is on the 1940 line. Not copied. Other 1939 cells are dashes. Not copied as zero."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 121, Other weapons. Printed page 143. 1939 row. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_aircraft_engines_completed_1939
+    state: united_kingdom
+    good: aircraft_engines
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_strength: true
+    year: 1939
+    annual_number: 12499
+    unit: number
+    per_360_number: 34
+    remainder_number: 259
+    thousand_horsepower: 8340
+    note: "Piston production. Horsepower is the same output in another unit, not a second count of engines. 8,340 thousand horsepower is 23 a sim-day, remainder 60. Quarters sum to both figures. Imports are dots. Turbine production is a dash. Not copied as zero. Not airframes. Not a strength."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 134, Aircraft engines. Printed page 155. Annual totals, 1939, piston production number 12,499. Source line: Ministry of Supply. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_agricultural_machinery_1939
+    state: united_kingdom
+    good: agricultural_machinery
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    unit: number
+    tractors: 15733
+    mouldboard_ploughs: 16665
+    disc_harrows: 2108
+    cultivators_or_grubbers: 7668
+    toolbars: 1734
+    corn_drills: 664
+    mowing_machines: 5387
+    binders: 708
+    threshing_machines: 489
+    potato_spinners: 1253
+    note: "Calendar 1939 production. Not machines in hand on 1 Sep. Tractor types 30, 211, 14,632, and 860 sum to 15,733. Plough types 9,541 and 7,124 sum to 16,665. Those are components, not second totals. Tractors are 43 a sim-day, remainder 253. Ploughs are 46 a sim-day, remainder 105. Milking machines are dots. Not repaired. Area is the United Kingdom by note 3."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 138, Agricultural machinery. Printed page 158. 1939 column. Source line: Ministry of Agriculture and Fisheries. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_pitwood_1939
+    state: united_kingdom
+    good: pitwood
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_thousand_standards: 597.49
+    unit: thousand_standards
+    standard_defined_on_page: "Gothenburg standards of 180 piled cubic feet"
+    per_360_standards: 1659
+    remainder_standards: 250
+    note: "597.49 thousand standards is 597,490 standards. Dividing by 360 gives 1,659, remainder 250. Sawn trade 132.40, Home Timber Production Department sawn 4.16, round trade 305.62, and round department 155.31 sum to 597.49. They are components, not a second total. Consumption is not production. Stocks are end of period. Not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 98, Pitwood and plywood. Printed page 114. Annual totals, 1939, production of pitwood total 597.49 thousand standards. Footnote 1, printed page 115: Gothenburg standards of 180 piled cubic feet. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_plywood_1939
+    state: united_kingdom
+    good: plywood
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_total: true
+    year: 1939
+    unit: million_square_feet
+    constructional: 4.42
+    technical: 9.96
+    note: "Two production columns. The page prints no combined total. They were not summed. 4.42 million square feet is 4,420,000 square feet, 12,277 a sim-day, remainder 280. 9.96 million square feet is 9,960,000 square feet, 27,666 a sim-day, remainder 240. Consumption and end-of-period stocks were not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 98, Pitwood and plywood. Printed page 114. Annual totals, 1939, constructional plywood production 4.42 million square feet, technical plywood production 9.96 million square feet. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_rayon_1939
+    state: united_kingdom
+    good: rayon
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    not_a_total: true
+    year: 1939
+    unit: million_lb
+    continuous_filament: 111.0
+    staple_fibre: 58.8
+    note: "Two production columns. Not summed. 111.0 million lb is 111,000,000 lb, 308,333 a sim-day, remainder 120. 58.8 million lb is 58,800,000 lb, 163,333 a sim-day, remainder 120. Spun rayon is dots. Not repaired. Footnote 1 on printed page 129 is about looms running and about 1944 and 1945 averages. It does not mark these cells estimated."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 107, Rayon, rayon yarn and woven fabrics. Printed page 128. Annual totals, 1939. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_cotton_woven_fabrics_1939
+    state: united_kingdom
+    good: cotton_woven_fabrics
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_linear_yards: 2150
+    unit: million_linear_yards
+    per_360_linear_yards: 5972222
+    remainder_linear_yards: 80
+    note: "2,150 million linear yards is 2,150,000,000 linear yards. Dividing by 360 gives 5,972,222, remainder 80. Not converted to square yards. Rayon and mixture fabrics are dots. Not repaired."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 107, Rayon, rayon yarn and woven fabrics. Printed page 128. Annual totals, 1939, woven fabrics, cotton, 2,150 million linear yards. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+  - id: uk_raw_wool_1939
+    state: united_kingdom
+    good: raw_wool
+    kind: national_output
+    not_a_plant: true
+    not_a_stock: true
+    year: 1939
+    annual_million_lb: 111
+    unit: million_lb
+    weight_on_page: actual
+    per_360_lb: 308333
+    remainder_lb: 120
+    note: "111 million lb actual weight is 111,000,000 lb. Dividing by 360 gives 308,333, remainder 120. The title says calendar years. Footnote 1, the 52-week exception, is for wool tops, and that 1939 cell is dots. Estimated clean weight is a separate row. Not copied. The 1939 stock cell was not kept under its heading on one read. Not copied."
+    source: "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951. Table 108, Wool and silk. Printed page 130. 1939, raw wool production, actual weight, 111 million lb. Source line: Board of Trade. https://wellcomecollection.org/works/fezqxdjh"
+
+omitted:
+  - plants
+  - stocks
+  - orders
+  - weapons
+  - cells
+  - formations
+  - war_calibration_series
+  - generals
+  - heads_of_government_not_on_an_opened_page
+
+named_empty:
+  cells: "No cell was measured. The coast was not drawn. NLS Map Area C16(360) did not open. The page asked for a human check. That check was not clicked. Two other sheets were opened. National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939, prints Scale 1:5,000,000 or 78.91 miles to the inch. The statute-mile bar is labeled 100, 50, 0, 100, 200, 300. The kilometer bar is labeled 100, 50, 0, 100, 200, 300. Conic projection, standard parallels 34 and 53 degrees. Imprint Washington, October 1939. Fortune, Europe 1939, a map by Harrison, prints a mile bar labeled 0, 50, 100, 200, 300, 400 and a kilometer bar with the same labels. A scale is not a coast."
+  stocks: "No pile dated on or before 1939-09-01. Digest tables 73, 75, and 77 date the pile at the end of the period. The earliest monthly stock row is September 1939, after 1 September. USSBS OCR has no commodity on the same line as a number dated on or before that day."
+  links: "No cited road or rail names a plant node. A plant with no open link is refused. continent_stocks is not a substitute."
+  labor: "No row states a count, a skill, a place, and a date. USSBS table 25, construction employment on 17 May 1939, is a headcount. It is not a skill at a munitions plant."
+  formations: "uk_armed_forces_1939_09 is a strength count at the end of September 1939. It does not spawn a unit. League of Nations, Armaments Year-Book, Official No. C.228.M.155.1939.IX, Germany chapter: official documents include no effectives. The unofficial end-of-1938 estimate was not copied. Poland says about 300,000 and gives no date. Not copied. The German navy list is dated August 1939. The columns do not line up. Not copied."
+  plants: "No 1939 plant rate with speaker, place, and date. A 1944 or 1945 rate is not a 1939 cap."
+  weapons: "No published number. No cited trial."
+  orders: "No cited order for 1 September 1939."
+  generals: "No page states name, office, and tenure together."
+  straits: "catalogs/straits.yaml strings are not locators."

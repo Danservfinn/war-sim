@@ -1,0 +1,13 @@
+factions:
+  europe:
+    continent: europe
+    food_t: 100
+    food_burn_t: 0
+    stockpile: {rifle: 20}
+    surrender_hold_days: 1
+  africa:
+    continent: africa
+    food_t: 100
+    food_burn_t: 0
+    stockpile: {}
+    surrender_hold_days: 1

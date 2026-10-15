@@ -1,0 +1,6 @@
+id: europe_1939
+viewer_side: germany
+goods_cross: false
+catalog: scenarios/europe_1939/plants.yaml
+year_states:
+  - ../../catalogs/year_states/europe_1939.yaml

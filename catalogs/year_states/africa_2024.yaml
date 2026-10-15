@@ -1,0 +1,525 @@
+# Africa year-state. The year is the year of the steel citations. "Modern" is a label, not a field.
+# The loader reads this file only when scenario.yaml lists the path.
+# After that load the tick has no civil_year. A national output is not a plant.
+# A national output is not a plant. A group total is not a plant cap.
+# Remainder after dividing by 360 is not a stock.
+
+id: africa_2024
+label: modern
+civil_year: 2024
+as_of: 2024-12-31
+collection_status: closed
+goods_cross: false
+as_of_source: "worldsteel Table 3 covers calendar year 2024. Press release dated 24 January 2025. https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/"
+
+leaders:
+  - id: za_ramaphosa
+    name: Matamela Cyril Ramaphosa
+    office: President of the Republic of South Africa
+    state: south_africa
+    from_date: 2018-02-15
+    to_date:
+    note: "The page does not state an end. Last update 8 May 2025, after the steel year."
+    source: "Archontology, South Africa Heads of State 1994-2026. https://www.archontology.org/nations/south_africa/00_1994_td_s.php"
+  - id: eg_sisi
+    name: ʿAbd al-Fattāḥ Saʿīd Ḥusayn Khalīl al-Sīsī
+    office: President of the Republic
+    state: egypt
+    from_date: 2014-06-08
+    to_date:
+    note: "The page does not state an end. Last update 8 May 2025."
+    source: "Archontology, Egypt Heads of State 1961-2026. https://www.archontology.org/nations/egypt/00_1961_td_s.php"
+  - id: dz_tabun
+    name: ʿAbd al-Majīd Tabūn
+    office: President of the Republic
+    state: algeria
+    from_date: 2019-12-19
+    to_date:
+    note: "The page does not state an end. Last update 8 May 2025."
+    source: "Archontology, Algeria Heads of State 1962-2026. https://www.archontology.org/nations/algeria/00_1962_td_s.php"
+  - id: ma_muhammad_vi
+    name: Muḥammad ibn al-Ḥasan
+    also: Muḥammad VI
+    office: Malik al-Maghrib, Amīr al-Muʾminīn
+    state: morocco
+    from_date: 1999-07-23
+    to_date:
+    note: "The page does not state an end. Last update 8 May 2025."
+    source: "Archontology, Morocco Heads of State 1957-2026. https://www.archontology.org/nations/morocco/00_1957_td_s.php"
+  - id: ng_tinubu
+    name: Bola Ahmed Tinubu
+    office: President, Commander-in-Chief of the Armed Forces of the Federal Republic of Nigeria
+    state: nigeria
+    from_date: 2023-05-29
+    to_date:
+    note: "The page does not state an end. Last update 14 Oct 2025."
+    source: "Archontology, Nigeria Heads of State 1963-2026. https://www.archontology.org/nations/nigeria/00_1963_td_s.php"
+  - id: ke_ruto
+    name: William Samoei Ruto
+    office: President of the Republic of Kenya and Commander-in-Chief of the Defence Forces
+    state: kenya
+    from_date: 2022-09-13
+    to_date:
+    note: "The page does not state an end. Last update 27 Sep 2025."
+    source: "Archontology, Kenya Heads of State 1964-2026. https://www.archontology.org/nations/kenya/00_1964_td_s.php"
+
+  - id: ao_lourenco
+    name: "João Manuel Gonçalves Lourenço"
+    office: "Presidente da República"
+    state: angola
+    from_date: 2017-09-26
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Angola: Heads of State: 1975-2026. https://www.archontology.org/nations/angola/00_1975_td_s.php"
+  - id: bj_talon
+    name: "Patrice Athanase Guillaume Talon"
+    office: "Président de la République"
+    state: benin
+    from_date: 2016-04-06
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Benin: Heads of State: 1958-2026. https://www.archontology.org/nations/benin/00_1958_td_s.php"
+  - id: bw_boko
+    name: "Duma Gideon Boko"
+    office: "President of the Republic of Botswana"
+    state: botswana
+    from_date: 2024-11-01
+    to_date: 
+    note: "The page does not state an end. Last update 26 Sep 2025. Footnote 2: oath at a private ceremony on 1 Nov 2024. Second swearing-in on 8 Nov 2024. The term line starts 1 Nov 2024."
+    source: "Botswana: Heads of State: 1966-2026. https://www.archontology.org/nations/botswana/00_1966_td_s.php"
+  - id: bf_traore
+    name: "Ibrahim Traore"
+    office: "Président de la Transition, Chef de l'État"
+    state: burkina_faso
+    from_date: 2022-10-21
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Burkina: Heads of State: 1959-2026. https://www.archontology.org/nations/burkina_faso/00_1959_td_s.php"
+  - id: bi_ndayishimiye
+    name: "Évariste Ndayishimiye"
+    office: "Umukuru w'Igihugu = Président de la République"
+    state: burundi
+    from_date: 2020-06-18
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Burundi: Heads of State: 1966-2026. https://www.archontology.org/nations/burundi/00_1966_td_s.php"
+  - id: cv_neves
+    name: "José Maria Pereira Neves"
+    office: "Presidente da República"
+    state: cabo_verde
+    from_date: 2021-11-09
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Cabo Verde: Heads of State: 1975-2026. https://www.archontology.org/nations/cabo_verde/00_1975_td_s.php"
+  - id: cm_biya
+    name: "Paul Biya"
+    office: "Président de la République = (from 1 Oct 1961) President of the Republic"
+    state: cameroon
+    from_date: 1982-11-06
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 2: original name Paul Barthélemy Biya'a Bi Mvondo. The office heading's parenthetical, from 1 Oct 1961, is a style date. It is not this term's start."
+    source: "Cameroon: Heads of State: 1960-2026. https://www.archontology.org/nations/cameroon/00_1960_td_s.php"
+  - id: cf_touadera
+    name: "Faustin-Archange Touadéra"
+    office: "Président de la République"
+    state: central_african_republic
+    from_date: 2016-03-30
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 4 on the office heading is a language note. It is not a second office."
+    source: "Central African Republic: Heads of State: 1958-2026. https://www.archontology.org/nations/cen_africa/00_1958_td_s.php"
+  - id: td_deby_itno
+    name: "Mahamat Idriss Déby Itno :: Muḥammad Idrīs Daybī Itnū ( محمد إدريس ديبي إتنو )"
+    office: "Président du Conseil Militaire de Transition, Président de la République :: Raʾīs al-Majlis al-ʿAskarī al-Intiqālī, Raʾīs al-Jumhūrīyah ( رئيس المجلس العسكري الانتقالي ,رئيس الجمهورية )"
+    state: chad
+    from_date: 2021-04-21
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Chad: Heads of State: 1958-2026. https://www.archontology.org/nations/chad/00_1958_td_s.php"
+  - id: km_assoumani
+    name: "Azali Assoumani = Ghazālī ʿUthmānī ( غزالي عثماني )"
+    office: "Président de l'Union = Raʼīs al-Ittiḥād ( رئيس الاتحاد ) | President of the Union"
+    state: comoros
+    from_date: 2016-05-26
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Comoros: Heads of State: 1990-2026. https://www.archontology.org/nations/comoros/00_1990_td_s.php"
+  - id: cg_sassou
+    name: "Denis Sassou Nguesso"
+    office: "Président de la République"
+    state: congo_brazzaville
+    from_date: 1997-10-24
+    to_date: 
+    note: "The page does not state an end. Last update 19 Apr 2026."
+    source: "Congo (Brazzaville): Heads of State: 1958-2026. https://www.archontology.org/nations/congo_b/00_1958_td_s.php"
+  - id: cd_tshisekedi
+    name: "Félix-Antoine Tshisekedi Tshilombo"
+    office: "Président de la République"
+    state: congo_kinshasa
+    from_date: 2019-01-24
+    to_date: 
+    note: "The page does not state an end. Last update 13 Apr 2026."
+    source: "Congo (Kinshasa): Heads of State: 1960-2026. https://www.archontology.org/nations/congo_k/00_1960_td_s.php"
+  - id: ci_ouattara
+    name: "Alassane Dramane Ouattara"
+    office: "Président de la République"
+    state: cote_divoire
+    from_date: 2010-12-04
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Côte d'Ivoire: Heads of State: 1959-2026. https://www.archontology.org/nations/cote_divoire/00_1959_td_s.php"
+  - id: dj_guelleh
+    name: "Ismāʿīl ʿUmar Jīlihi ( إسماعيل عمر جيله ) = Ismail Omar Guelleh"
+    office: "Raʾīs al-Jumhūrīyah ( رئيس الجمهورية ) = Président de la République"
+    state: djibouti
+    from_date: 1999-05-08
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Djibouti: Heads of State: 1977-2026. https://www.archontology.org/nations/djibouti/00_1977_td_s.php"
+  - id: er_afwerki
+    name: "’Isayyas ’Afäwärqi = Īsāyās Afīwīrkī"
+    office: "yä’Erətra Prezidant = Ra’īs al-Dawla al-Irītriyā"
+    state: eritrea
+    from_date: 1993-05-24
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. The office line does not give an English gloss. None was added."
+    source: "Eritrea: Heads of State: 1993-2026. https://www.archontology.org/nations/eritrea/00_1993_td_s.php"
+  - id: sz_mswati_iii
+    name: "Mswati III (Makhosetive, Makhosimvelo)"
+    office: "King and iNgwenyama of Eswatini"
+    state: eswatini
+    from_date: 2018-05-17
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Eswatini: Heads of State: 1967-2026. https://www.archontology.org/nations/eswatini/00_1967_td_s.php"
+  - id: et_zewde
+    name: "Sahläwärq Zäwde"
+    office: "yä’Ityoṗṗya Federalawi Dimokrasiyawi Räpäblik Prezidant | President of the Federal Democratic Republic of Ethiopia"
+    state: ethiopia
+    from_date: 2018-10-25
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Ethiopia: Heads of State: 1987-2026. https://www.archontology.org/nations/ethiopia/00_1987_td_s.php"
+  - id: ga_oligui
+    name: "Brice Clotaire Oligui Nguema"
+    office: "Président de la Transition"
+    state: gabon
+    from_date: 2023-09-04
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Gabon: Heads of State: 1959-2026. https://www.archontology.org/nations/gabon/00_1959_td_s.php"
+  - id: gm_barrow
+    name: "Adama Barrow"
+    office: "President of The Gambia"
+    state: gambia
+    from_date: 2017-01-19
+    to_date: 
+    note: "The page does not state an end. Last update 10 Jul 2025. Footnote 6: oath in the embassy of The Gambia in Dakar on 19 Jan 2017. Returned 26 Jan 2017. Oath again in Bakau on 18 Feb 2017. The term line starts 19 Jan 2017. The previous term is listed to 21 Jan 2017. That overlap is at the start. It is not on 31 Dec 2024."
+    source: "Gambia (The): Heads of State: 1970-2026. https://www.archontology.org/nations/gambia/00_1970_td_s.php"
+  - id: gh_akufo_addo
+    name: "Nana Addo Dankwa Akufo-Addo"
+    office: "President of the Republic of Ghana"
+    state: ghana
+    from_date: 2017-01-07
+    to_date: 
+    note: "The page does not state an end. Last update 27 Sep 2025."
+    source: "Ghana: Heads of State: 1960-2026. https://www.archontology.org/nations/ghana/00_1960_td_s.php"
+  - id: gn_doumbouya
+    name: "Mamadi Doumbouya"
+    office: "Président de la Transition, Chef de l'État"
+    state: guinea
+    from_date: 2021-09-27
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 6: designated President de la Transition by the Charter of Transition, effective on signing 27 Sep 2021. Oath on 1 Oct 2021. The term line starts 27 Sep 2021."
+    source: "Guinea: Heads of State: 1958-2026. https://www.archontology.org/nations/guinea/00_1958_td_s.php"
+  - id: gw_embalo
+    name: "Úmaro Sissoco Embaló"
+    office: "Presidente da República"
+    state: guinea_bissau
+    from_date: 2020-02-27
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 4 names an interim president in opposition, 28 Feb 2020 to 1 Mar 2020. That span does not cover 31 Dec 2024."
+    source: "Guinea-Bissau: Heads of State: 1973-2026. https://www.archontology.org/nations/guinea_bissau/00_1973_td_s.php"
+  - id: gq_obiang
+    name: "Teodoro Obiang Nguema Mbasogo"
+    office: "Presidente de la República de Guinea Ecuatorial = Président de la République de Guinée Équatoriale"
+    state: equatorial_guinea
+    from_date: 1982-10-12
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 2: from 21 Jan 1998 Francais is an official language. It is not a second office."
+    source: "Equatorial Guinea: Heads of State: 1968-2026. https://www.archontology.org/nations/guinea_eq/00_1968_td_s.php"
+  - id: ls_letsie_iii
+    name: "Letsie III personal name: David Mohato Bereng Seeiso"
+    office: "King of Lesotho"
+    state: lesotho
+    from_date: 1996-02-07
+    to_date: 
+    note: "The page does not state an end. Last update 05 Oct 2025."
+    source: "Lesotho: Kings: 1966-2026. https://www.archontology.org/nations/lesotho/00_1966_td_s.php"
+  - id: lr_weah
+    name: "George Manneh Weah"
+    office: "President of the Republic of Liberia"
+    state: liberia
+    from_date: 2018-01-22
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Liberia: Heads of State: 1980-2026. https://www.archontology.org/nations/liberia/00_1980_td_s.php"
+  - id: mg_rajoelina
+    name: "Andry Nirina Rajoelina"
+    office: "Filohan’ny Repoblika | President of the Republic"
+    state: madagascar
+    from_date: 2019-01-19
+    to_date: 
+    note: "The page does not state an end. Last update 20 Oct 2025. Footnote 2 on the office heading says Prezidan'ny Repoblika is in occasional official use. It is not a second chair."
+    source: "Madagascar: Heads of State: 1958-2026. https://www.archontology.org/nations/madagascar/00_1958_td_s.php"
+  - id: mw_chakwera
+    name: "Lazarus McCarthy Chakwera"
+    office: "President of the Republic of Malawi"
+    state: malawi
+    from_date: 2020-06-28
+    to_date: 2025-10-04
+    note: "The page states the end. Last update 11 Oct 2025."
+    source: "Malawi: Heads of State: 1966-2026. https://www.archontology.org/nations/malawi/00_1966_td_s.php"
+  - id: ml_goita
+    name: "Assimi Goïta"
+    office: "Président de la Transition"
+    state: mali
+    from_date: 2021-05-28
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Mali: Heads of State: 1958-2026. https://www.archontology.org/nations/mali/00_1958_td_s.php"
+  - id: mr_ghazouani
+    name: "Muḥammad walad al-Shaykh al-Ghazwānī ( محمد ولد الشيخ الغزواني )"
+    office: "Raʾīs al-Jumhūriyya ( رئيس الجمهورية ) | President of the Republic"
+    state: mauritania
+    from_date: 2019-08-01
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Mauritania: Heads of State: 1958-2026. https://www.archontology.org/nations/mauritania/00_1958_td_s.php"
+  - id: mu_roopun
+    name: "Prithvirajsing Roopun"
+    office: "President of the Republic of Mauritius"
+    state: mauritius
+    from_date: 2019-12-02
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Mauritius: Heads of State: 1992-2026. https://www.archontology.org/nations/mauritius/00_1992_td_s.php"
+  - id: mz_nyusi
+    name: "Filipe Jacinto Nyusi"
+    office: "Presidente da República"
+    state: mozambique
+    from_date: 2015-01-15
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 1 is about the 1975 constitution's two styles. This term starts in 2015. The office on the row is Presidente da Republica."
+    source: "Mozambique: Heads of State: 1975-2026. https://www.archontology.org/nations/mozambique/00_1975_td_s.php"
+  - id: na_mbumba
+    name: "Nangolo Mbumba"
+    office: "President of Namibia"
+    state: namibia
+    from_date: 2024-02-04
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Namibia: Heads of State: 1990-2026. https://www.archontology.org/nations/namibia/00_1990_td_s.php"
+  - id: ne_tiani
+    name: "Abdourahamane Tiani (Tchiani)"
+    office: "Président du Conseil national pour la sauvegarde de la Patrie, Chef de l'État"
+    state: niger
+    from_date: 2023-07-28
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. The previous term on the page ends 26 Jul 2023. This term starts 28 Jul 2023. The gap was not filled."
+    source: "Niger: Heads of State: 1958-2026. https://www.archontology.org/nations/niger/00_1958_td_s.php"
+  - id: rw_kagame
+    name: "Pawulo Kagame = Paul Kagame"
+    office: "Perezida wa Repubulika = Président de la République = President of the Republic"
+    state: rwanda
+    from_date: 2000-04-22
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Rwanda: Heads of State: 1961-2026. https://www.archontology.org/nations/rwanda/00_1961_td_s.php"
+  - id: st_vila_nova
+    name: "Carlos Manuel Vila Nova"
+    office: "Presidente da República"
+    state: sao_tome_and_principe
+    from_date: 2021-10-02
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Sao Tome and Principe: Heads of State: 1975-2026. https://www.archontology.org/nations/sao_tome/00_1975_td_s.php"
+  - id: sn_faye
+    name: "Bassirou Diomaye Diakhar Faye"
+    office: "Président de la République du Sénégal"
+    state: senegal
+    from_date: 2024-04-02
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Senegal: Heads of State: 1959-2026. https://www.archontology.org/nations/senegal/00_1959_td_s.php"
+  - id: sc_ramkalawan
+    name: "Wavel John Charles Ramkalawan"
+    office: "President of the Republic of Seychelles = Président de la République des Seychelles = Prezidan Larepiblik Sesel"
+    state: seychelles
+    from_date: 2020-10-26
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Seychelles: Heads of State: 1976-2026. https://www.archontology.org/nations/seychelles/00_1976_td_s.php"
+  - id: sl_bio
+    name: "Julius Maada Wonie Bio"
+    office: "President of the Republic of Sierra Leone"
+    state: sierra_leone
+    from_date: 2018-04-04
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Sierra Leone: Heads of State: 1971-2026. https://www.archontology.org/nations/sierra_leone/00_1971_td_s.php"
+  - id: so_hassan_sheikh
+    name: "Xasan Sheekh Maxamuud = Ḥasan al-Shaykh Maḥmūd"
+    office: "Madaxweynaha Jamhuuriyadda Federaalka Soomaaliya | President of the Federal Republic of Somalia"
+    state: somalia
+    from_date: 2022-05-23
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. Footnote 4: elected by the Parliament and took the oath on 15 May 2022. Handover ceremony on 23 May 2022. The term line starts 23 May 2022."
+    source: "Somalia: Heads of State: 2000-2026. https://www.archontology.org/nations/somalia/00_2000_td_s.php"
+  - id: sd_burhan
+    name: "ʿAbd al-Fattāḥ al-Burhān ʿAbd al-Raḥmān ( عبد الفتاح البرهان عبد الرحمن )"
+    office: "Raʾīs al-Majlis al-Siyāda al-Intiqālī ( رئيس لمجلس السيادة الإنتقالي ) | President of the Transitional Sovereignty Council"
+    state: sudan
+    from_date: 2021-11-11
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Sudan (The): Heads of State: 1989-2026. https://www.archontology.org/nations/sudan/00_1989_td_s.php"
+  - id: tz_hassan
+    name: "Samia Suluhu Hassan"
+    office: "Rais wa Jamhuri ya Muungano :: President of the United Republic"
+    state: tanzania
+    from_date: 2021-03-17
+    to_date: 
+    note: "The page does not state an end. Last update 12 Oct 2025. Footnote 2: the term commenced on 17 Mar 2021. The oath was on 19 Mar 2021. The term line starts 17 Mar 2021."
+    source: "Tanzania: Heads of State: 1964-2026. https://www.archontology.org/nations/tanzania/00_1964_td_s.php"
+  - id: tg_gnassingbe
+    name: "Faure Essozimna Gnassingbé"
+    office: "Président de la République"
+    state: togo
+    from_date: 2005-05-04
+    to_date: 2025-05-03
+    note: "The page states the end. Last update 22 Oct 2025."
+    source: "Togo: Heads of State: 1956-2026. https://www.archontology.org/nations/togo/00_1956_td_s.php"
+  - id: tn_saied
+    name: "Qays bin al-Munṣif bin Muḥammad Suʿayyid ( قيس بن المنصف بن محمد سعيّد )"
+    office: "Raʾīs al-Jumhūriyya ( رئيس الجمهورية ) | President of the Republic"
+    state: tunisia
+    from_date: 2019-10-23
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025."
+    source: "Tunisia: Heads of State: 1957-2026. https://www.archontology.org/nations/tunisia/00_1957_td_s.php"
+  - id: ug_museveni
+    name: "Yoweri Kaguta Museveni"
+    office: "President of Uganda"
+    state: uganda
+    from_date: 1986-01-29
+    to_date: 
+    note: "The page does not state an end. Last update 28 Sep 2025."
+    source: "Uganda: Heads of State: 1963-2026. https://www.archontology.org/nations/uganda/00_1963_td_s.php"
+  - id: eh_ghali
+    name: "Ibrāhīm Ghālī ( إبراهيم غالي )"
+    office: "Raʾīs al-Dawlah ( رئيس الدولة ) | Head of State"
+    state: western_sahara
+    from_date: 2016-07-12
+    to_date: 
+    note: "The page does not state an end. Last update 08 May 2025. The page titles the polity Western Sahara. It does not state a recognition. None was added."
+    source: "Western Sahara: Heads of State: 1976-2026. https://www.archontology.org/nations/western_sahara/00_1976_td_s.php"
+  - id: zm_hichilema
+    name: "Hakainde Hichilema"
+    office: "President of the Republic of Zambia"
+    state: zambia
+    from_date: 2021-08-24
+    to_date: 
+    note: "The page does not state an end. Last update 04 Oct 2025."
+    source: "Zambia: Heads of State: 1964-2026. https://www.archontology.org/nations/zambia/00_1964_td_s.php"
+  - id: zw_mnangagwa
+    name: "Emmerson Dambudzo Mnangagwa"
+    office: "President of Zimbabwe and Commander-in-Chief of the Defence Forces of Zimbabwe"
+    state: zimbabwe
+    from_date: 2017-11-24
+    to_date: 
+    note: "The page does not state an end. Last update 06 Oct 2025."
+    source: "Zimbabwe: Heads of State: 1980-2026. https://www.archontology.org/nations/zimbabwe/00_1980_td_s.php"
+
+plants_ref: catalogs/africa_capacity.yaml
+plants_note: "Five munition nameplates already cited in docs/africa-capacity.md. Not re-opened in this pass. Not copied here."
+
+# National crude steel, worldsteel Table 3, 2024 column. Million tonnes times 1,000,000.
+# Not a counted tonne. Not a plant. Rows marked (e) on that table are omitted.
+output:
+  - id: eg_crude_steel_2024
+    state: egypt
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    published: "10.7"
+    unit: million_tonnes
+    annual_t: 10700000
+    per_360_t: 29722
+    remainder_t: 80
+    remainder_is_stock: false
+    estimated: false
+    source: "worldsteel, 24 January 2025, Table 3, rank 19, 2024 column. Evidence line 275. https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals/"
+  - id: za_crude_steel_2024
+    state: south_africa
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    published: "4.7"
+    unit: million_tonnes
+    annual_t: 4700000
+    per_360_t: 13055
+    remainder_t: 200
+    remainder_is_stock: false
+    estimated: false
+    source: "worldsteel, 24 January 2025, Table 3, rank 29, 2024 column. Evidence line 325."
+  - id: dz_crude_steel_2024
+    state: algeria
+    good: crude_steel
+    kind: national_output
+    not_a_plant: true
+    published: "4.5"
+    unit: million_tonnes
+    annual_t: 4500000
+    per_360_t: 12500
+    remainder_t: 0
+    remainder_is_stock: false
+    estimated: false
+    source: "worldsteel, 24 January 2025, Table 3, rank 30, 2024 column. Evidence line 330."
+
+series:
+  - id: africa_six_crude_steel_2024
+    kind: group_total
+    not_a_plant: true
+    states: [algeria, egypt, libya, morocco, south_africa, tunisia]
+    published: "22.3"
+    unit: million_tonnes
+    period: 2024
+    annual_t: 22300000
+    per_360_t: 61944
+    remainder_t: 160
+    remainder_is_stock: false
+    note: "Six named countries. Not the continent. Libya, Morocco, and Tunisia are inside this total and are not published as their own rows on this page. Their residual is not computed."
+    source: "worldsteel, 24 January 2025, Table 1, Africa row, Jan-Dec 2024 column. Evidence line 51. Country list on the same page."
+
+stocks: []
+units: []
+orders: []
+weapons: []
+cells: []
+cell_catalogs:
+  - ../cells/cia_africa_pol.yaml
+
+omitted:
+  - libya_no_single_chair_on_31_dec_2024
+  - south_sudan_page_says_records_not_verified
+  - plants_other_than_the_five_nameplates
+  - airframes
+  - tanks
+  - guided_weapon_electronics
+  - stocks
+  - units
+  - orders
+  - weapons
+  - cells
+  - generals
+  - libya_morocco_tunisia_nigeria_and_every_other_state_steel_row

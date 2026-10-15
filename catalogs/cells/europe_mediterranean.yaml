@@ -1,0 +1,43 @@
+# Title read on the sheet: EUROPE AND THE MEDITERRANEAN
+# Subtitle read: SHOWING COMMUNICATIONS AND POLITICAL BOUNDARIES
+# Scale read: 1:5,300,000
+# File: docs/sources/evidence/europe-mediterranean-uploaded.jpg
+# Image: 1280 by 1015. Same bytes as the earlier Bartholomew-named copy. The publisher line was not read letter by letter. Do not treat that filename as a reading.
+# A graphic bar is printed under the ratio. Its endpoint numbers are not readable.
+# The ratio is a statement about the printed sheet. It is not a pixel length.
+# No origin was fixed. No position was measured. A shoreline was not traced.
+# The margin stamp date was not fully legible. No day, month, or year is copied from it.
+title: EUROPE AND THE MEDITERRANEAN
+scale: "1:5,300,000"
+cells: []
+absent:
+  - name: GREAT BRITAIN & NORTHERN IRELAND
+    reason: "Both lines are complete. The ink sits on blue water, so the color does not mark the named land. Position unmeasurable. The graphic scale endpoints are not readable."
+  - name: SPAIN
+    surface: land
+    reason: "The spaced name is complete on yellow, non-blue land. Position unmeasurable. The graphic scale endpoints are not readable."
+  - name: GERMANY
+    surface: land
+    reason: "The spaced name is complete on non-blue land. Position unmeasurable. The graphic scale endpoints are not readable."
+  - name: FRANCE
+    reason: "The country is drawn. The name was not confirmed letter by letter."
+  - name: TURKEY
+    reason: "Only E and Y were legible."
+  - name: POLAND
+    reason: "Only AND was legible."
+  - name: ITALY
+    reason: "No complete area name was read."
+  - name: SWEDEN
+    reason: "The name was cut."
+  - name: FINLAND
+    reason: "No complete area name was read."
+  - name: MOROCCO
+    reason: "Only CCO was legible."
+  - name: ARABIA
+    reason: "The spaced letters were not all confirmed."
+  - name: BALTIC
+    reason: "The sea name was not complete."
+  - name: UNION OF SOVIET SOCIALIST REPUBLICS
+    reason: "Only fragments of SOVIET and SOCIALIST were legible."
+  - name: coast
+    reason: "The shoreline is a drawn line. It is not a named cell."

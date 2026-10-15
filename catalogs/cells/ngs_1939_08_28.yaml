@@ -1,0 +1,203 @@
+# National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939.
+# File: docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg
+# Scale printed on the sheet: 1:5,000,000 or 78.91 miles to the inch.
+# Projection printed on the sheet: Conic Projection with standard parallels at 34 and 53.
+# A named label is a cell only when the opened sheet prints the full name and the ink sits on one surface.
+# No millimeter position. This copy does not measure a 10 km cell. Coast is absent. A shoreline is not a cell.
+# The margin gazetteer is not a map label. Cities are not areas.
+cells:
+  - id: north_sea
+    name: NORTH SEA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: tyrrhenian_sea
+    name: TYRRHENIAN SEA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: great_britain
+    name: GREAT BRITAIN
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: france
+    name: FRANCE
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: germany
+    name: GERMANY
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: bay_of_biscay
+    name: BAY OF BISCAY
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: black_sea
+    name: BLACK SEA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: ionian_sea
+    name: IONIAN SEA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: kattegat
+    name: KATTEGAT
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: ligurian_sea
+    name: LIGURIAN SEA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: marmara_denizi
+    name: MARMARA DENIZI
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: sea_of_candia
+    name: SEA OF CANDIA
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: kritikon_pelagos
+    name: KRITIKON PELAGOS
+    surface: sea
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on blue water. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: eire
+    name: EIRE
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: sweden
+    name: SWEDEN
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: denmark
+    name: DENMARK
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: latvia
+    name: LATVIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: lithuania
+    name: LITHUANIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: poland
+    name: POLAND
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: hungary
+    name: HUNGARY
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: switzerland
+    name: SWITZERLAND
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: spain
+    name: SPAIN
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: italy
+    name: ITALY
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: romania
+    name: ROMANIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: bulgaria
+    name: BULGARIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: morocco
+    name: MOROCCO
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: algeria
+    name: ALGERIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: sardegna
+    name: SARDEGNA (SARDINIA)
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: corse
+    name: CORSE (CORSICA)
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: cyprus
+    name: CYPRUS
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: turkey
+    name: TURKEY
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: sicilia
+    name: SICILIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: norway
+    name: NORWAY
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: portugal
+    name: PORTUGAL
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+  - id: syria
+    name: SYRIA
+    surface: land
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Printed name on non-blue land. docs/sources/evidence/ngs-central-europe-mediterranean-1939-08-28.jpg"
+absent:
+  - name: BALTIC SEA
+    reason: "BALTIC and SEA were not both complete in one view. The B sat on a crop edge."
+  - name: MEDITERRANEAN SEA
+    reason: "Only MEDI was legible. The rest of the spaced name was cut."
+  - name: ENGLISH CHANNEL
+    reason: "Only fragments were legible: GLISH, CHAN, CHANNEL."
+  - name: ATLANTIC
+    reason: "Vertical label cut to ATL."
+  - name: SKAGERRAK
+    reason: "Cut to SKAGERRA."
+  - name: BELGIUM
+    reason: "Cut to LGIUM."
+  - name: SEA OF AZOV
+    reason: "The small label was not confirmed letter by letter."
+  - name: ADRIATIC SEA
+    reason: "No complete name was read on the blue water."
+  - name: IRISH SEA
+    reason: "No complete name was read."
+  - name: GOLFE DU LION
+    reason: "The small label was not confirmed letter by letter."
+  - name: ISLAS BALEARES
+    reason: "The label sits on blue. The color does not clearly mark the islands as land."
+  - name: GREECE
+    reason: "No complete area label was read."
+  - name: YUGOSLAVIA
+    reason: "Spaced letters were not confirmed."
+  - name: CZECHOSLOVAKIA
+    reason: "No complete area label was read."
+  - name: NETHERLANDS
+    reason: "No area label was read. Cities are not a land cell."
+  - name: ESTONIA
+    reason: "No complete area label was read."
+  - name: FINLAND
+    reason: "No complete area label was read."
+  - name: TUNISIA
+    reason: "No complete area label was read."
+  - name: LIBYA
+    reason: "No complete area label was read."
+  - name: EGYPT
+    reason: "No complete area label was read."
+  - name: UKRAINE
+    reason: "Only a fragment was legible."
+  - name: PALESTINE
+    reason: "No complete area label was read."
+  - name: LEBANON
+    reason: "No complete area label was read."
+  - name: SAUDI ARABIA
+    reason: "The label was cut."
+  - name: CRETE
+    reason: "No complete area label was read."
+  - name: RUSSIAN SOCIALIST FEDERATED SOVIET REPUBLIC
+    reason: "The words are spaced across the sheet. Every letter was not confirmed in one view."
+  - name: coast
+    reason: "The shoreline is a drawn line. It is not a named cell."

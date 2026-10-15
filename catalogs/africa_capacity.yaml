@@ -1,0 +1,45 @@
+# Cited nameplates. daily_cap is rounds per sim-day (year = 360).
+# A target, a plan, and an export contract are not a cap.
+# powder_local false mints nothing while imports are closed.
+
+plants:
+  - id: rdm_boksburg
+    country: ZA
+    continent: africa
+    place: Boksburg
+    good: shell_155
+    daily_cap: 277          # 100000 / 360, Helmsen, Jul 2023
+    powder_local: true
+    source: 3
+  - id: rdm_somerset
+    country: ZA
+    continent: africa
+    place: Somerset West
+    good: propellant_charge
+    daily_cap: 1111         # 400000 / 360
+    powder_local: true
+    source: 3
+  - id: dicon_kaduna
+    country: NG
+    continent: africa
+    place: Kaduna
+    good: round_762
+    daily_cap: 83333        # 30000000 / 360, Alaya, Nov 2025, stated
+    powder_local: false     # powder still imported as of Nov 2025
+    source: 8
+  - id: factory_300
+    country: EG
+    continent: africa
+    place: Abu Zaabal
+    good: round_small
+    daily_cap: 138888       # 50000000 / 360, Ezzat via Rosa El-Youssef, Apr 2022
+    powder_local: true
+    source: 14
+  - id: pmp_pretoria
+    country: ZA
+    continent: africa
+    place: Pretoria West
+    good: round_556
+    daily_cap: 0            # no current round rate published
+    powder_local: true
+    source: 6

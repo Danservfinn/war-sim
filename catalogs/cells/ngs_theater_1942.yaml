@@ -1,0 +1,194 @@
+# National Geographic Society, Theater of War in Europe, Africa and Western Asia.
+# Compiled and drawn in the Cartographic Section for The National Geographic Magazine.
+# Gilbert Grosvenor, Editor. James M. Darley, Chief Cartographer.
+# Washington July, 1942.
+# International Boundaries as of Sept. 1, 1939, the day Germany invaded Poland.
+# Copyright 1942 by the National Geographic Society, Washington, D.C.
+# The handwritten 30.1942 in the lower right margin is the library call number, not the map date.
+# File: docs/sources/evidence/yale-15258797.jpg
+# Image: 8096 by 9420. IIIF image 15258834 from catalog 15258797.
+# Printed line: Scale 1:15,000,000 or 236.7 miles to the inch.
+# Azimuthal Equidistant Projection, Pole of Projection Latitude 40° Longitude 20° E.
+# Origin: the zero tick of the printed kilometer bar.
+# That tick is pixel (1052.5, 3143) on this scan.
+# The 1000 kilometer tick is pixel 1848.0. The span is 795.5 pixels.
+# 1000 kilometers / 795.5 pixels = 1257071.024512885 ground millimeters per pixel.
+# x positive is image right, toward the 1000 tick.
+# y positive is image down.
+# The legend arrowhead points image-up. No letter N was read on it.
+# These are sheet-plane offsets. They are not geographic east and north.
+# The statute-mile bar was not used. Positions were not averaged.
+# A cell is stored only when a mark drawn at the measured point was seen on the letters.
+# The airline-distance table is not a map label. A city is not an area. A lake is not sea.
+# A drawn coast is not a cell.
+title: THEATER OF WAR IN EUROPE AFRICA AND WESTERN ASIA
+scale: "1:15,000,000 or 236.7 miles to the inch"
+date: "July, 1942"
+origin:
+  tick: "0 kilometers"
+  pixel: [1052.5, 3143]
+  file: docs/sources/evidence/yale-15258797.jpg
+  x_positive: image right
+  y_positive: image down
+mm_per_px: 1257071.024512885
+cells:
+  - id: baffin_bay
+    name: BAFFIN BAY
+    surface: sea
+    x_mm: 1693274670
+    y_mm: -3431552483
+    source: "National Geographic Society, Theater of War, July 1942. Mark sat on the B of BAFFIN, on blue water. Pixel 2399.5, 413.2. docs/sources/evidence/yale-15258797.jpg"
+  - id: egypt
+    name: EGYPT
+    surface: land
+    x_mm: 4483022726
+    y_mm: 3435623575
+    source: "National Geographic Society, Theater of War, July 1942. Mark sat on the E of EGYPT, on non-blue land. Pixel 4618.7, 5876.0. docs/sources/evidence/yale-15258797.jpg"
+  - id: hudson_bay
+    name: HUDSON BAY
+    surface: sea
+    x_mm: -81332495
+    y_mm: -3433186675
+    source: "National Geographic Society, Theater of War, July 1942. Mark sat on the O of HUDSON, on blue water. Pixel 987.8, 411.9. docs/sources/evidence/yale-15258797.jpg"
+  - id: hungary
+    name: HUNGARY
+    surface: land
+    x_mm: 3708108108
+    y_mm: 1209050911
+    source: "National Geographic Society, Theater of War, July 1942. Mark sat on the G of HUNGARY, on non-blue land. Pixel 4002.3, 4104.8. docs/sources/evidence/yale-15258797.jpg"
+absent:
+  - {name: ALGERIA, reason: "Spaced letters read. The mark sat in the gap between G and E."}
+  - {name: ARCTIC OCEAN, reason: "Both words read on blue water. The mark sat on the 80 degree label."}
+  - {name: BAY OF BISCAY, reason: "Both words read on blue water. The mark sat in empty water."}
+  - {name: BLACK SEA, reason: "Both words read on blue water. The mark sat in the gap beside the A."}
+  - {name: FINLAND, reason: "The word was read. The mark sat on Helsinki, then in the gulf."}
+  - {name: FRANCE, reason: "The word was read on land. The mark sat near Limoges, not on the letters."}
+  - {name: GERMANY, reason: "The word was read on land. The mark sat near Wurzburg, not on the letters."}
+  - {name: GREENLAND, reason: "Spaced letters read on the ice. The mark sat on empty ice."}
+  - {name: NEWFOUNDLAND, reason: "The word was read. The mark sat beside the F, not on the ink."}
+  - {name: LABRADOR, reason: "The word was read on land. The mark was not on a letter."}
+  - {name: ENGLISH CHANNEL, reason: "The words were read on blue water. The mark sat on Brest."}
+  - {name: SPAIN, reason: "The spaced letters were read on land. The mark missed them."}
+  - {name: POLAND, reason: "The word was read on land. The mark sat on Tarnow."}
+  - {name: ROMANIA, reason: "The word was read on land. The mark sat on another word."}
+  - {name: BULGARIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: ITALY, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: ESTONIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LATVIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LITHUANIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: WHITE SEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: GULF OF BOTHNIA, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: GULF OF FINLAND, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: MOROCCO, reason: "Spaced letters were read on land. The mark sat on empty land."}
+  - {name: ALBANIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: CRETE, reason: "CRETE (KRETE) was read on the island. No mark was confirmed on the letters."}
+  - {name: Sea of Candia, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: PELOPONNESUS, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: SWITZERLAND, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: BELGIUM, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: NETHERLANDS, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: DENMARK, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LIGURIAN SEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: CORSICA, reason: "CORSICA (CORSE) was read on the island. No mark was confirmed on the letters."}
+  - {name: SARDINIA, reason: "SARDINIA (SARDEGNA) was read on the island. No mark was confirmed on the letters."}
+  - {name: BALEARIC ISLANDS, reason: "The words were read. No mark was confirmed on the letters."}
+  - {name: QUEBEC, reason: "Spaced letters were read on land. No mark was confirmed on the letters."}
+  - {name: ELLESMERE ISLAND, reason: "Both words were read on land. No mark was confirmed on the letters."}
+  - {name: FRANZ JOSEF LAND, reason: "The words were read on land. The mark sat on Ostrov Wilczek."}
+  - {name: NOVAYA ZEMLYA, reason: "The words were read on land. The mark missed the letters."}
+  - {name: SEVERNAYA ZEMLYA, reason: "SEVERNAYA ZEMLYA (NORTH LAND) was read. No mark was confirmed on the letters."}
+  - {name: SPITSBERGEN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: CIRENAICA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: PALESTINE, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LEBANON, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: CYPRUS, reason: "The word was read on the island. No mark was confirmed on the letters."}
+  - {name: SYRIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: SUDAN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: YEMEN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: KUWAIT, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: BAHREIN, reason: "Printed BAHREIN was read. No mark was confirmed on the letters."}
+  - {name: QATAR, reason: "The word was read. No mark was confirmed on the letters."}
+  - {name: KENYA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: MADAGASCAR, reason: "The word was read on the island. No mark was confirmed on the letters."}
+  - {name: ZANZIBAR, reason: "The word was read. No mark was confirmed on the letters."}
+  - {name: BELGIAN CONGO, reason: "Both words were read on land. No mark was confirmed on the letters."}
+  - {name: CAMEROONS, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LIBYA, reason: "Spaced letters were read on land. No mark was confirmed on the letters."}
+  - {name: FEZZAN, reason: "Spaced letters were read on land. No mark was confirmed on the letters."}
+  - {name: TIBESTI, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: AHAGGAR, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: NUBIAN DESERT, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: DARFUR, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: BAHR EL GHAZAL, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: CYCLADES, reason: "The word was read. No mark was confirmed on the letters."}
+  - {name: EAST PRUSSIA, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: CRIMEA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: GULF OF GUINEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: INDIAN OCEAN, reason: "Spaced INDIAN was read. OCEAN was not complete in that view."}
+  - {name: ATLANTIC, reason: "No complete ocean name was read in one view."}
+  - {name: MEDITERRANEAN SEA, reason: "The spaced letters were not complete in one view."}
+  - {name: TYRRHENIAN SEA, reason: "The name was cut at the edge of the views that were opened."}
+  - {name: TURKEY, reason: "The spaced letters were not complete in one view."}
+  - {name: UKRAINE, reason: "The spaced letters were not complete in one view."}
+  - {name: BARENTS SEA, reason: "The last letter of BARENTS was not clean at the tile edge."}
+  - {name: BALTIC SEA, reason: "BALTIC was read. SEA was not clean in the same view."}
+  - {name: NORWAY, reason: "The name was not complete in one view."}
+  - {name: SWEDEN, reason: "The name was not complete in one view."}
+  - {name: FRENCH WEST AFRICA, reason: "The name was split across the edge of the view."}
+  - {name: FRENCH EQUATORIAL AFRICA, reason: "The name was split across the edge of the view."}
+  - {name: ANGLO-EGYPTIAN SUDAN, reason: "SUDAN was read. The full Anglo-Egyptian name was not complete in one view."}
+  - {name: UGANDA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: TANGANYIKA, reason: "The name was cut at the edge of the view that was opened."}
+  - {name: PERSIAN GULF, reason: "GULF was read. The full name was not complete in one view."}
+  - {name: ICELAND, reason: "The word was read on the island. No mark was confirmed on the letters."}
+  - {name: DENMARK STRAIT, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: FAEROES, reason: "FAEROES (FAEROERNE) was read. No mark was confirmed on the letters."}
+  - {name: SHETLAND ISLANDS, reason: "The words were read. No mark was confirmed on the letters."}
+  - {name: ORKNEY ISLANDS, reason: "The words were read. No mark was confirmed on the letters."}
+  - {name: HEBRIDES, reason: "The word was read. No mark was confirmed on the letters."}
+  - {name: BRITISH ISLES, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: SCOTLAND, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: GREAT BRITAIN, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: EIRE, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: NORTHERN IRELAND, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: NORTH SEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: CASPIAN SEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: CAUCASUS MTS., reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: GEORGIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: ARMENIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: TURKMEN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: KOPET DAGH, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: ELBURZ MTS., reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: PERSIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: LEVANT STATES, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: GULF OF OMAN, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: ARABIAN SEA, reason: "Both words were read on blue water. No mark was confirmed on the letters."}
+  - {name: OMAN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: TRUCIAL OMAN, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: ADEN PROTECTORATE, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: HADRAMAUT, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: NIGERIA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: GOLD COAST, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: TOGO, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: DAHOMEY, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: IVORY COAST, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: ADAMAWA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: RIO MUNI, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: Bight of Benin, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: Bight of Biafra, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: BRITISH SOMALILAND, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: GULF OF ADEN, reason: "The words were read on blue water. No mark was confirmed on the letters."}
+  - {name: ADEN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: ETHIOPIA, reason: "Spaced letters were read on land. No mark was confirmed on the letters."}
+  - {name: ITALIAN EAST AFRICA, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: ERITREA, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: FRENCH SOMALILAND, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: ITALIAN SOMALILAND, reason: "The words were read on land. No mark was confirmed on the letters."}
+  - {name: AZERBAIJAN, reason: "The word was read on land. No mark was confirmed on the letters."}
+  - {name: RUSSIAN SOCIALIST FEDERATED SOVIET REPUBLIC, reason: "The spaced name was not complete in one view."}
+  - {name: NORWEGIAN SEA, reason: "SEA was read. NORWEGIAN was cut at the edge of the view."}
+  - {name: AZORES, reason: "The word was read on blue water. No mark was confirmed on the letters."}
+  - {name: coast, reason: "A drawn line, not a named cell."}
+  - {name: lakes, reason: "A lake is not sea. Lake Chad and Lake Victoria were not stored."}
+  - {name: cities, reason: "A city is not an area."}
+  - {name: airline distance table, reason: "A margin table, not a map label."}

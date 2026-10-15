@@ -1,0 +1,10 @@
+tracks:
+  - observer_side: side_a
+    observer_id: a-radar
+    sensor_range_mm: 40000000
+    target_id: b-bomber
+    quality: detected
+    x_mm: 5000000
+    y_mm: 0
+    age_s: 1
+    symbol_class: he111

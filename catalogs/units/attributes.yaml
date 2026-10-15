@@ -1,0 +1,4 @@
+# Unit attribute catalog.
+# Examined 2026-10-15. No opened document stated ammo parts, a guidance-match
+# integer, penetration, blast, or rounds_per_day for a unit. No row was added.
+units: []

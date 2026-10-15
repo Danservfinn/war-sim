@@ -1,0 +1,16 @@
+entities:
+  - Identity: {id: a-radar, name: radar flight, side: side_a, unit_type: f16c, echelon: section}
+    Organization: {formation_id: null, parent_id: null, experience: 70, morale: 80, fatigue: 10, training: 80, aggregated: false}
+    Position: {x_mm: 0, y_mm: 0, z_mm: 5000000, heading_mdeg: 90000}
+    Mobility: {speed_mmps: {road: 0, alt_low: 250000}, fuel_l: 3000, fuel_max_l: 5000, burn_ml_per_km: 0, range_m: 800000, amphibious: false, lift: none, domain: air}
+    Physical: {posture: exposed, integrity: 100, integrity_max: 100}
+  - Identity: {id: b-bomber, name: bomber staffel, side: side_b, unit_type: he111, echelon: section}
+    Organization: {formation_id: null, parent_id: null, experience: 40, morale: 60, fatigue: 20, training: 50, aggregated: true}
+    Position: {x_mm: 5000000, y_mm: 0, z_mm: 3000000, heading_mdeg: 270000}
+    Mobility: {speed_mmps: {road: 0, alt_low: 80000}, fuel_l: 2000, fuel_max_l: 2500, burn_ml_per_km: 0, range_m: 400000, amphibious: false, lift: none, domain: air}
+    Physical: {posture: exposed, integrity: 80, integrity_max: 80}
+  - Identity: {id: b-far, name: distant column, side: side_b, unit_type: he111, echelon: company}
+    Organization: {formation_id: null, parent_id: null, experience: 20, morale: 50, fatigue: 10, training: 40, aggregated: true}
+    Position: {x_mm: 200000000, y_mm: 0, z_mm: 0, heading_mdeg: 0}
+    Mobility: {speed_mmps: {road: 8000}, fuel_l: 400, fuel_max_l: 400, burn_ml_per_km: 200, range_m: 200000, amphibious: false, lift: road, domain: ground}
+    Physical: {posture: exposed, integrity: 40, integrity_max: 40}

@@ -1,0 +1,34 @@
+units:
+  - id: eu-inf
+    side: europe
+    continent: europe
+    alive: true
+    foot: true
+    x_mm: 0
+    y_mm: 0
+    speed_mm_per_day: 0
+    sensor_range_mm: 2000000
+    in_bubble: true
+    symbol_class: infantry
+    equipment: {rifle: 1}
+    WeaponMount:
+      - mount_id: rifle
+        ammo:
+          - {ammo_id: ball, qty: 8, warhead: ke, penetration_mm: 20, blast: 15, guidance: none}
+        range_bands:
+          - {max_m: 2000, accuracy: 1000}
+    Crew:
+      billets:
+        - {role: gunner, count: 1, skill: 80}
+  - id: af-inf
+    side: africa
+    continent: africa
+    alive: true
+    foot: true
+    x_mm: 500000
+    y_mm: 0
+    speed_mm_per_day: 0
+    sensor_range_mm: 0
+    integrity: 10
+    symbol_class: infantry
+    equipment: {}

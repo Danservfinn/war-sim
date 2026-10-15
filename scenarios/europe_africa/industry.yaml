@@ -1,0 +1,27 @@
+nodes:
+  - {id: ruhr_pit, continent: europe, good: ore_iron, nameplate_t: 20, reserve_t: 1000, stock_t: 0}
+refiners:
+  - {id: essen, continent: europe, consumes: ore_iron, makes: steel, ratio_milli: 500, daily_cap: 8}
+plants:
+  - id: essen_guns
+    side: europe
+    continent: europe
+    input_good: steel
+    input_per: 1
+    strain_milli: 0
+    dud_base: 10
+    skilled_labor: 2
+    power_mw: 10
+    tools: 2
+    civilian_share_milli: 0
+    lines:
+      - {id: rifles, power_mw_need: 1, tools_need: 1, skilled_need: 1, damage_milli: 0, daily_cap: 5, powder_local: true}
+  - {from_catalog: dicon_kaduna, side: africa, input_good: steel}
+  - {from_catalog: rdm_boksburg, side: africa, input_good: steel}
+imports:
+  - good: gps_kit
+    from_continent: europe
+    to_continent: africa
+    received_t: 0
+    schedule:
+      - {day: 0, qty_t: 9}

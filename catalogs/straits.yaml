@@ -1,0 +1,23 @@
+# Strait and cape links. Distance is data. The engine does not branch on these names.
+# suez: Suez Canal length 193.30 km, stored as 193.
+# gibraltar: passage length about 36 miles, 58 km. Columbia Encyclopedia.
+# bab_el_mandeb: maximum length 50 km. Wikipedia, Bab-el-Mandeb.
+# cape: Singapore to Rotterdam via the Cape is about 3,280 nautical miles longer than via Suez.
+# 3280 * 1.852 = 6075 km. LegalClarity, 2026, citing the two voyage lengths.
+links:
+  - id: suez
+    surface: strait
+    distance_km: 193
+    source: "Suez Canal length 193.30 km"
+  - id: gibraltar
+    surface: strait
+    distance_km: 58
+    source: "Strait of Gibraltar passage about 36 miles"
+  - id: bab_el_mandeb
+    surface: strait
+    distance_km: 50
+    source: "Bab-el-Mandeb maximum length 50 km"
+  - id: cape
+    surface: sea
+    distance_km: 6075
+    source: "About 3280 nautical miles longer than the Suez voyage, Singapore to Rotterdam"

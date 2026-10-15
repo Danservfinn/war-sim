@@ -1,0 +1,115 @@
+# Title read: EUROPE AND THE MEDITERRANEAN
+# Subtitle read: SHOWING COMMUNICATIONS AND POLITICAL BOUNDARIES
+# Scale read: 1:5,300,000
+# Date read in the lower right of the neatline: 1939
+# Copyright line read: COPYRIGHT - JOHN BARTHOLOMEW & SON, LTD.
+# Publisher line read: THE EDINBURGH GEOGRAPHICAL INSTITUTE
+# Library stamp read: RECEIVED APR 10 1940. That stamp is not the map date.
+# File: docs/sources/evidence/uwm-agsmap023709-bartholomew-1939.jpg
+# Image returned by the endpoint: 9000 by 7140. The IIIF info.json said 11928 by 9463.
+# Graphic bar read: 0 to 200 English Miles, and 0 to 320 Kilometres.
+# The 0 tick of the Kilometres bar is native pixel x 750.
+# The 320 tick is native pixel x 1268.5. Span 518.5 px = 320000000 mm.
+# Origin is that 0 tick. x positive east. y positive north.
+# A shoreline was not traced. A modern basemap was not used.
+title: EUROPE AND THE MEDITERRANEAN
+scale: "1:5,300,000"
+date: "1939"
+origin:
+  tick: "0 Kilometres"
+  pixel_x: 750
+  pixel_y: 1285.5
+  km_320_pixel_x: 1268.5
+  span_px: 518.5
+  x_positive: east
+  y_positive: north
+cells:
+  - {name: ALGERIA, surface: land, x_mm: 1004744455, y_mm: -2864570878}
+  - {name: BLACK SEA, surface: sea, x_mm: 3301832208, y_mm: -1745650916}
+  - {name: BOHEMIA, surface: land, x_mm: 1820636451, y_mm: -1230935391}
+  - {name: BULGARIA, surface: land, x_mm: 2663066538, y_mm: -1983876567}
+  - {name: DENMARK, surface: land, x_mm: 1542912247, y_mm: -465650916}
+  - {name: EGYPT, surface: land, x_mm: 3240115718, y_mm: -3353982642}
+  - {name: EIRE, surface: land, x_mm: 357955641, y_mm: -570568949}
+  - {name: ESTONIA, surface: land, x_mm: 2579749277, y_mm: -120038573}
+  - {name: FINLAND, surface: land, x_mm: 2468659595, y_mm: 274946962}
+  - {name: FRANCE, surface: land, x_mm: 888717454, y_mm: -1477801350}
+  - {name: GERMANY, surface: land, x_mm: 1697203472, y_mm: -1070472517}
+  - {name: GREECE, surface: land, x_mm: 2443972999, y_mm: -2508466731}
+  - {name: GULF OF RIGA, surface: sea, x_mm: 2468659595, y_mm: -231128255}
+  - {name: Gulf of Sidra, surface: sea, x_mm: 2116875603, y_mm: -3339170685}
+  - {name: HUNGARY, surface: land, x_mm: 2138476374, y_mm: -1477801350}
+  - {name: IONIAN SEA, surface: sea, x_mm: 2178592093, y_mm: -2570183221}
+  - {name: KATTEGAT, surface: sea, x_mm: 1666345227, y_mm: -357647059}
+  - {name: LATVIA, surface: land, x_mm: 2567405979, y_mm: -323702989}
+  - {name: LIBYA, surface: land, x_mm: 1703375121, y_mm: -3332381871}
+  - {name: LITHUANIA, surface: land, x_mm: 2394599807, y_mm: -477994214}
+  - {name: MORAVIA, surface: land, x_mm: 1950241080, y_mm: -1230935391}
+  - {name: MOROCCO, surface: land, x_mm: 63567985, y_mm: -3033056895}
+  - {name: NORTH SEA, surface: sea, x_mm: 1089296046, y_mm: -440964320}
+  - {name: NORWAY, surface: land, x_mm: 1542912247, y_mm: 117569913}
+  - {name: POLAND, surface: land, x_mm: 2354484089, y_mm: -916181292}
+  - {name: ROMANIA, surface: land, x_mm: 2678495661, y_mm: -1616663452}
+  - {name: SLOVAKIA, surface: land, x_mm: 2258823529, y_mm: -1280308582}
+  - {name: SPAIN, surface: land, x_mm: 385728062, y_mm: -2162854388}
+  - {name: SPANISH MOROCCO, surface: land, x_mm: 178977821, y_mm: -2743606557}
+  - {name: SWEDEN, surface: land, x_mm: 1891610415, y_mm: 24995178}
+  - {name: SYRIA, surface: land, x_mm: 4017743491, y_mm: -2653500482}
+  - {name: Tripolitania, surface: land, x_mm: 1652767599, y_mm: -3270665381}
+absent:
+  - name: GREAT BRITAIN & NORTHERN IRELAND
+    reason: "Both lines are complete. The ink sits on blue water, so the color does not mark the named land."
+  - name: HATAY
+    reason: "The letters were read on yellow land. The mark did not land on the letters, so no position is stored."
+  - name: TURKEY
+    reason: "The spaced letters were not a clean TURKEY. Extra letters sat in the same band."
+  - name: BALTIC
+    reason: "Only fragments were read. The full name was not confirmed in one view."
+  - name: ENGLISH CHANNEL
+    reason: "The E of ENGLISH was cut at the crop edge."
+  - name: BAY OF BISCAY
+    reason: "The name was cut at the crop edge."
+  - name: MEDITERRANEAN SEA
+    reason: "The name is spread across the sheet. It was not confirmed letter by letter in one view."
+  - name: TUNISIA
+    reason: "Seen on a wide tile. Not confirmed letter by letter in a close crop."
+  - name: PORTUGAL
+    reason: "Not all letters were confirmed."
+  - name: ITALY
+    reason: "No complete area name was confirmed in one view."
+  - name: SWITZERLAND
+    reason: "Not confirmed letter by letter in one view."
+  - name: IRAQ
+    reason: "The full name was not in one crop."
+  - name: IRAN
+    reason: "Cut at the sheet edge."
+  - name: PALESTINE
+    reason: "Cut. Only part of the name was in the crop."
+  - name: SEA OF AZOV
+    reason: "Only AZOV was in the crop."
+  - name: SKAGERRAK
+    reason: "Only SKAGER was read. The rest was cut."
+  - name: SICILY
+    reason: "The S was not confirmed."
+  - name: SARDINIA
+    reason: "The name was seen. No verified mark was placed on the letters."
+  - name: CYPRUS
+    reason: "Not confirmed letter by letter in a close crop."
+  - name: CRETE
+    reason: "Not confirmed letter by letter in a close crop."
+  - name: Crimea
+    reason: "The verification crop did not show the label under the mark."
+  - name: UNION OF SOVIET SOCIALIST REPUBLICS
+    reason: "The name is spread across the sheet. It was not confirmed as one complete name in one view."
+  - name: UKRAINE
+    reason: "Spaced letters were not confirmed letter by letter."
+  - name: ARABIA
+    reason: "Spaced letters were not confirmed letter by letter."
+  - name: TRANS-JORDAN
+    reason: "Seen on a wide tile. Not confirmed letter by letter."
+  - name: LAKE LADOGA
+    reason: "A lake. Not sea."
+  - name: LAKE ONEGA
+    reason: "A lake. Not sea."
+  - name: coast
+    reason: "The shoreline is a drawn line. It is not a named cell."

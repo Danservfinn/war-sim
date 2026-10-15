@@ -1,0 +1,721 @@
+# CIA World Factbook political map of Africa.
+# File: docs/sources/evidence/cia-africa-pol-2020.pdf
+# Endpoint: https://web.archive.org/web/20210325050727if_/https://www.cia.gov/the-world-factbook/static/bd0fd4375b21514438e9b9435d8b7c4a/africa_pol-1.pdf
+# sha256: b873c78aff757debb27808758b943712df42f8fccdddbeace7af2bb0f764f079
+# Title read on the sheet: AFRICA
+# Scale line read: Scale 1:51,400,000
+# Projection read: Azimuthal Equal-Area Projection
+# Page stamp read: 2020-00228-07 2-21
+# Note read: Boundary representation is not necessarily authoritative.
+# Render used for measurement: 8x, 4896 by 6336.
+# Origin: the zero tick of the printed kilometer bar.
+# That tick is pixel (3448.5, 5513.5) on the 8x render.
+# The kilometer bar reads 0, 400, 800.
+# 0 to 800 kilometers is 353.0 pixels, tick center to tick center.
+# 800 kilometers / 353.0 pixels = 2266288.9518413597 ground millimeters per pixel.
+# x positive is east of that tick. y positive is south of it, image down.
+# The mile bar reads 0, 400, 800. It was not used. Positions are not averaged.
+# A printed ratio is not a pixel length.
+# A cell is stored only when a mark drawn at the measured point was seen on the letters.
+# This sheet is not the 1943 National Geographic sheet. Do not mix the origins.
+title: AFRICA
+scale: "1:51,400,000"
+origin: "kilometer-bar zero tick, pixel 3448.5, 5513.5 on the 8x render of cia-africa-pol-2020.pdf"
+mm_per_px: 2266288.9518413597
+cells:
+  - id: north_atlantic_ocean
+    name: "NORTH ATLANTIC OCEAN"
+    surface: sea
+    x_mm: -5692917847
+    y_mm: -10078186969
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of NORTH ATLANTIC OCEAN, on gray water. Pixel 936.5, 1066.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: south_atlantic_ocean
+    name: "SOUTH ATLANTIC OCEAN"
+    surface: sea
+    x_mm: -5448158640
+    y_mm: -2603966006
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of SOUTH ATLANTIC OCEAN, on gray water. Pixel 1044.5, 4364.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: indian_ocean
+    name: "INDIAN OCEAN"
+    surface: sea
+    x_mm: 1724645892
+    y_mm: -4573371105
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of INDIAN OCEAN, on gray water. Pixel 4209.5, 3495.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: mediterranean_sea
+    name: "Mediterranean Sea"
+    surface: sea
+    x_mm: -1677053824
+    y_mm: -8380736544
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the e of Mediterranean Sea, on gray water. Pixel 2708.5, 1815.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: black_sea
+    name: "Black Sea"
+    surface: sea
+    x_mm: -589235127
+    y_mm: -9411898017
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the a of Black Sea, on gray water. Pixel 3188.5, 1360.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: caspian_sea
+    name: "Caspian Sea"
+    surface: sea
+    x_mm: 643626062
+    y_mm: -9511614731
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the a of Caspian Sea, on gray water. Pixel 3732.5, 1316.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: red_sea
+    name: "Red Sea"
+    surface: sea
+    x_mm: -38526912
+    y_mm: -6973371105
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the e of Red Sea, on gray water. Pixel 3431.5, 2436.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: arabian_sea
+    name: "Arabian Sea"
+    surface: sea
+    x_mm: 1985269122
+    y_mm: -6506515581
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the a of Arabian Sea, on gray water. Pixel 4324.5, 2642.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: persian_gulf
+    name: "Persian Gulf"
+    surface: sea
+    x_mm: 1402832861
+    y_mm: -7707648725
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the u of Persian Gulf, on gray water. Pixel 4067.5, 2112.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: gulf_of_aden
+    name: "Gulf of Aden"
+    surface: sea
+    x_mm: 1167138810
+    y_mm: -6103116147
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the e of Gulf of Aden, on gray water. Pixel 3963.5, 2820.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: gulf_of_guinea
+    name: "Gulf of Guinea"
+    surface: sea
+    x_mm: -3499150142
+    y_mm: -4994900850
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the u of Gulf of Guinea, on gray water. Pixel 1904.5, 3309.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: mozambique_channel
+    name: "Mozambique Channel"
+    surface: sea
+    x_mm: 133711048
+    y_mm: -2388668555
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the a of Mozambique Channel, on gray water. Pixel 3507.5, 4459.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: strait_of_gibraltar
+    name: "Strait of Gibraltar"
+    surface: sea
+    x_mm: -4707082153
+    y_mm: -8700283286
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the i of Strait of Gibraltar, on gray water. Pixel 1371.5, 1674.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: morocco
+    name: "MOROCCO"
+    surface: land
+    x_mm: -4763739377
+    y_mm: -8074787535
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of MOROCCO, on colored land. Pixel 1346.5, 1950.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: algeria
+    name: "ALGERIA"
+    surface: land
+    x_mm: -3721246459
+    y_mm: -7805099150
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of ALGERIA, on colored land. Pixel 1806.5, 2069.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: tunisia
+    name: "TUNISIA"
+    surface: land
+    x_mm: -2980169972
+    y_mm: -8383002833
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of TUNISIA, on colored land. Pixel 2133.5, 1814.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: libya
+    name: "LIBYA"
+    surface: land
+    x_mm: -2193767705
+    y_mm: -7635127479
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the B of LIBYA, on colored land. Pixel 2480.5, 2144.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: egypt
+    name: "EGYPT"
+    surface: land
+    x_mm: -994900850
+    y_mm: -7544475921
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the Y of EGYPT, on colored land. Pixel 3009.5, 2184.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: mauritania
+    name: "MAURITANIA"
+    surface: land
+    x_mm: -5291784703
+    y_mm: -6943909348
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the R of MAURITANIA, on colored land. Pixel 1113.5, 2449.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: mali
+    name: "MALI"
+    surface: land
+    x_mm: -4199433428
+    y_mm: -6749008499
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of MALI, on colored land. Pixel 1595.5, 2535.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: niger
+    name: "NIGER"
+    surface: land
+    x_mm: -3016430595
+    y_mm: -6662889518
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the G of NIGER, on colored land. Pixel 2117.5, 2573.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: chad
+    name: "CHAD"
+    surface: land
+    x_mm: -1996600567
+    y_mm: -6370538244
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of CHAD, on colored land. Pixel 2567.5, 2702.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: sudan
+    name: "SUDAN"
+    surface: land
+    x_mm: -1033427762
+    y_mm: -6248158640
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of SUDAN, on colored land. Pixel 2992.5, 2756.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: south_sudan
+    name: "SOUTH SUDAN"
+    surface: land
+    x_mm: -861189802
+    y_mm: -5325779037
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of SOUTH SUDAN, on colored land. Pixel 3068.5, 3163.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: eritrea
+    name: "ERITREA"
+    surface: land
+    x_mm: 77053824
+    y_mm: -6506515581
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the T of ERITREA, on colored land. Pixel 3482.5, 2642.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: djibouti
+    name: "DJIBOUTI"
+    surface: land
+    x_mm: 847592068
+    y_mm: -6062322946
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of DJIBOUTI, on colored land. Pixel 3822.5, 2838.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: ethiopia
+    name: "ETHIOPIA"
+    surface: land
+    x_mm: 317280453
+    y_mm: -5579603399
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of ETHIOPIA, on colored land. Pixel 3588.5, 3051.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: somalia
+    name: "SOMALIA"
+    surface: land
+    x_mm: 1511614731
+    y_mm: -5289518414
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of SOMALIA, on colored land. Pixel 4115.5, 3179.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: kenya
+    name: "KENYA"
+    surface: land
+    x_mm: -47592068
+    y_mm: -4831728045
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of KENYA, on colored land. Pixel 3427.5, 3381.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: uganda
+    name: "UGANDA"
+    surface: land
+    x_mm: -312747875
+    y_mm: -4913314448
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of UGANDA, on colored land. Pixel 3310.5, 3345.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: rwanda
+    name: "RWANDA"
+    surface: land
+    x_mm: -892917847
+    y_mm: -4457790368
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of RWANDA, on colored land. Pixel 3054.5, 3546.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: burundi
+    name: "BURUNDI"
+    surface: land
+    x_mm: -586968839
+    y_mm: -4303682720
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of BURUNDI, on colored land. Pixel 3189.5, 3614.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: tanzania
+    name: "TANZANIA"
+    surface: land
+    x_mm: -224362606
+    y_mm: -3854957507
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of TANZANIA, on colored land. Pixel 3349.5, 3812.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: gabon
+    name: "GABON"
+    surface: land
+    x_mm: -2912181303
+    y_mm: -4514447592
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of GABON, on colored land. Pixel 2163.5, 3521.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: cameroon
+    name: "CAMEROON"
+    surface: land
+    x_mm: -2814730878
+    y_mm: -5325779037
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of CAMEROON, on colored land. Pixel 2206.5, 3163.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: central_african_republic
+    name: "CENTRAL AFRICAN REPUBLIC"
+    surface: land
+    x_mm: -1597733711
+    y_mm: -5330311615
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of CENTRAL AFRICAN REPUBLIC, on colored land. Pixel 2743.5, 3161.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: nigeria
+    name: "NIGERIA"
+    surface: land
+    x_mm: -3120679887
+    y_mm: -5824362606
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of NIGERIA, on colored land. Pixel 2071.5, 2943.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: benin
+    name: "BENIN"
+    surface: land
+    x_mm: -3916147309
+    y_mm: -5844759207
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of BENIN, on colored land. Pixel 1720.5, 2934.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: togo
+    name: "TOGO"
+    surface: land
+    x_mm: -3950141643
+    y_mm: -5677053824
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of TOGO, on colored land. Pixel 1705.5, 3008.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: ghana
+    name: "GHANA"
+    surface: land
+    x_mm: -4088385269
+    y_mm: -5547875354
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of GHANA, on colored land. Pixel 1644.5, 3065.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: cote_divoire
+    name: "CÔTE D’IVOIRE"
+    surface: land
+    x_mm: -4684419263
+    y_mm: -5692917847
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the T of CÔTE D’IVOIRE, on colored land. Pixel 1381.5, 3001.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: burkina_faso
+    name: "BURKINA FASO"
+    surface: land
+    x_mm: -4541643059
+    y_mm: -5971671388
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of BURKINA FASO, on colored land. Pixel 1444.5, 2878.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: liberia
+    name: "LIBERIA"
+    surface: land
+    x_mm: -5287252125
+    y_mm: -5305382436
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of LIBERIA, on colored land. Pixel 1115.5, 3172.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: sierra_leone
+    name: "SIERRA LEONE"
+    surface: land
+    x_mm: -5511614731
+    y_mm: -5584135977
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of SIERRA LEONE, on colored land. Pixel 1016.5, 3049.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: guinea
+    name: "GUINEA"
+    surface: land
+    x_mm: -5439093484
+    y_mm: -5953541076
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the U of GUINEA, on colored land. Pixel 1048.5, 2886.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: the_gambia
+    name: "THE GAMBIA"
+    surface: land
+    x_mm: -5921813031
+    y_mm: -6207365439
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of THE GAMBIA, on colored land. Pixel 835.5, 2774.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: senegal
+    name: "SENEGAL"
+    surface: land
+    x_mm: -5640793201
+    y_mm: -6372804533
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of SENEGAL, on colored land. Pixel 959.5, 2701.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: angola
+    name: "ANGOLA"
+    surface: land
+    x_mm: -2223229462
+    y_mm: -3315580737
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the G of ANGOLA, on colored land. Pixel 2467.5, 4050.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: namibia
+    name: "NAMIBIA"
+    surface: land
+    x_mm: -2252691218
+    y_mm: -2411331445
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the M of NAMIBIA, on colored land. Pixel 2454.5, 4449.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: botswana
+    name: "BOTSWANA"
+    surface: land
+    x_mm: -1434560907
+    y_mm: -2234560907
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the W of BOTSWANA, on colored land. Pixel 2815.5, 4527.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: zambia
+    name: "ZAMBIA"
+    surface: land
+    x_mm: -1078753541
+    y_mm: -3095750708
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the M of ZAMBIA, on colored land. Pixel 2972.5, 4147.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: zimbabwe
+    name: "ZIMBABWE"
+    surface: land
+    x_mm: -897450425
+    y_mm: -2572237960
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of ZIMBABWE, on colored land. Pixel 3052.5, 4378.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: mozambique
+    name: "MOZAMBIQUE"
+    surface: land
+    x_mm: -181303116
+    y_mm: -2676487252
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of MOZAMBIQUE, on colored land. Pixel 3368.5, 4332.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: malawi
+    name: "MALAWI"
+    surface: land
+    x_mm: -373937677
+    y_mm: -3308781870
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of MALAWI, on colored land. Pixel 3283.5, 4053.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: south_africa
+    name: "SOUTH AFRICA"
+    surface: land
+    x_mm: -1627195467
+    y_mm: -1228328612
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the F of SOUTH AFRICA, on colored land. Pixel 2730.5, 4971.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: eswatini
+    name: "ESWATINI"
+    surface: land
+    x_mm: -580169972
+    y_mm: -1611331445
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of ESWATINI, on colored land. Pixel 3192.5, 4802.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: madagascar
+    name: "MADAGASCAR"
+    surface: land
+    x_mm: 931444759
+    y_mm: -2227762040
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the G of MADAGASCAR, on colored land. Pixel 3859.5, 4530.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: sardinia
+    name: "Sardinia"
+    surface: land
+    x_mm: -2971104816
+    y_mm: -8999433428
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the a of Sardinia, on colored land. Pixel 2137.5, 1542.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: sicily
+    name: "Sicily"
+    surface: land
+    x_mm: -2511048159
+    y_mm: -8761473088
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the i of Sicily, on colored land. Pixel 2340.5, 1647.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: cyprus
+    name: "CYPRUS"
+    surface: land
+    x_mm: -917847025
+    y_mm: -8548441926
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the P of CYPRUS, on colored land. Pixel 3043.5, 1741.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: ireland
+    name: "IRELAND"
+    surface: land
+    x_mm: -4292351275
+    y_mm: -10488385269
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of IRELAND, on colored land. Pixel 1554.5, 885.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: portugal
+    name: "PORTUGAL"
+    surface: land
+    x_mm: -4775070822
+    y_mm: -9051558074
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the T of PORTUGAL, on colored land. Pixel 1341.5, 1519.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: spain
+    name: "SPAIN"
+    surface: land
+    x_mm: -4092917847
+    y_mm: -9083286119
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of SPAIN, on colored land. Pixel 1642.5, 1505.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: france
+    name: "FRANCE"
+    surface: land
+    x_mm: -3490084986
+    y_mm: -9776770538
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of FRANCE, on colored land. Pixel 1908.5, 1199.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: germany
+    name: "GERMANY"
+    surface: land
+    x_mm: -2773937677
+    y_mm: -10205099150
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the M of GERMANY, on colored land. Pixel 2224.5, 1010.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: poland
+    name: "POLAND"
+    surface: land
+    x_mm: -2155240793
+    y_mm: -10282152975
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the L of POLAND, on colored land. Pixel 2497.5, 976.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: belarus
+    name: "BELARUS"
+    surface: land
+    x_mm: -1488951841
+    y_mm: -10409065156
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of BELARUS, on colored land. Pixel 2791.5, 920.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: ukraine
+    name: "UKRAINE"
+    surface: land
+    x_mm: -1119546742
+    y_mm: -10035127479
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of UKRAINE, on colored land. Pixel 2954.5, 1085.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: russia
+    name: "RUSSIA"
+    surface: land
+    x_mm: -358073654
+    y_mm: -10395467422
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the S of RUSSIA, on colored land. Pixel 3290.5, 926.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: kazakhstan
+    name: "KAZAKHSTAN"
+    surface: land
+    x_mm: 1203399433
+    y_mm: -10227762040
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of KAZAKHSTAN, on colored land. Pixel 3979.5, 1000.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: czechia
+    name: "CZECHIA"
+    surface: land
+    x_mm: -2449858357
+    y_mm: -10028328612
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of CZECHIA, on colored land. Pixel 2367.5, 1088.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: romania
+    name: "ROMANIA"
+    surface: land
+    x_mm: -1389235127
+    y_mm: -9609065156
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of ROMANIA, on colored land. Pixel 2835.5, 1273.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: italy
+    name: "ITALY"
+    surface: land
+    x_mm: -2551841360
+    y_mm: -9158073654
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of ITALY, on colored land. Pixel 2322.5, 1472.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: greece
+    name: "GREECE"
+    surface: land
+    x_mm: -1679320113
+    y_mm: -8931444759
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of GREECE, on colored land. Pixel 2707.5, 1572.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: turkey
+    name: "TURKEY"
+    surface: land
+    x_mm: -688951841
+    y_mm: -8976770538
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the R of TURKEY, on colored land. Pixel 3144.5, 1552.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: turkmenistan
+    name: "TURKMENISTAN"
+    surface: land
+    x_mm: 1371104816
+    y_mm: -9241926346
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the M of TURKMENISTAN, on colored land. Pixel 4053.5, 1435.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: uzbekistan
+    name: "UZBEKISTAN"
+    surface: land
+    x_mm: 1556940510
+    y_mm: -9579603399
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the B of UZBEKISTAN, on colored land. Pixel 4135.5, 1286.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: syria
+    name: "SYRIA"
+    surface: land
+    x_mm: -328611898
+    y_mm: -8586968839
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the Y of SYRIA, on colored land. Pixel 3303.5, 1724.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: iraq
+    name: "IRAQ"
+    surface: land
+    x_mm: 244759207
+    y_mm: -8407932011
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of IRAQ, on colored land. Pixel 3556.5, 1803.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: iran
+    name: "IRAN"
+    surface: land
+    x_mm: 1149008499
+    y_mm: -8441926346
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the R of IRAN, on colored land. Pixel 3955.5, 1788.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: saudi_arabia
+    name: "SAUDI ARABIA"
+    surface: land
+    x_mm: 713881020
+    y_mm: -7222662890
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the A of SAUDI ARABIA, on colored land. Pixel 3763.5, 2326.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: oman
+    name: "OMAN"
+    surface: land
+    x_mm: 1819830028
+    y_mm: -7018696884
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the M of OMAN, on colored land. Pixel 4251.5, 2416.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: yemen
+    name: "YEMEN"
+    surface: land
+    x_mm: 1117280453
+    y_mm: -6513314448
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the E of YEMEN, on colored land. Pixel 3941.5, 2639.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+  - id: jordan
+    name: "JORDAN"
+    surface: land
+    x_mm: -360339943
+    y_mm: -8124645892
+    source: "CIA World Factbook, Africa political map, page stamp 2020-00228-07 2-21. Mark sat on the O of JORDAN, on colored land. Pixel 3289.5, 1928.5 of the 8x render. docs/sources/evidence/cia-africa-pol-2020.pdf"
+absent:
+  - name: "CABO VERDE"
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "SAO TOME AND PRINCIPE"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "EQUATORIAL GUINEA"
+    surface: land
+    reason: "The name is complete. The letters are not on colored land."
+  - name: "COMOROS"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "SEYCHELLES"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "MAURITIUS"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "BAHRAIN"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water. A leader line points at the island."
+  - name: "MALTA"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "AZORES"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "MADEIRA ISLANDS"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "CANARY ISLANDS"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "Corsica"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, beside the island."
+  - name: "Socotra"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "TRISTAN DA CUNHA"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "AGALEGA ISLANDS"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "Ascension"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Gough Island"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Annobon"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Mayotte"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Reunion"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Saint Helena"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the island."
+  - name: "Glorioso Islands"
+    surface: land
+    reason: "The name is complete. The letters sit on gray water, not on the islands."
+  - name: "ISRAEL"
+    surface: land
+    reason: "The name is complete. The letters sit on pale ground, not clearly on colored land."
+  - name: "LEBANON"
+    surface: land
+    reason: "The name is complete. The letters sit on pale ground, not clearly on colored land."
+  - name: "QATAR"
+    surface: land
+    reason: "The name is complete. The letters sit on pale ground, not clearly on the peninsula."
+  - name: "GUINEA-BISSAU"
+    surface: land
+    reason: "The name is complete. The letters sit on pale ground, not clearly on colored land."
+  - name: "LESOTHO"
+    surface: land
+    reason: "The name is complete. The marked letter sits on pale ground beside the enclave, not on its colored land."
+  - name: "Cabinda"
+    surface: land
+    reason: "A parenthetical under ANGOLA. Not a separate named area."
+  - name: "Lake Victoria"
+    reason: "A lake label. The letters sit on Kenya, not on land or sea of their own."
+  - name: "Lake Tanganyika"
+    reason: "A lake label. Not a land or sea area."
+  - name: "Lake Nyasa"
+    reason: "A lake label. Not a land or sea area."
+  - name: "Nile"
+    reason: "A river. Not a land or sea area."
+  - name: "Orange"
+    reason: "The name is broken across the South Africa letters. Incomplete."
+  - name: "U.K."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "NETH."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "BEL."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "LUX."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "LIECH."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "SWITZ."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "AND."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "AUS."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "HUNG."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "MOL."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "SLO."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "SLOV."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "CRO."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "BOS. & HER."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "SER."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "MONT."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "KOS."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "BULG."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "ALB."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "N. MACE."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "GEO."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "ARM."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "AZER."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "AFG."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "PAK."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "KUW."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "U.A.E."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "LITH."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "RUS."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "EQUA. GUI."
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "DEM. REP. OF THE CONGO"
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "REP. OF THE CONGO"
+    surface: land
+    reason: "Abbreviated. Incomplete."
+  - name: "coast"
+    reason: "The shoreline is a drawn line. It is not a named cell."

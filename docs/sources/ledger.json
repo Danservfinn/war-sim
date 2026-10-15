@@ -1,0 +1,637 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://pubs.usgs.gov/book/2015/rabbitt-vol4/pdf/vol4_chapter2.pdf",
+      "title": "USGS, Rabbitt vol. 4, ch. 2, Pursuing Simultaneous Courses, 1939-1941",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "On September 1, 1939, at 4:45 a.m. (local time), units of Germany’s armed",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.archontology.org/nations/german/germ_1919_45a/hitler.php",
+      "title": "Archontology, Biography of Hitler, Adolf",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "2 Aug 1934 - 30 Apr 1945",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Führer und Reichskanzler (Führer and Reich Chancellor)",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.archontology.org/nations/uk/bpm/chamberlain.php",
+      "title": "Archontology, Biography of Chamberlain, Neville",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "28 May 1937 - 10 May 1940",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Prime Minister and First Lord of the Treasury",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.archontology.org/nations/uk/king_uk/george6.php",
+      "title": "Archontology, Biography of GEORGE VI",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "11 Dec 1936 - 6 Feb 1952",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.archontology.org/nations/france/france_govt07",
+      "title": "Archontology, France Heads of Government 1871-1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "10 Apr 1938 - 21 Mar 1940",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Président du Conseil des ministres",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.archontology.org/nations/france/france_state3",
+      "title": "Archontology, France Heads of State 1870-1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "10 May 1932 - 11 Jul 1940",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Président de la République française",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.archontology.org/nations/poland/00_1918_39_s.php",
+      "title": "Archontology, Poland Heads of State 1918-1939",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "4 Jun 1926 - 18 Sep 1939",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "President of the Republic",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://www.archontology.org/nations/poland/00_1918_39_g.php",
+      "title": "Archontology, Poland Heads of Government 1918-1939",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "16 May 1936 - 17 Sep 1939",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "President of the Council of Ministers",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.archontology.org/nations/italy/00_1861_1946_king.php",
+      "title": "Archontology, Italy Kings 1861-1946",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "19 Apr 1939 - 8 Dec 1943",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Per grazia di Dio e per volontà della Nazione Re d'Italia e di Albania, Imperatore d'Etiopia",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.archontology.org/nations/spain/spain_1936s",
+      "title": "Archontology, Spain Heads of State 1936-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "1 Oct 1936 - 20 Nov 1975",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Jefe del Estado",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://www.archontology.org/nations/spain/spain_1936g",
+      "title": "Archontology, Spain Heads of Government 1936-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "31 Jan 1938 - 9 Jun 1973",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://www.archontology.org/nations/ussr/ussr_state2/kalinin.php",
+      "title": "Archontology, Biography of Kalinin, Mihail",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "17 Jan 1938 - 19 Mar 1946",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Chairman of the Presidium of the Supreme Soviet of the USSR",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://worldsteel.org/media/press-releases/2025/december-2024-crude-steel-production-and-2024-global-totals",
+      "title": "worldsteel, December 2024 crude steel production and 2024 global totals, 24 January 2025",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Table 3: 2024 global crude steel production",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Algeria, Egypt, Libya, Morocco, South Africa, Tunisia",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Africa produced 1.9 Mt in December 2024, down 1.0% on December 2023.",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Total world crude steel production was 1,882.6 Mt in 2024.",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Table 1. Crude steel production by region",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/egypt",
+      "title": "CIA World Leaders, Egypt, updated 6/2/2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Leaders and Cabinet Members",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://www.archontology.org/nations/belgium/00_1830_1940_s.php",
+      "title": "Archontology, Belgium Heads of State 1830-1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "23 Feb 1934 - 27 May 1940",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://www.archontology.org/nations/netherlands/00_1813_1940_s.php",
+      "title": "Archontology, Netherlands Heads of State 1813-1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "23 Nov 1890 - 13 May 1940",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://www.archontology.org/nations/denmark/00_1863_td_s.php",
+      "title": "Archontology, Denmark Heads of State 1863-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "14 May 1912 - 20 Apr 1947",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://www.archontology.org/nations/sweden/00_1818_td_s.php",
+      "title": "Archontology, Sweden Heads of State 1818-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "8 Dec 1907 - 29 Oct 1950",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://www.archontology.org/nations/norway/00_1905_40_s.php",
+      "title": "Archontology, Norway Heads of State 1905-1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "27 Nov 1905 - 25 Sep 1940",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://www.archontology.org/nations/finland/00_1919_td_s.php",
+      "title": "Archontology, Finland Heads of State 1919-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "1 Mar 1937 - 19 Dec 1940",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://www.archontology.org/nations/greece/00_1935_1941_s.php",
+      "title": "Archontology, Greece King 1935-1941",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "25 Nov 1935 - 22 May 1941",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://www.archontology.org/nations/romania/00_1866_1947_s.php",
+      "title": "Archontology, Romania Heads of State 1866-1947",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "8 Jun 1930 - 6 Sep 1940",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://www.archontology.org/nations/bulgaria/00_1908_1946_s.php",
+      "title": "Archontology, Bulgaria Heads of State 1908-1946",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "3 Oct 1918 - 28 Aug 1943",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://www.archontology.org/nations/hungary/00_1919_45_s.php",
+      "title": "Archontology, Hungary Governors 1919-1945",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "1 Mar 1920 - 16 Oct 1944",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://www.archontology.org/nations/hungary/00_1919_1945_g.php",
+      "title": "Archontology, Hungary Heads of Government 1919-1945",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "16 Feb 1939 - 3 Apr 1941",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://www.archontology.org/nations/yugoslavia/00_1918_41_s.php",
+      "title": "Archontology, Yugoslavia Kings 1918-1941",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "9 Oct 1934 - 17 Apr 1941",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://www.archontology.org/nations/albania/00_1939_1944_s.php",
+      "title": "Archontology, Albania Heads of State 1939-1944",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "16 Apr 1939 - 3 Sep 1943",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://www.archontology.org/nations/portugal/port010",
+      "title": "Archontology, Portugal Heads of State 1910-1974",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "15 Apr 1935 - 18 Apr 1951",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://www.archontology.org/nations/portugal/port015",
+      "title": "Archontology, Portugal Heads of Government 1910-1974",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "11 Apr 1933 - 27 Sep 1968",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://www.archontology.org/nations/eire/eire_rep2",
+      "title": "Archontology, Ireland Heads of State 1937-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "25 Jun 1938 - 24 Jun 1945",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://www.archontology.org/nations/eire/eire_govt",
+      "title": "Archontology, Ireland Heads of Government 1937-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "29 Dec 1937 - 18 Feb 1948",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://www.archontology.org/nations/switzerland/00_1901_2000_s.php",
+      "title": "Archontology, Switzerland Heads of State 1901-2000",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "1 Jan 1939 - 31 Dec 1939",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://www.archontology.org/nations/turkey/00_1923_td_s.php",
+      "title": "Archontology, Turkey Heads of State 1923-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "11 Nov 1938 - 15 Jan 1945",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://www.archontology.org/nations/czechoslovakia/00_1918_39_s.php",
+      "title": "Archontology, Czechoslovakia Heads of State 1918-1939",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "30 Nov 1938 - 15 Mar 1939",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://www.archontology.org/nations/austria/au_rep1",
+      "title": "Archontology, Austria Heads of State 1918-1938",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "10 Dec 1928 - 13 Mar 1938",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://www.archontology.org/nations/south_africa/00_1994_td_s.php",
+      "title": "Archontology, South Africa Heads of State 1994-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "15 Feb 2018 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://archive.org/details/pub_usgov-minerals-yearbook_1940",
+      "title": "U.S. Bureau of Mines, Minerals Yearbook 1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Belgium..                                      3,029, 600 3, 161, 340 3,803, 750 2, 426, 130         3,068, 200",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Portugal.                                         880          6, 539          7,700            2,519         418",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Rumania.                                      93, 813       108, 549        129, 060        138, 942     131, 992",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Yugoslavia..                                 234, 729        450, 859        629, 172        607, 111    666, 863",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "Yugoslavia...-                                      216, 197    292, 174 354, 233 396, 368       314, 439",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "All figures for 1939 are to be considered as pre-",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "url": "https://www.archontology.org/nations/egypt/00_1961_td_s.php",
+      "title": "Archontology, Egypt Heads of State 1961-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "8 Jun 2014 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "url": "https://www.archontology.org/nations/algeria/00_1962_td_s.php",
+      "title": "Archontology, Algeria Heads of State 1962-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "19 Dec 2019 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "url": "https://www.archontology.org/nations/morocco/00_1957_td_s.php",
+      "title": "Archontology, Morocco Heads of State 1957-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "23 Jul 1999 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "url": "https://www.archontology.org/nations/nigeria/00_1963_td_s.php",
+      "title": "Archontology, Nigeria Heads of State 1963-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "29 May 2023 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "url": "https://www.archontology.org/nations/kenya/00_1964_td_s.php",
+      "title": "Archontology, Kenya Heads of State 1964-2026",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "13 Sep 2022 -",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "url": "https://archive.org/details/in.ernet.dli.2015.13105",
+      "title": "League of Nations, Armaments Year-Book, C.228.M.155.1939.IX, Geneva, June 1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "According to unofficial sources, the strength of the German army was estimated at the end of 1938 at 900,000",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "the total effectives of officers of the land army for 1939 were fixed at 31,060",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "url": "https://archive.org/details/per_statistisches-jahrbuch-fur-das-deutsche-reich_statistisches-jahrbuch-fr-das-d_1939-1940_58",
+      "title": "Statistisches Reichsamt, Statistisches Jahrbuch für das Deutsche Reich 1939/40, Berlin 1940",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Die Herausgabe des Statistischen Jahrbuchs für das Deutsche Reich war für das Jahr 1939 wegen der Kriegsverhältnisse zurückgestellt worden.",
+          "added": "2026-10-14"
+        },
+        {
+          "text": "3. Eisenindustrie 1932 —1938",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "url": "https://archive.org/details/in.ernet.dli.2015.274894",
+      "title": "W. K. Hancock and M. M. Gowing, British War Economy, United Kingdom civil series",
+      "accessed": "2026-10-14",
+      "quotes": [
+        {
+          "text": "Mobilisation of the Labour Force aged 14 and over of each Country for War^ Jum 1344 Million persons",
+          "added": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015017684799",
+      "title": "United States Strategic Bombing Survey, The Effects of Strategic Bombing on the German War Economy, Overall Economic Effects Division, 31 October 1945",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 47,
+      "url": "https://wellcomecollection.org/works/fezqxdjh",
+      "title": "Central Statistical Office, Statistical Digest of the War, HMSO, London, 1951",
+      "accessed": "2026-10-14"
+    }
+  ]
+}

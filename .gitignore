@@ -1,0 +1,5 @@
+.pytest_cache/
+.hermes/
+__pycache__/
+*.pyc
+docs/sources/evidence/

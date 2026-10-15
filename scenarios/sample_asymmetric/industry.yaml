@@ -1,0 +1,6 @@
+side_a:
+  capabilities: [electronics, airframe, welding]
+  ammo: {gps_bomb: 200, unguided_he: 400}
+side_b:
+  capabilities: [welding, explosives]
+  ammo: {unguided_he: 80000, ap_shot: 50000}

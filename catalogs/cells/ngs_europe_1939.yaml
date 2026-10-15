@@ -1,0 +1,179 @@
+# Title read: CENTRAL EUROPE AND THE MEDITERRANEAN
+# Date read: AS OF AUGUST 28, 1939
+# Scale line read: Scale 1:5,000,000 or 78.91 miles to the inch
+# Projection read: Conic Projection with standard parallels at 34 and 53
+# Publisher line read: Compiled and Drawn in the Cartographic Section of The National Geographic Society for THE NATIONAL GEOGRAPHIC MAGAZINE. Gilbert Grosvenor, Editor. WASHINGTON, OCTOBER 1939.
+# Copyright read: COPYRIGHT 1939 BY THE NATIONAL GEOGRAPHIC SOCIETY, WASHINGTON, D.C.
+# File: docs/sources/evidence/uwm-agdm-32265-ngs-1939.jpg
+# Endpoint: https://collections.lib.uwm.edu/digital/iiif/agdm/32265/full/full/0/default.jpg
+# info.json advertised 14296 by 10487. The JPEG this endpoint returned, and that was measured, is 9000 by 6602.
+# Do not rescale ticks or name marks onto the advertised size.
+# Kilometres bar read: 0, 100, 200, 300, with a 100 km check section left of 0.
+# The statute-miles bar was not used. Positions are not averaged.
+# 0 tick: native pixel 916.55, 6016.5. 300 tick: native pixel 1486.67. Span 570.12 px = 300000000 mm.
+# A printed ratio is not a pixel length.
+# x positive is east of that tick. y positive is south of it, image down.
+# A cell is stored only when a mark drawn at the measured point was seen on the letter ink.
+# The label-only copy stays in catalogs/cells/ngs_1939_08_28.yaml. Do not add positions there.
+# A shoreline was not traced.
+title: CENTRAL EUROPE AND THE MEDITERRANEAN
+scale: "1:5,000,000"
+date: "AS OF AUGUST 28, 1939"
+origin:
+  tick: "0 Kilometers"
+  pixel_x: 916.55
+  pixel_y: 6016.5
+  km_300_pixel_x: 1486.67
+  span_px: 570.12
+  x_positive: east
+  y_positive: south
+cells:
+  - name: BAY OF BISCAY
+    surface: sea
+    x_mm: 418043570
+    y_mm: -1717796253
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Mark sat on the Y of BISCAY, on blue water. Pixel 1711, 2752 of the 9000 by 6602 scan. docs/sources/evidence/uwm-agdm-32265-ngs-1939.jpg"
+  - name: KATTEGAT
+    surface: sea
+    x_mm: 1623579246
+    y_mm: -2844927384
+    source: "National Geographic Society, Central Europe and the Mediterranean, as of August 28, 1939. Mark sat on the bar of the E of KATTEGAT, on blue water. Pixel 4002, 610 of the 9000 by 6602 scan. docs/sources/evidence/uwm-agdm-32265-ngs-1939.jpg"
+absent:
+  - name: NORTH SEA
+    reason: "The name is complete on blue water. Two marks missed the R: one above the letter, one in the counter. No position stored."
+  - name: DENMARK
+    reason: "The name is complete on non-blue land. Two marks missed the K: one above the letter, one in the counter. No position stored."
+  - name: GREAT BRITAIN
+    reason: "GREAT and BRITAIN are complete. The letters sit on blue water, not on the island. The color does not mark the named land."
+  - name: LATVIA
+    reason: "The name is complete on non-blue land. Two marks missed the A. Both sat in the counter. No position stored."
+  - name: ENGLISH CHANNEL
+    reason: "Cut. Visible fragments were GLISH, CHANN, and HANNEL. Not assembled."
+  - name: MEDITERRANEAN SEA
+    reason: "The spaced name was not complete in one view."
+  - name: ATLANTIC
+    reason: "Vertical fragments only. Not complete in one view."
+  - name: BLACK SEA
+    reason: "BLACK was seen. SEA was not confirmed in the same view."
+  - name: ALGERIA
+    reason: "The spaced name was cut at the tile edge."
+  - name: TUNISIA
+    reason: "No complete area label was read. Tunis is a city."
+  - name: LIBYA
+    reason: "No single area label was read. TRIPOLITANIA, CIRENAICA, and LIBIAN PLATEAU were separate labels."
+  - name: YUGOSLAVIA
+    reason: "No complete area label was read on the sheet."
+  - name: GREECE
+    reason: "No complete area label was read. Regional labels are not this name."
+  - name: FINLAND
+    reason: "No complete area label was read."
+  - name: NETHERLANDS
+    reason: "Only fragments were legible. A city is not an area."
+  - name: SWEDEN
+    reason: "The spaced name was cut at the tile edge. Not assembled."
+  - name: BALTIC SEA
+    reason: "BALTIC and SEA were legible on blue water. A mark was not confirmed on the letter ink."
+  - name: FRANCE
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: GERMANY
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: BELGIUM
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: LUXEMBOURG
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: SWITZERLAND
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: POLAND
+    reason: "The spaced name was legible on non-blue land. The mark sat on a city, not on the area letters."
+  - name: HUNGARY
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: ROMANIA
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: LITHUANIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: ESTONIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: SPAIN
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: PORTUGAL
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: MOROCCO
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: ITALY
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: "CORSE (CORSICA)"
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: "SARDEGNA (SARDINIA)"
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: SICILIA
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: LIGURIAN SEA
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: TYRRHENIAN SEA
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: IONIAN SEA
+    reason: "IONIAN and SEA were legible on blue water. A mark was not confirmed on the letter ink."
+  - name: BULGARIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: MARMARA DENIZI
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: "KRĒTIKÒN PÉLAGOS"
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: "(SEA OF CANDIA)"
+    reason: "The parenthetical was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: CYPRUS
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: TURKEY
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: SYRIA
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: EIRE
+    reason: "The name was legible on non-blue land. The mark sat on a coast dot, not on the letters."
+  - name: IRISH SEA
+    reason: "IRISH and SEA were legible on blue water. A mark was not confirmed on the letter ink."
+  - name: NORWAY
+    reason: "The name was legible. A mark was not confirmed on the letter ink."
+  - name: SKAGERRAK
+    reason: "The name was legible on blue water. The mark sat on the neatline, not on the letters."
+  - name: "(SEA OF AZOV)"
+    reason: "The parenthetical was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: TRIPOLITANIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: CIRENAICA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: MARMARICA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: LIBIAN PLATEAU
+    reason: "Printed spelling. The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: EGYPT
+    reason: "The spaced name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: SAUDI ARABIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: LEBANON
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: GOTLAND
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: ÖLAND
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: BORNHOLM
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: "KRETE (CRETE)"
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: HATAY
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: EAST PRUSSIA
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: NORTHERN IRELAND
+    reason: "The name was legible on non-blue land. A mark was not confirmed on the letter ink."
+  - name: ISLE OF MAN
+    reason: "The name was legible on the island. A mark was not confirmed on the letter ink."
+  - name: Strait of Gibraltar
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: "GRAN SIRTE (GOLFO DI SIDRA)"
+    reason: "Both lines were legible on blue water. A mark was not confirmed on the letter ink."
+  - name: Golfe de Gabès
+    reason: "The name was legible on blue water. A mark was not confirmed on the letter ink."
+  - name: RUSSIAN SOCIALIST FEDERATED SOVIET REPUBLIC
+    reason: "The words were legible across one tile on non-blue land. A mark was not confirmed on the letter ink."
+  - name: coast
+    reason: "The shoreline is a drawn line. It is not a named cell."

@@ -1,0 +1,48 @@
+{
+  "scenario_id": "europe_africa",
+  "day_start": 0,
+  "day_end": 1,
+  "layer": "record",
+  "stop": "victory",
+  "winner": [
+    "europe"
+  ],
+  "prediction_gate_met": false,
+  "events": [
+    {
+      "day": 0,
+      "seq": 1,
+      "kind": "shot",
+      "sentence": "A shot was fired. Outcome penetrated.",
+      "place_name": null,
+      "numbers": {
+        "outcome": "penetrated"
+      }
+    },
+    {
+      "day": 0,
+      "seq": 2,
+      "kind": "death",
+      "sentence": "af-inf was no longer alive.",
+      "numbers": {
+        "alive": 0
+      }
+    },
+    {
+      "day": 1,
+      "seq": 1,
+      "kind": "state_surrender",
+      "sentence": "africa surrendered. Points 0, living 0, stock 0, output 0, held 1 days.",
+      "numbers": {
+        "points": 0,
+        "living": 0,
+        "stock": 0,
+        "output": 0,
+        "held_days": 1
+      }
+    }
+  ],
+  "battles": [],
+  "campaigns": [],
+  "days": []
+}

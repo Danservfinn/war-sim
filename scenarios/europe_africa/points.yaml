@@ -1,0 +1,3 @@
+points:
+  - {id: ruhr, side: europe, x_mm: 0, y_mm: 0, hold_mm: 1000000}
+  - {id: pretoria, side: africa, x_mm: 500000, y_mm: 0, hold_mm: 1000000}

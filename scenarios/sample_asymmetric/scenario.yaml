@@ -1,0 +1,8 @@
+id: sample_asymmetric
+seed: 1939
+start_tick: 0
+map: sample_hex
+viewer_side: side_a
+bubbles:
+  min_bubble_m: 10000
+  max_bubble_m: 80000

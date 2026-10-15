@@ -1,0 +1,25 @@
+platforms:
+  he111:
+    domain: air
+    guidance_default: none
+  f16c:
+    domain: air
+    guidance_default: gps
+ammo:
+  unguided_he: {guidance: none}
+  gps_bomb: {guidance: gps}
+sensors:
+  optical_1939: {kind: optical, range_m: 8000}
+  radar_modern: {kind: radar, range_m: 40000}
+recipes:
+  gps_bomb:
+    requires: [electronics]
+    inputs: {electronics: 1, explosives: 1}
+  unguided_he:
+    requires: [explosives]
+    inputs: {steel: 1, explosives: 1}
+modifiers:
+  terrain:
+    open: {ground: 1000, air: 1000}
+  weather:
+    clear: {optical: 1000, radar: 1000}

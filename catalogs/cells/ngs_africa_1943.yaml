@@ -1,0 +1,188 @@
+# National Geographic Society, Africa, The National Geographic Magazine.
+# Gilbert Grosvenor, Editor. Washington, February 1943.
+# International Boundaries as of Sept. 1, 1939.
+# File: docs/sources/evidence/yale-15533705.jpg
+# Image: 8924 by 9573.
+# Scale line: Scale, 1:11,721,600 or 185 miles to 1 inch.
+# Origin: the zero tick of the printed kilometer bar.
+# That tick is pixel (6888.5, 8795) on this scan.
+# The bar reads 0 to 800 kilometers across 805 pixels.
+# 800 kilometers / 805 pixels = 993788.8198757764 ground millimeters per pixel.
+# x positive is east of that tick. y positive is south of it, image down.
+# The statute-mile bar was not used. Positions are not averaged.
+# A cell is stored only when a mark drawn at the measured point was seen on the letters.
+# The relief inset is a different map. Its scale is 562 miles to 1 inch. It was not used.
+# The Cape Verde inset is a separate frame. It was not used.
+# The airline-distance table is not a map label.
+title: AFRICA
+scale: "1:11,721,600 or 185 miles to 1 inch"
+origin: "kilometer-bar zero tick, pixel 6888.5, 8795 on yale-15533705.jpg"
+mm_per_px: 993788.8198757764
+cells:
+  - id: atlantic_ocean
+    name: ATLANTIC OCEAN
+    surface: sea
+    x_mm: -5918801502
+    y_mm: -7745247376
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the A of ATLANTIC, on blue water. Pixel 932.7, 1001.3. docs/sources/evidence/yale-15533705.jpg"
+  - id: black_sea
+    name: BLACK SEA
+    surface: sea
+    x_mm: -1494310559
+    y_mm: -8117545342
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the L of BLACK, on blue water. The A of SEA was also on the ink. Pixel 5384.9, 626.7. docs/sources/evidence/yale-15533705.jpg"
+  - id: gulf_of_guinea
+    name: GULF OF GUINEA
+    surface: sea
+    x_mm: -4172336754
+    y_mm: -3554751283
+    source: "National Geographic Society, Africa, February 1943. Boundaries as of Sept. 1, 1939. Printed name on blue water. Ink centroid of the letter band, pixel 2690.086, 5218.032. The drawn mark sat between G and U of GUINEA. docs/sources/evidence/yale-15533705.jpg"
+  - id: spain
+    name: SPAIN
+    surface: land
+    x_mm: -4188065332
+    y_mm: -7923564144
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the N of SPAIN, on non-blue land. Pixel 2674.3, 821.9. docs/sources/evidence/yale-15533705.jpg"
+  - id: italy
+    name: ITALY
+    surface: land
+    x_mm: -2936435001
+    y_mm: -7934807453
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the T of ITALY, on non-blue land. Pixel 3933.7, 810.6. docs/sources/evidence/yale-15533705.jpg"
+  - id: bulgaria
+    name: BULGARIA
+    surface: land
+    x_mm: -1996576950
+    y_mm: -8036770186
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the U of BULGARIA, on non-blue land. Pixel 4879.4, 708.0. docs/sources/evidence/yale-15533705.jpg"
+  - id: sardegna
+    name: SARDEGNA
+    surface: land
+    x_mm: -3466737003
+    y_mm: -7829939590
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the G of SARDEGNA, on the island. Pixel 3400.1, 916.1. docs/sources/evidence/yale-15533705.jpg"
+  - id: sicilia
+    name: SICILIA
+    surface: land
+    x_mm: -3008711944
+    y_mm: -7478293453
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the L of SICILIA. Pixel 3861.0, 1270.0. docs/sources/evidence/yale-15533705.jpg"
+  - id: egypt
+    name: EGYPT
+    surface: land
+    x_mm: -1531376852
+    y_mm: -6315232189
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the G of EGYPT, on non-blue land. Pixel 5347.6, 2440.3. docs/sources/evidence/yale-15533705.jpg"
+  - id: nigeria
+    name: NIGERIA
+    surface: land
+    x_mm: -3723489960
+    y_mm: -4356486205
+    source: "National Geographic Society, Africa, February 1943. Mark sat on the E of NIGERIA, on non-blue land. Pixel 3141.7, 4411.3. docs/sources/evidence/yale-15533705.jpg"
+absent:
+  - name: OCEAN
+    reason: "The word under ATLANTIC is complete. The measured mark sat in empty sea."
+  - name: TYRRHENIAN SEA
+    surface: sea
+    reason: "The name is complete on blue water. Marks sat on Cagliari and the coast, not on the letters."
+  - name: SEA OF CANDIA
+    surface: sea
+    reason: "The name is complete on blue water. The mark sat just left of the C, not on the ink."
+  - name: FRANCE
+    surface: land
+    reason: "The name is complete on non-blue land. The mark sat on Valence, not on the letters."
+  - name: BECHUANALAND
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: IRAN (PERSIA)
+    surface: land
+    reason: "The name is complete on non-blue land. The mark did not sit on the letters."
+  - name: GREECE
+    surface: land
+    reason: "The name is complete on non-blue land. The mark sat in empty terrain."
+  - name: ROMANIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: SYRIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: PALESTINE
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: LEBANON
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: CYPRUS
+    surface: land
+    reason: "The name is complete on the island. The ink position was not verified."
+  - name: GAMBIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: SENEGAL
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: PORTUGUESE GUINEA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: TRIPOLITANIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: CIRENAICA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: SIERRA LEONE
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: IVORY COAST
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: CAMEROONS
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: UGANDA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: BRITISH SOMALILAND
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: ITALIAN SOMALILAND
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: TANGANYIKA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: NORTHERN RHODESIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: SOUTHERN RHODESIA
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: KUWAIT
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: QATAR
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: YEMEN
+    surface: land
+    reason: "The name is complete on non-blue land. The ink position was not verified."
+  - name: INDIAN OCEAN
+    reason: "INDIAN was read. OCEAN was cut. The mark on an A was not accepted as the full name."
+  - name: MEDITERRANEAN SEA
+    reason: "The letters are spaced. Every letter was not confirmed in one view."
+  - name: RED SEA
+    reason: "The name was not read complete."
+  - name: FRENCH WEST AFRICA
+    reason: "The words are spaced across more than one view. The full name was not confirmed together."
+  - name: ANGLO-EGYPTIAN SUDAN
+    reason: "The words are spaced across more than one view. The full name was not confirmed together."
+  - name: MADAGASCAR
+    reason: "The island is drawn on the main sheet. The name was not read on it. The inset name was not used."
+  - name: SEYCHELLES
+    reason: "The name was read. The mark sat on a letter of INDIAN, not on SEYCHELLES."
+  - name: relief inset
+    reason: "A separate map. Printed scale 562 miles to 1 inch. Not this sheet."
+  - name: CAPE VERDE ISLANDS
+    reason: "The name is a caption of a separate inset frame. It was not measured on the main sheet."
+  - name: coast
+    reason: "The shoreline is a drawn line. It is not a named cell."
