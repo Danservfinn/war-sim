@@ -94,6 +94,9 @@ def _ensure(c: Campaign) -> None:
     c.generals = list(getattr(c, "generals", []) or [])
     c.march_orders = list(getattr(c, "march_orders", []) or [])
     c.at_war = list(getattr(c, "at_war", []) or [])
+    c.battles = list(getattr(c, "battles", None) or [])
+    c.campaigns = list(getattr(c, "campaigns", None) or [])
+    c.operations = list(getattr(c, "operations", None) or [])
     c.continent_stocks = dict(getattr(c, "continent_stocks", {}) or {})
     c.mission_days = list(getattr(c, "mission_days", []) or [])
     c.hull_jobs = list(getattr(c, "hull_jobs", []) or [])
@@ -1249,6 +1252,7 @@ def _fight(c: Campaign) -> None:
                     mount_id=mount.get("mount_id"),
                 )
                 outcome = last.get("outcome") if isinstance(last, dict) else None
+                row.setdefault("outcomes", []).append(outcome)
                 _log_event(
                     c,
                     "shot",
@@ -1276,6 +1280,135 @@ def _fight(c: Campaign) -> None:
             )
 
 
+def _sides_at_war(c: Campaign, left, right) -> bool:
+    if not left or not right or left == right:
+        return False
+    for row in c.at_war or []:
+        if isinstance(row, (list, tuple)) and left in row and right in row:
+            return True
+    return False
+
+
+def _battle_place(c: Campaign, unit: dict) -> tuple:
+    points = [row for row in c.points if type(row.get("x_mm")) is int and type(row.get("y_mm")) is int]
+    if not points:
+        return "contact", None
+    ux = int(unit.get("x_mm", 0))
+    uy = int(unit.get("y_mm", 0))
+    nearest = min(
+        points,
+        key=lambda row: (int(row["x_mm"]) - ux) ** 2 + (int(row["y_mm"]) - uy) ** 2,
+    )
+    return str(nearest["id"]), nearest.get("name")
+
+
+def _battles(c: Campaign) -> None:
+    """A shot or a death between two sides at war opens a battle. A detection does not."""
+    fought = []
+    for row in c.engagements:
+        if int(row.get("day", -1)) != c.day or not row.get("resolved"):
+            continue
+        attacker = row.get("attacker") or {}
+        defender = row.get("defender") or {}
+        if not _sides_at_war(c, attacker.get("side"), defender.get("side")):
+            continue
+        died = defender.get("cause") == "shot" and not defender.get("alive", True)
+        if not row.get("outcomes") and not died:
+            continue
+        fought.append(row)
+    by_place = {}
+    for row in fought:
+        place_id, name = _battle_place(c, row["defender"])
+        bag = by_place.setdefault(place_id, {"name": name, "rows": []})
+        bag["rows"].append(row)
+    for place_id, bag in by_place.items():
+        battle = next(
+            (item for item in c.battles if item.get("place_id") == place_id and item.get("closed_day") is None),
+            None,
+        )
+        if battle is None:
+            bid = f"{place_id}-{c.day}"
+            battle = {
+                "id": bid,
+                "place_id": place_id,
+                "place_name": bag["name"] or bid,
+                "opened_day": c.day,
+                "closed_day": None,
+                "campaign_id": None,
+                "states": [],
+                "units": [],
+                "shots": 0,
+                "hits": 0,
+                "penetrations": 0,
+                "duds": 0,
+                "ammo_spent": {},
+                "losses": {},
+            }
+            c.battles.append(battle)
+            _log_event(c, "battle_open", f"Battle {bid} opened.")
+        for row in bag["rows"]:
+            attacker = row["attacker"]
+            defender = row["defender"]
+            for side in (attacker.get("side"), defender.get("side")):
+                if side and side not in battle["states"]:
+                    battle["states"].append(side)
+            for uid in (attacker.get("id"), defender.get("id")):
+                if uid and uid not in battle["units"]:
+                    battle["units"].append(uid)
+            for outcome in row.get("outcomes") or []:
+                battle["shots"] += 1
+                if outcome in ("penetrated", "hit_no_penetration"):
+                    battle["hits"] += 1
+                if outcome == "penetrated":
+                    battle["penetrations"] += 1
+                if outcome == "dud":
+                    battle["duds"] += 1
+            if defender.get("cause") == "shot" and not defender.get("alive", True):
+                side = defender.get("side") or ""
+                losses = battle["losses"].setdefault(side, {})
+                losses["shot"] = int(losses.get("shot", 0)) + 1
+
+
+def _campaigns(c: Campaign) -> None:
+    """An accepted operation opens a campaign. A head of state does not sign it."""
+    for op in c.operations:
+        if any(row.get("id") == op.get("id") for row in c.campaigns):
+            continue
+        if c.day < int(op.get("active_day", 0)):
+            continue
+        units = [str(uid) for uid in (op.get("unit_ids") or [])]
+        signed = False
+        for general in c.generals:
+            if not _general_seated(c, general):
+                continue
+            command = [str(uid) for uid in (general.get("command") or [])]
+            if units and all(uid in command for uid in units):
+                signed = True
+                break
+        if not signed:
+            continue
+        c.campaigns.append({
+            "id": op["id"],
+            "name": op.get("name") or op["id"],
+            "opened_day": c.day,
+            "closed_day": None,
+            "result": "open",
+            "battles": [],
+        })
+        _log_event(c, "campaign_open", f"Campaign {op['id']} opened.")
+    for battle in c.battles:
+        if battle.get("campaign_id"):
+            continue
+        for camp in c.campaigns:
+            op = next((row for row in c.operations if row.get("id") == camp.get("id")), None)
+            if op is None:
+                continue
+            if any(uid in (op.get("unit_ids") or []) for uid in battle.get("units") or []):
+                battle["campaign_id"] = camp["id"]
+                if battle["id"] not in camp["battles"]:
+                    camp["battles"].append(battle["id"])
+
+
 def step_day(c: Campaign) -> None:
     if c.victory:
         return
@@ -1297,6 +1430,7 @@ def step_day(c: Campaign) -> None:
     _produce(c)
     _tick_conversions(c)
     _fight(c)
+    _battles(c)
     pump_ships(c)
     sink_ships(c)
     mark_ports(c)
@@ -1311,6 +1445,7 @@ def step_day(c: Campaign) -> None:
     _fuel_state(c)
     _quiet_attrition(c)
     _orders(c)
+    _campaigns(c)
     _consume(c)
     c.day += 1
     _units_gone(c)
@@ -1361,8 +1496,8 @@ def write_aar(c: Campaign, path, stop: str | None = None) -> None:
         "prediction_gate_met": False,
         "refused": list(prediction_refusals(getattr(c, "cells", None))),
         "events": list(getattr(c, "events", None) or []),
-        "battles": [],
-        "campaigns": [],
+        "battles": list(getattr(c, "battles", None) or []),
+        "campaigns": list(getattr(c, "campaigns", None) or []),
         "days": [],
     }
     target = Path(path)
