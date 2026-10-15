@@ -23,7 +23,7 @@ When a locator note and a catalog disagree, the catalog row wins for what was co
 | `source` | absent as a top-level key. Each row has its own `source`. `as_of_source` is the date locator | same | row strings |
 | `states` | absent as a list. 23 states are implied by `leaders[].state`. Two more are named absent | absent as a list. 6 states implied | leader rows |
 | `leaders` | fills. 35 chairs. Civil dates, not campaign days | fills. 6 chairs. No end date on the page | year-state files |
-| `generals` | absent. Key missing | absent. Named in `omitted` | none |
+| `generals` | fills. 2 offices, one name. Starts stated. Ends not stated. A month is not a day. A second page does not finish a tenure | absent. Named in `omitted`. A 2021 appointment does not state the chair on 31 December 2024 | year-state files |
 | `units` | fills. 1 strength count, not spawned. 12 listed ships, not placed. A garbled name is absent | fills. 3 listed ships, not placed. A hull still building is absent | `catalogs/year_states/` |
 | `plants` | absent. `plants: []` | fills. 2 rows. Boksburg 277 shells/day. Somerset West 1,111 charges/day. Both from Helmsen, 7 July 2023 | `catalogs/year_states/africa_2024.yaml` |
 | `stocks` | fills. 15 end-of-1939 stock cells. Production is not a stock. A dot is not a zero | absent | `catalogs/year_states/europe_1939.yaml` |

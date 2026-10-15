@@ -1041,6 +1041,22 @@ series:
     note: "Concentrates containing 60 percent WO3. No estimate mark on the cell. Spain and the USSR produce tungsten on the same page with no data. Not copied."
     source: "U.S. Bureau of Mines, Minerals Yearbook 1940, world production of tungsten ores, 1935-39, by countries, in metric tons of concentrates containing 60 percent WO3. Printed page 639. Portugal 1939 column 3,851. docs/sources/evidence/minerals-yearbook-1940.txt lines 47204-47263. https://archive.org/details/pub_usgov-minerals-yearbook_1940"
 
+generals:
+  - id: fr_gamelin_emg
+    name: Maurice Gamelin
+    office: chef d'État-Major général
+    state: france
+    from_date: "1931-02-09"
+    note: "The page states the start. It does not state an end for this office. A later sentence says he was relieved of his command on 19 May 1940. That sentence does not name this office. Not attached. Vice-présidence du Conseil supérieur de la Guerre is dated janvier 1935. A month is not a day. Not copied. Commandement en chef des forces alliées is dated au mois de septembre 1939. A month is not a day. Not copied."
+    source: "Ministère des Armées, Chemins de mémoire, Maurice Gamelin. The page states he replaced Weygand as chef d'État-Major général on 9 February 1931. https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/personnalites/personnalites-lettre-e-lettre-m/maurice-gamelin"
+  - id: fr_gamelin_defense_nationale
+    name: Maurice Gamelin
+    office: Chef d'état-major de la défense nationale
+    state: france
+    from_date: "1938-01-21"
+    note: "The page states the start in parentheses. It does not state an end."
+    source: "Ministère des Armées, Chemins de mémoire, Maurice Gamelin. Chef d'état-major de la défense nationale (21 janvier 1938). https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/personnalites/personnalites-lettre-e-lettre-m/maurice-gamelin"
+
 omitted:
   - plants
   - orders
@@ -1048,7 +1064,6 @@ omitted:
   - cells
   - formations
   - war_calibration_series
-  - generals
   - heads_of_government_not_on_an_opened_page
 
 named_empty:
@@ -1056,9 +1071,9 @@ named_empty:
   stocks: "End-of-1939 stock cells from the digest are loaded. A dot, a dash, and a production series are not a stock. Table 75 holders are a partial breakdown of distributed coal. They are not added to the table 73 total."
   links: "No cited road or rail names a plant node. A plant with no open link is refused. continent_stocks is not a substitute."
   labor: "No row states a count, a skill, a place, and a date. USSBS table 25, construction employment on 17 May 1939, is a headcount. It is not a skill at a munitions plant."
-  formations: "uk_armed_forces_1939_09 is a strength count. It does not spawn a unit. Twelve United Kingdom capital-ship names from the September 1939 list are stored and not placed. Displacement is not on the name line. A garbled name was not repaired. The German navy list, August 1939, does not keep a name on the same line as a number. Not copied. A type count is not a formation. No general name, office, and tenure are on one page."
+  formations: "uk_armed_forces_1939_09 is a strength count. It does not spawn a unit. Twelve United Kingdom capital-ship names from the September 1939 list are stored and not placed. Displacement is not on the name line. A garbled name was not repaired. The German navy list, August 1939, does not keep a name on the same line as a number. Not copied. A type count is not a formation."
   plants: "No 1939 plant rate with speaker, place, and date. A 1944 or 1945 rate is not a 1939 cap."
   weapons: "No published number. No cited trial."
   orders: "No cited order for 1 September 1939."
-  generals: "No page states name, office, and tenure together."
+  generals: "Two French offices are loaded. Each start is on the ministry page. Neither end is. London Gazette, 17 December 1937, page 7917, appoints the Visct. Gort Chief of the Imp. Gen. Staff on 6 December 1937. That page does not state an end, and it does not state he still held the chair on 1 September 1939. London Gazette, 8 September 1939, supplement page 6173, dates the next appointments 4 September 1939. That date is after as_of. Not copied. USSBS names General Thomas without a given name, and interrogation titles without a 1939 tenure. Not copied. A head of state is already a leader. Not promoted."
   straits: "catalogs/straits.yaml strings are not locators."
