@@ -1265,11 +1265,13 @@ def _fight(c: Campaign) -> None:
         row["resolved"] = True
         if int(row["defender"].get("Physical", {}).get("integrity", 1)) <= 0:
             row["defender"]["alive"] = False
+            row["defender"]["cause"] = "shot"
             defender_id = row["defender"].get("id") or ""
             _log_event(
                 c,
                 "death",
                 f"{defender_id} was no longer alive." if defender_id else "The log does not have this.",
+                cause="shot",
                 numbers={"alive": 0},
             )
 

@@ -34,4 +34,7 @@ def test_radar_missile_spends_a_kit_inside_the_legal_band_and_the_optical_integr
     assert optical["Physical"]["integrity"] == 0
     assert radar["Physical"]["integrity"] > 0
     assert any(row["kind"] == "death" and row["sentence"] == "optical_gun was no longer alive." for row in c.events)
+    death = next(row for row in c.events if row["kind"] == "death")
+    assert death.get("cause") == "shot"
+    assert optical.get("cause") == "shot"
     assert not any("1939" in row["sentence"] or "modern" in row["sentence"] for row in c.events)
