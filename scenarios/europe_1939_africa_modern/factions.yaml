@@ -1,0 +1,7 @@
+factions:
+  europe:
+    continent: europe
+    surrender_hold_days: 1
+  africa:
+    continent: africa
+    surrender_hold_days: 1

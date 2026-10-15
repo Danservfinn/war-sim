@@ -1,0 +1,69 @@
+units:
+  - id: radar_missile
+    side: radar
+    domain: air
+    alive: true
+    foot: true
+    cell_id: field
+    x_mm: 0
+    y_mm: 0
+    sortie_fuel: 1
+    fuel_grade: avgas
+    speed_mm_per_day: 0
+    equipment: {}
+    Crew:
+      billets:
+        - {role: gunner, count: 1, skill: 100, trained_days: 0}
+    Physical:
+      integrity: 40
+      signature: {visual: 1000}
+      armor:
+        - {aspect: front, thickness_mm: 40, ke_mod: 1000, heat_mod: 1000}
+    WeaponMount:
+      - mount_id: rack
+        kind: missile
+        rounds_per_day: 1
+        range_bands:
+          - {max_m: 8000, accuracy: 1000, penetration_mm: 80, blast: 30}
+        ammo:
+          - ammo_id: radar_kit
+            qty: 2
+            guidance: radar
+            guidance_match: 1000
+            penetration_mm: 80
+            blast: 30
+            warhead: ke
+  - id: optical_gun
+    side: optical
+    domain: air
+    alive: true
+    foot: true
+    cell_id: field
+    x_mm: 0
+    y_mm: 0
+    sortie_fuel: 1
+    fuel_grade: avgas
+    speed_mm_per_day: 0
+    equipment: {}
+    Crew:
+      billets:
+        - {role: gunner, count: 1, skill: 100, trained_days: 0}
+    Physical:
+      integrity: 10
+      signature: {visual: 1000}
+      armor:
+        - {aspect: front, thickness_mm: 0, ke_mod: 1000, heat_mod: 1000}
+    WeaponMount:
+      - mount_id: gun
+        kind: gun
+        rounds_per_day: 1
+        range_bands:
+          - {max_m: 8000, accuracy: 1000, penetration_mm: 1, blast: 1}
+        ammo:
+          - ammo_id: optical_kit
+            qty: 2
+            guidance: optical
+            guidance_match: 1000
+            penetration_mm: 1
+            blast: 1
+            warhead: ke

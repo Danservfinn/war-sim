@@ -704,8 +704,11 @@ def _produce(c: Campaign) -> None:
             out = 0
         if line.get("powder_local") is False and not getattr(c, "imports_open", False):
             out = 0
+            plant["gate"] = "powder"
         networked = bool(line.get("inputs")) or bool(line.get("skill"))
-        if plant.get("node_id") and not _plant_accessible(c, plant):
+        if plant.get("gate") == "powder":
+            pass
+        elif plant.get("node_id") and not _plant_accessible(c, plant):
             out = 0
             plant["gate"] = "no_access"
         elif networked:
@@ -993,11 +996,27 @@ def _move(c: Campaign) -> None:
         layer = _move_cells(c, unit)
         if _crosses_sea(c, x, y, nx, ny, layer) or _leaves_measured_land(layer, nx, ny):
             order["gate"] = "no_surface"
+            if not any(row.get("surface") == "coast" for row in layer):
+                _log_event(
+                    c,
+                    "march_refused",
+                    f"March {unit.get('id')} refused. Gate no_surface.",
+                    numbers={"gate": "no_surface"},
+                )
             continue
         if not _pay_march_fuel(unit):
             continue
         unit["x_mm"] = nx
         unit["y_mm"] = ny
+        sat = next(
+            (
+                row for row in layer
+                if _measured_point(row) and row["x_mm"] == nx and row["y_mm"] == ny
+            ),
+            None,
+        )
+        if sat is not None:
+            unit["cell_id"] = sat.get("id")
         if reached:
             order["waypoint"] = int(order.get("waypoint", 0)) + 1
 
@@ -1144,6 +1163,29 @@ def _ready(mount: dict) -> int:
     return sum(int(ammo.get("qty", 0)) for ammo in mount.get("ammo") or [])
 
 
+def _air_blocked(c: Campaign, attacker: dict) -> bool:
+    """A failed air gate spends nothing. resolve_shot is not called."""
+    if attacker.get("domain") != "air" or not attacker.get("mission"):
+        return False
+    from sim.systems.air import first_gate
+    field = next((row for row in c.cells if row.get("id") == attacker.get("cell_id")), None)
+    side = attacker.get("side")
+    fuel = (c.factions.get(side) or {}).get("fuel") if side else {}
+    gate = first_gate(
+        attacker,
+        mission=attacker.get("mission"),
+        doctrine=getattr(c, "doctrine", None),
+        day=c.day,
+        generals=c.generals,
+        fuel=fuel,
+        field=field,
+    )
+    if not gate:
+        return False
+    attacker["gate"] = gate
+    return True
+
+
 def _fight(c: Campaign) -> None:
     """One clock. Engagements share each mount's day cap. Target ids sort ascending."""
     from sim.systems.combat import resolve_shot
@@ -1160,6 +1202,9 @@ def _fight(c: Campaign) -> None:
     rows.sort(key=lambda row: str(row["defender"].get("id", "")))
     for row in rows:
         attacker = row["attacker"]
+        if _air_blocked(c, attacker):
+            row["resolved"] = True
+            continue
         row["defender"] = screen_target(attacker, row["defender"], c.units)
         mounts = sorted(attacker.get("WeaponMount") or [], key=lambda item: item.get("mount_id", ""))
         last = None

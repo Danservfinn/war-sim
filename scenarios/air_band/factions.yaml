@@ -1,0 +1,11 @@
+factions:
+  radar:
+    continent: europe
+    surrender_hold_days: 1
+    fuel:
+      avgas: 4
+  optical:
+    continent: africa
+    surrender_hold_days: 1
+    fuel:
+      avgas: 4

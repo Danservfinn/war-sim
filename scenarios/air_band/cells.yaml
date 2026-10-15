@@ -1,0 +1,8 @@
+cells:
+  - id: field
+    surface: land
+    x_mm: 0
+    y_mm: 0
+    airfield: true
+    damage_milli: 0
+    source: fixture

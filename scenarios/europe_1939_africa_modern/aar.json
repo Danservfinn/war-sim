@@ -1,0 +1,36 @@
+{
+  "scenario_id": "europe_1939_africa_modern",
+  "day_start": 0,
+  "day_end": 1,
+  "layer": "record",
+  "stop": "victory",
+  "winner": [
+    "africa"
+  ],
+  "prediction_gate_met": false,
+  "refused": [
+    "fronts",
+    "pockets",
+    "beachheads",
+    "lifts",
+    "full_simulation"
+  ],
+  "events": [
+    {
+      "day": 1,
+      "seq": 1,
+      "kind": "state_surrender",
+      "sentence": "europe surrendered. Points 0, living 0, stock 0, output 0, held 1 days.",
+      "numbers": {
+        "points": 0,
+        "living": 0,
+        "stock": 0,
+        "output": 0,
+        "held_days": 1
+      }
+    }
+  ],
+  "battles": [],
+  "campaigns": [],
+  "days": []
+}

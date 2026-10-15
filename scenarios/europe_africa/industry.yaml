@@ -14,6 +14,7 @@ plants:
     power_mw: 10
     tools: 2
     civilian_share_milli: 0
+    node_id: ruhr_pit
     lines:
       - {id: rifles, power_mw_need: 1, tools_need: 1, skilled_need: 1, damage_milli: 0, daily_cap: 5, powder_local: true}
   - {from_catalog: dicon_kaduna, side: africa, input_good: steel}

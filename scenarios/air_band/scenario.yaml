@@ -1,0 +1,6 @@
+id: air_band
+viewer_side: radar
+goods_cross: false
+catalog: scenarios/europe_1939/plants.yaml
+at_war:
+  - [radar, optical]

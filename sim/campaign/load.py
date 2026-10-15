@@ -242,8 +242,10 @@ def load_campaign(root: Path) -> Campaign:
         points=points,
         viewer_side=meta.get("viewer_side"),
         goods_cross=bool(meta.get("goods_cross", False)),
+        at_war=list(meta.get("at_war") or []),
         scenario_id=meta.get("id"),
         events=[],
+        cells=list(_read(root / "cells.yaml").get("cells") or []),
     )
     if meta.get("year_states"):
         copied = _copy_year_states(root, meta)
@@ -256,6 +258,11 @@ def load_campaign(root: Path) -> Campaign:
         campaign.cells = list(copied["cells"])
         campaign.stocks.update(copied["stocks"])
         campaign.series = copied["series"]
+        owner_map = meta.get("owner_map") or {}
+        for plant in campaign.plants:
+            mapped = owner_map.get(plant.get("side"))
+            if mapped:
+                plant["side"] = mapped
     campaign.plants_by_id = {plant["id"]: plant for plant in campaign.plants}
     return campaign
 
